@@ -13,6 +13,6 @@
   * [Blender](tools/blender.md)
   * [Python](tools/python.md)
 * **🤝 Contribute!**
-  * [Guide](contribute.md)
+  * [Guide](readme.md)
   * [Markdown](markdown.md)
   * [TODOs](todo.md)
