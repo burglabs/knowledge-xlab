@@ -8,6 +8,6 @@
 - Workshop Materials
 - …
 
-[Jump right in!](docs/getting-started.md)
+[Jump right in!](getting-started.md)
 [XLab Website](https://burg-halle.de/burglabs/xlab)
 [Edit on GitHub](https://github.com/burglabs/xlab-docs)
