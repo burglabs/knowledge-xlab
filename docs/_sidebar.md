@@ -1,7 +1,8 @@
 * **🔑 General**
   * [Getting Started](getting-started.md)
   * [Research](research.md)
-  * [Workshops](workshops.md)
+  * [Projects](projects.md)
+  * [Workshops](workshops/overview.md)
 * **⚙️ Robotics**
   * [Concepts](robotics/concepts.md)
   * [Hardware](robotics/hardware.md)
