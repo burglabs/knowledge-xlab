@@ -9,6 +9,7 @@ These are so-called collaborative robots.
 
 ### UR 10
 
+kann 10kg tragen
 
 ### Control Boxes
 
