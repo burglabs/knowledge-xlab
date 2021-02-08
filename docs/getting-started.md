@@ -4,6 +4,8 @@ Hi there! Thanks for coming by - feel free to have a look around 👀
 
 ?> **ToDo** make it easy to start. What kind of information do we have and where? 
 
+Hi
+
 ## This is us
 The Xlab is part of the research platform [BurgLabs](https://burg-halle.de/burglabs) at Burg Giebichenstein University of Art and Design in Halle, Germany. We explore the artistic potentials of robotics and artificial intelligence. 
 
