@@ -1,5 +1,5 @@
 # XLab knowledge base 
-## [burglabs.github.io](https://burglabs.github.io)
+## [burglabs.github.io/xlab-docs](https://burglabs.github.io/xlab-docs)
 
 [TODO List](docs/todo.md) <- only during development, should be replace by github issues or something alike
 
