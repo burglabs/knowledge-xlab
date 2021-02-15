@@ -13,6 +13,7 @@
   - [Understanding Machine Learning](ai/machine-learning.md)
   - [Data & Datasets](ai/data-datasets.md)
   - [AI Artists](ai/ai-artists.md)
+  - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
 - **🔧 Related Tools**
   - [Blender](tools/blender.md)
   - [Python](tools/python.md)
