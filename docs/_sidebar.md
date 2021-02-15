@@ -11,6 +11,7 @@
 - **💡 Artificial Intelligence**
   - [Understanding AI](ai/understanding-ai.md)
   - [Understanding Machine Learning](ai/machine-learning.md)
+  - [Data & Datasets](ai/data-datasets.md)
   - [AI Artists](ai/ai-artists.md)
 - **🔧 Related Tools**
   - [Blender](tools/blender.md)
