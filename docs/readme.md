@@ -1,4 +1,5 @@
-# Read Me
+# XLab knowledge base 
+## [burglabs.github.io](https://burglabs.github.io)
 
 [TODO List](docs/todo.md) <- only during development, should be replace by github issues or something alike
 
