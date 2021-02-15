@@ -1,6 +1,6 @@
 > ✨ “Not only is A.I. a tool for artists, who are employing machine intelligence in fascinating ways, it is also frequently a topic to be examined — sometimes in the same piece.” <small>[1]</small> ✨
 
-# Some artists and designers who work with AI/ML
+## Some artists and designers who work with AI/ML
 
 - Everest Pipkin
 - Paolo Cirio
@@ -36,15 +36,15 @@
 - Memo Akten
 - Mario Klingemann
 
-# Collections
+## Collections
 
 - [aiartists.org](https://aiartists.org/)
 - [mlart.co](https://mlart.co) Curated by a Google Arts+Culture Resident, good filtering
-- [experiments.withgoogle.com](https://experiments.withgoogle.com/collection/ai)Google AI experiments
+- [experiments.withgoogle.com](https://experiments.withgoogle.com/collection/ai) Google AI experiments
 - [aiartonline.com](https://www.aiartonline.com) NeurIPS Workshop, curated by Luba Elliott
 - [we-make-money-not-art.com](https://we-make-money-not-art.com/category/ai-artificial-intelligence/)
 
-# Curators / Galleries
+## Curators / Galleries
 
 - Luba Elliott
 - arebyte gallery
