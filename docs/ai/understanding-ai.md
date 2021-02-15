@@ -1,22 +1,13 @@
-## 📖 Reading
+## General
 
-[A people's guide to AI](https://alliedmedia.org/resources/peoples-guide-to-ai) by Mimi Onuoha and Mother Cyborg (Diana Nucera)
-
-## 📊 Viewing
-
-[Flowchart "What is AI"](https://www.technologyreview.com/2018/11/10/139137/is-this-ai-we-drew-you-a-flowchart-to-work-it-out/) by Karen Hao from MIT Tech Review
-
-## 🍿 Watching
-
+- [A people's guide to AI](https://alliedmedia.org/resources/peoples-guide-to-ai) by Mimi Onuoha and Mother Cyborg (Diana Nucera)
+- [Flowchart "What is AI"](https://www.technologyreview.com/2018/11/10/139137/is-this-ai-we-drew-you-a-flowchart-to-work-it-out/) by Karen Hao from MIT Tech Review
 - [Jay's visual intro to AI](https://www.youtube.com/watch?v=mSTCzNgDJy4)
 - [Living in the Age of AI](https://www.wired.com/video/watch/machine-learning-living-in-the-age-of-ai-film) by Wired
-
-## 🤓 Glossaries
-
 - [A to Z of AI](https://atozofai.withgoogle.com) by Google
 - [All AI glossaries](https://www.are.na/alexa-steinbruck/ai-glossaries) by Alexa Steinbrück
 
-## 🕵🏼‍♀️ Special topics
+## Special topics
 
 ### Strong AI vs. weak AI
 
