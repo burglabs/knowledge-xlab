@@ -11,3 +11,9 @@ The git repository is hosted and served on [GitHub](https://github.com/burglabs/
 ## Contributing 
 
 To contribute, please consider submitting a pull request. It's easy - we'll show you!
+
+## Running this website locally
+1. Download or `git clone` this repository
+2. Serve the folder with a simple web server. If you're using the Code editor VSCode, you can install the "Live Server" Plugin.
+3. Navigate to the `/docs` folder
+4. All the magic happens inside the index.html file
