@@ -9,7 +9,7 @@
 - Nora El Badri
 - Ian Cheng
 - Scott Eaton
-- Moving Target Collective
+- [Moving Target Collective](https://movingtargetcollective.org/)
 - Anna Ridler
 - KlingKlangKlong
 - Gretchen Andrews
