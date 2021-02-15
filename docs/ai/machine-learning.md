@@ -18,6 +18,7 @@
 ## GANs
 
 - Video [What is a GAN](https://www.youtube.com/watch?v=e1Ed3LGQpiA) by Derrick Schultz
+- Website [ThisXDoesNotExist](https://thisxdoesnotexist.com/)
 
 ## Convolutional Neural Networks
 
