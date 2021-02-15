@@ -9,7 +9,7 @@
   - [Software](robotics/software.md)
   - [Session 21 Spring Workshop](workshops/session21spring/readme.md)
 - **💡 Artificial Intelligence**
-  - [AI Images](ai/ai-images.md)
+  - [AI Artists](ai/ai-artists.md)
 - **🔧 Related Tools**
   - [Blender](tools/blender.md)
   - [Python](tools/python.md)
