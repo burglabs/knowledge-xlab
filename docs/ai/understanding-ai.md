@@ -15,6 +15,8 @@
 
 ### Limits of contemporary AI
 
+- [The Nooscope Manifested: Artificial Intelligence as Instrument of Knowledge Extractivism](https://nooscope.ai) by by Matteo Pasquinelli and Vladan Joler
+- [Article about the Nooscope](https://www.skynettoday.com/editorials/nooscope) by SkynetToday
 - [AI isn't as advanced as you think](https://onezero.medium.com/a-i-isnt-as-advanced-as-you-think-eeeaf4b085cf)
 - [Ist das wirklich ein Toaster](https://www.zeit.de/2019/47/kuenstliche-intelligenz-neuronale-netze-muster-erkennung-forschung) in German on Zeit Online
 - [Greedy, brittle, opaque and shallow](https://www.wired.com/story/greedy-brittle-opaque-and-shallow-the-downsides-to-deep-learning/) by WIRED
