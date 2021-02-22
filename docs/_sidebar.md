@@ -14,8 +14,10 @@
   - [Data & Datasets](ai/data-datasets.md)
   - [AI Artists](ai/ai-artists.md)
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
-- **🔧 Related Tools**
+- **🖥️ CAD and 3D Modeling**
+  - [Fusion360](CAD/Fusion360)
   - [Blender](tools/blender.md)
+- **🔧 Related Tools**
   - [Python](tools/python.md)
 - **🤝 Contribute!**
   - [Guide](readme.md)
