@@ -1,6 +1,7 @@
 ## Machine Learning
 
 - Video [Types of Machine Learning](https://www.youtube.com/watch?v=YlGEQyEM_a8) (not just Neural Networks)
+- Very entertaining video ;-) [A beginners guide to machine learning with ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0) by Daniel Shiffman
 - Video [Understanding high-dimensional space](https://www.youtube.com/watch?v=wvsE8jm1GzE&feature=emb_logo)
 - Website [Machine Learning Glossary](https://developers.google.com/machine-learning/glossary) by Google
 
