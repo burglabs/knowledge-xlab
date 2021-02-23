@@ -32,5 +32,8 @@
 - Talk [How to use AI for your art responsibly](https://www.youtube.com/watch?v=d9zhw4FOXPc) by Lia Coleman, Emily Saltz and Claire Leibowicz
 - Project [Humans of AI](https://humans-of.ai/editorial/) by Philipp Schmitt
 - Article [The furry drama](https://gizmodo.com/the-internet-furry-drama-raising-big-questions-about-ar-1843412922) by Gizmodo
+
+## Copyright
+
 - Wikipedia entry about [Regelschutzfrist](https://de.wikipedia.org/wiki/Regelschutzfrist)
 - Tweet [A wikidata query to get authors whose work is in the public domain](https://twitter.com/WikidataFacts/status/729073302652735488)
