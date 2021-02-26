@@ -18,6 +18,7 @@
 - **🔧 Related Tools**
   - [Blender](tools/blender.md)
   - [Python](tools/python.md)
+  - [Git](tools/git.md)
 - **🤝 Contribute!**
   - [Guide](readme.md)
   - [Markdown](markdown.md)
