@@ -14,7 +14,7 @@
   - [Data & Datasets](ai/data-datasets.md)
   - [AI Artists](ai/ai-artists.md)
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
-  - [Labs & Peeps](ai/labs-n-peeps.md)
+  - [AI in creative areas](ai/ai-in-creative-areas.md)
 - **🔧 Related Tools**
   - [Blender](tools/blender.md)
   - [Python](tools/python.md)
