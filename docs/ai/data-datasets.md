@@ -12,6 +12,7 @@
 
 ## Museums with open databases
 
+- [Bayerische Staatsgemäldesammlungen](http://www.sammlung.pinakothek.de/en/)
 - [V&A London](https://www.vam.ac.uk/collections?type=featured)
 - [Smithsonian Open Access](https://www.si.edu/openaccess)
 - [MET Museum NYC](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access)
@@ -26,10 +27,15 @@
 
 - Python library Beautiful Soup
 
-## Copyright & Responsibility
+## Responsible data practices
 
 - PDF [Responsible AI art field guide](https://www.partnershiponai.org/wp-content/uploads/2020/09/Partnership-on-AI-AI-Art-Field-Guide.pdf) by Lia Coleman, Emily Saltz and Claire Leibowicz
 - Talk [How to use AI for your art responsibly](https://www.youtube.com/watch?v=d9zhw4FOXPc) by Lia Coleman, Emily Saltz and Claire Leibowicz
+- Project [Humans of AI](https://humans-of.ai/editorial/) by Philipp Schmitt
+- Essay[Excavating AI](https://excavating.ai/) about the *ImageNet* dataset by Kate Crawford and Trevor Paglen
 - Article [The furry drama](https://gizmodo.com/the-internet-furry-drama-raising-big-questions-about-ar-1843412922) by Gizmodo
+
+## Copyright
+
 - Wikipedia entry about [Regelschutzfrist](https://de.wikipedia.org/wiki/Regelschutzfrist)
 - Tweet [A wikidata query to get authors whose work is in the public domain](https://twitter.com/WikidataFacts/status/729073302652735488)

@@ -8,7 +8,7 @@
   - [Hardware](robotics/hardware.md)
   - [Software](robotics/software.md)
   - [Session 21 Spring Workshop](workshops/session21spring/readme.md)
-- **💡 Artificial Intelligence**
+- **🎛️ Artificial Intelligence**
   - [Understanding AI](ai/understanding-ai.md)
   - [Understanding Machine Learning](ai/machine-learning.md)
   - [Data & Datasets](ai/data-datasets.md)
@@ -19,6 +19,7 @@
   - [Blender](tools/blender.md)
 - **🔧 Related Tools**
   - [Python](tools/python.md)
+  - [Git](tools/git.md)
 - **🤝 Contribute!**
   - [Guide](readme.md)
   - [Markdown](markdown.md)

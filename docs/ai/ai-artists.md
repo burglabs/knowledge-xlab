@@ -2,6 +2,7 @@
 
 ## Some artists and designers who work with AI/ML
 
+- Holly Herndon & Mat Dryhurst (Music + AI)
 - Everest Pipkin
 - Paolo Cirio
 - Amy Alexander
