@@ -12,6 +12,7 @@
 
 ## Museums with open databases
 
+- [Bayerische Staatsgemäldesammlungen](http://www.sammlung.pinakothek.de/en/)
 - [V&A London](https://www.vam.ac.uk/collections?type=featured)
 - [Smithsonian Open Access](https://www.si.edu/openaccess)
 - [MET Museum NYC](https://www.metmuseum.org/about-the-met/policies-and-documents/open-access)
