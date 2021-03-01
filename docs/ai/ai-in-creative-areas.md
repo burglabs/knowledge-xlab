@@ -6,6 +6,7 @@
 
 ## AI | Design
 
+- Project [Deep Learning UX](https://truth-and-beauty.net/projects/sf-dlux) by Moritz Stefaner
 - Project [Thinking Machines](https://distortion.mastermediadesign.ch/Thinking%20Machines/) at HEAD Geneve
 - aixdesign Community [https://www.aixdesign.co/](https://www.aixdesign.co/)
 - aixdesign Publication [https://medium.com/aixdesign](https://medium.com/aixdesign)
