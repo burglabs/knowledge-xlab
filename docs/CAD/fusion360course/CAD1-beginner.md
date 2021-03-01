@@ -18,9 +18,8 @@
 ## Vorbereitung
 
 - Fusion Installieren 
-    - Autodesk Education Account
-    - Fusion 360 Download
-- Mails lesen
+    - [ Autodesk Education Account ](https://accounts.autodesk.com/register)
+    - [ Fusion 360 Download ](https://www.autodesk.com/education/edu-software/overview?sorting=featured&page=1&filters=pdm-products,individual#card-f360b)
 
 ----------
 
@@ -34,7 +33,7 @@ https://youtube.com/UYnO-d12DbQ
 
 **Topics**: 
 
-***Nutzungsoberfläche*
+**Nutzungsoberfläche**
 
     - Data Panel
     - Timeline 
@@ -49,7 +48,6 @@ https://youtube.com/UYnO-d12DbQ
 
     - Join
     - Cut
-    - 
 ----------
 
 ## Session 02: Deep Dive “Create”
@@ -57,13 +55,13 @@ https://youtube.com/UYnO-d12DbQ
 Lernziel: Verschiedene Methoden zum Geometrien erstellen  kennenlernen, weitere Skizzierungsmethoden nutzen 
 
 Topics:
-Skizzieren 
+**Skizzieren** 
 
     - Konstruktionsebenen + Achsen 
     - Projektionen 
     - (Mirror und Pattern)
 
-Create
+**Create**
 
     - Extrude 
     - Revolve 
@@ -71,7 +69,7 @@ Create
     - Intro `Create Menu` unter `Surface` 
     - Pattern 
 
-Meta 
+**Meta** 
 
     - Face vs Body vs Component vs Feature
 
@@ -80,7 +78,7 @@ Keine Angst: mein Gesicht wird im Lauf des Tutorials reduiziert, das müsst ihr 
 <iframe width="600" height="400" src="https://youtube.com/embed/oqnaJMujp7M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Hausaufgabe bis 06.11.2020: 
+Hausaufgabe
     Tutorial dieser Woche Durcharbeiten
     Karaffe nach Vorgabe modellieren mithilfe dieses Tutorials: 
 https://www.youtube.com/watch?v=auZZ_GV4q6s&
@@ -99,9 +97,8 @@ Einleitung:
     Welche Funktion nutze ich wann? 
     Verbindung CAD-Herstellung:
         Es lohnt sich das CAD-Modell so auf zu bauen wie es am Ende auch gefertigt wird
-    
 
-Wann nutze ich welche Pattern-Funktion?
+**Wann nutze ich welche Pattern-Funktion?**
 
 Skizze: 
 
@@ -123,7 +120,7 @@ Component:
 
     - Um das gleiche Bauteil mehrmals an zu Ordnen
 
-Tutorial: 
+**Tutorial:** 
 
 https://www.youtube.com/watch?v=rpOxkW5eY4s&
 
@@ -151,7 +148,7 @@ Modelliert ein Objekt nach Vorlage mit der “Create Form” - Funktion
 ## Session 05: Baugruppen
 
 Lernziele: 
-Modellieren mit Baugruppen
+**Modellieren mit Baugruppen**
 
     Objekte miteinander verbinden
     Externe Objekte in das Modell laden
