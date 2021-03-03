@@ -36,6 +36,7 @@
 - Gene Kogan
 - Memo Akten
 - Mario Klingemann
+- [Christian Losert] (https://www.christianlosert.com/)
 
 ## Collections
 
