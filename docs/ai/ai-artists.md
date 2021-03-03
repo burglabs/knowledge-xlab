@@ -36,6 +36,9 @@
 - Gene Kogan
 - Memo Akten
 - Mario Klingemann
+- [Nushin Yazdani] (https://nushinyazdani.com/Machine-Learning-Bias)
+- [Roman Lipski] (https://www.romanlipski.com/roman)
+- [Laokoon] (https://de.performingdata.org/)
 
 ## Collections
 
