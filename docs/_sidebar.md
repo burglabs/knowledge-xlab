@@ -22,4 +22,3 @@
 - **🤝 Contribute!**
   - [Guide](readme.md)
   - [Markdown](markdown.md)
-  - [TODOs](todo.md)
