@@ -17,7 +17,9 @@ We use this space, to organise information we accumulate during our research and
 
 We hope it will be just as useful for our students to get started as well as as a source of information for fellow researchers and colleagues in our fields.
 
-Since our perspective is always limited, we encourage and invite you to participate and contribute! Check [the README](readme.md) to learn more…
+Since our perspective is always limited, we encourage and invite you to participate and contribute! 
+
+If you've never worked with [GitHub](https://burglabs.github.io/xlab-docs/#/tools/git) before, here are some tutorials and introductions. Don't hesitate, it's not that complicated! Check [the README](readme.md) and get started!
 
 ## Contact
 
