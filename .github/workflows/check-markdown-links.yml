@@ -1,8 +1,5 @@
 name: Check all markdown links monthly
 on: 
-  push:
-    branches:
-    - main
   schedule:
   # Run every first day of the month at 8am
   - cron: "0 08 1 * *"
