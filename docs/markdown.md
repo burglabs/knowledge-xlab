@@ -1,3 +1,5 @@
+<!-- markdown-link-check-disable -->
+
 # Markdown
 
 ## Headings

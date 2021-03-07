@@ -7,7 +7,7 @@
   - [Concepts](robotics/concepts.md)
   - [Hardware](robotics/hardware.md)
   - [Software](robotics/software.md)
-  - [Session 21 Spring Workshop](workshops/session21spring/readme.md)
+  - [Session 21 Spring Workshop](workshops/session21spring/scene-one-take-one-upload/overview.md)
 - **🎛️ Artificial Intelligence**
   - [Understanding AI](ai/understanding-ai.md)
   - [Understanding Machine Learning](ai/machine-learning.md)
