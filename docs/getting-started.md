@@ -2,7 +2,7 @@
 
 Hi there! Thanks for coming by - feel free to have a look around 👀
 
-?> **ToDo** make it easy to start. What kind of information do we have and where?
+Obviously a lot of content ist still missing. We are always looking for help! If you have expertise you would like to share, check the [readme](docs/readme.md)!
 
 ## This is us
 
