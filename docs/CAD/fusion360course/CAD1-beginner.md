@@ -16,6 +16,7 @@
 
 ----------
 
+<!-- markdownlint-disable no-emphasis-as-header -->
 ## Vorbereitung
 
 - Fusion Installieren
@@ -300,5 +301,6 @@ Tutorial: (diese Woche ganz kurz)
 
 ----------
 
+<!-- markdownlint-enable no-emphasis-as-header -->
 Hilferessourcen für Fusion 360:  
 [Offizielles Nutzungshandbuch](https://help.autodesk.com/view/NINVFUS/DEU/)

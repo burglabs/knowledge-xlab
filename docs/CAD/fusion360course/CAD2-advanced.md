@@ -10,10 +10,14 @@
 - [Session 07: Add-Ins/Scripts + Wiederholung Baugruppen](#session-07-add-insscripts--wiederholung-baugruppen)
 - [Session 08: The Lost lecture](#session-08-the-lost-lecture)
 
+-----
+<!-- markdownlint-disable no-emphasis-as-header -->
 ## Vorbereitung
 
 - [Fusion Installieren](https://www.autodesk.com/education/edu-software/overview?sorting=featuredpage=1filters=individualsearch=FUSION)
 - Mails lesen
+
+-----
 
 ## Session 1: Recap
 
@@ -42,7 +46,7 @@ Topics:
 
 ![img](https://i.pinimg.com/564x/4b/bc/98/4bbc98fc32dcc1c33c8f23b39be47919.jpg)
 
- Lernziele:
+### Lernziele
 
 - Geometrieerstellung üben
 - Best Practices einhalten
@@ -81,24 +85,24 @@ Link zum Bild: <https://a360.co/3dUx4VU>
 
 ## Session 3: Assembly Deep-Dive
 
- Topics:
+### Topics
 
 **Joints**
 
 ![img](https://i.pinimg.com/564x/18/99/ff/1899ff2dfc717c16a6489552af258c2a.jpg)
 
-  - as-built Joint
-  - Joints
-    -  Rotate
-    - Pin-Slot
-  - Design Approaches:
-    - Bottom-up
-    - Top-Down
+- as-built Joint
+- Joints
+  - Rotate
+  - Pin-Slot
+- Design Approaches:
+  - Bottom-up
+  - Top-Down
 
 **Sonstiges**
 
-  - [Paste vs Paste-New](https://help.autodesk.com/view/NINVFUS/DEU/?guid=GUID-9EDE876B-6A97-47E9-AB87-F27ADFFDCEE9)
-  - Delete vs Remove
+- [Paste vs Paste-New](https://help.autodesk.com/view/NINVFUS/DEU/?guid=GUID-9EDE876B-6A97-47E9-AB87-F27ADFFDCEE9)
+- Delete vs Remove
 
  Tutorial:
 
@@ -119,7 +123,7 @@ Hier findet ihr eine gute Übersicht über alle Joint Arten: [Video](https://www
 
 ## Session 04: Create Form (Sculpting Mode)
 
- Tutorial Session 04:
+Tutorial Session 04:
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/bATAm1ZuLjk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -315,7 +319,7 @@ Advanced Parametric design:
 
 - Rhino+Grasshopper
 
-----------
+-----
 
 Falls ihr eure dateien nicht vewrschieben könnt schickt mir im burgchat eine nachricht mit dem Link
 
@@ -323,6 +327,7 @@ Hilferessourcen für Fusion 360:
 
 [Offizielles Nutzungshandbuch](https://help.autodesk.com/view/NINVFUS/DEU/)
 
+<!-- markdownlint-enable no-emphasis-as-header -->
 <!-- Resources and scripts -->
 <html>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
