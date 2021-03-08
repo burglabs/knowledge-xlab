@@ -31,7 +31,7 @@ Lernziel: Überblick über die Fusion-Nutzungsoberfläche. Erste Geometrien Erst
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/UYnO-d12DbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/UYnO-d12DbQ>
+<https://youtube.com/watch/UYnO-d12DbQ>
 
 **Topics**:
 
@@ -154,7 +154,7 @@ Lernziele:
 <iframe width="600" height="400" src="https://www.youtube.com/embed/ZPyqPNb5BSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 https://www.youtube.com/watch?v=ZPyqPNb5BSI&
 
-<https://youtube.com/ZPyqPNb5BSI>
+<https://youtube.com/watch/ZPyqPNb5BSI>
 
 ----------
 
@@ -228,7 +228,7 @@ Solidworks Dateien Download
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/watch?v=6O-ftuqFnmI&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/6O-ftuqFnmI>
+<https://youtube.com/watch/6O-ftuqFnmI>
 
  Links:
  Kostenlose HDRIs:
@@ -260,7 +260,7 @@ Nochmal eine Kurzinfo zur Hausaufgabe inklusive kleinem Beispiel
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/watch?v=JrCm6O7inho&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/JrCm6O7inho>
+<https://youtube.com/watch/JrCm6O7inho>
 
 ----------
 
@@ -282,7 +282,7 @@ Materialien/Notizen:
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/watch?v=8RMwlBq61vU&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/8RMwlBq61vU>
+<https://youtube.com/watch/8RMwlBq61vU>
 
 Mehr infos zur Sheetmetal-Funktion:
 
@@ -297,7 +297,7 @@ Mehr infos zur Sheetmetal-Funktion:
 Tutorial: (diese Woche ganz kurz)
 <iframe width="600" height="400" src="https://www.youtube.com/embed/v=rLFo0dGm-qg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/rLFo0dGm-qg>
+<https://youtube.com/watch/rLFo0dGm-qg>
 
 ----------
 

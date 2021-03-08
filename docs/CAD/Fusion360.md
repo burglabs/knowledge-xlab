@@ -8,6 +8,6 @@ At BURG we have been teaching Fusion 360 for the last few Semesters.
 Here you can find all the materials for the beginner and advanced course during the winter-semester 2020/2021.  
 The course was held in German.  
 
-### [CAD-1 Fusion360 for Beginners ](CAD/fusion360course/CAD1-beginner.md)  
+### [CAD-1 Fusion360 for Beginners](CAD/fusion360course/CAD1-beginner.md)  
 
-### [CAD-2 Fusion360 Advanced ](CAD/fusion360course/CAD2-advanced.md)  
+### [CAD-2 Fusion360 Advanced](CAD/fusion360course/CAD2-advanced.md)  

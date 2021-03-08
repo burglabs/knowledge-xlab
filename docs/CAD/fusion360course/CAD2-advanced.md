@@ -119,7 +119,7 @@ dieses Kurz-Tutorial durcharbeiten.
 
  Notizen:
 
-Hier findet ihr eine gute Übersicht über alle Joint Arten: [Video](https://www.youtube.com/Bw08O6XsfDIfeature=emb_titleab_channel=NYCCNC)
+Hier findet ihr eine gute Übersicht über alle Joint Arten: [Video](https://www.youtube.com/watch/Bw08O6XsfDIfeature=emb_titleab_channel=NYCCNC)
 
 ## Session 04: Create Form (Sculpting Mode)
 
@@ -279,7 +279,7 @@ Notizen:
 
   - [Nutzungshandbuch Guide: Creating a Script](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-9701BBA7-EC0E-4016-A9C8-964AA4838954)
   - [Mehrteiliger Online-Kurs zum Erstellen von ADD-INs und Skripten](https://fusion360api.weebly.com/)
-  - [Intro into the Fusion API](https://www.youtube.com/g0xWqLen7gI) - Präsentation auf Youtube  (Veraltet von 2015 aber die Grundprinzipien sind die selben)
+  - [Intro into the Fusion API](https://www.youtube.com/watch/g0xWqLen7gI) - Präsentation auf Youtube  (Veraltet von 2015 aber die Grundprinzipien sind die selben)
 
 ## Session 08: The Lost lecture  
 
