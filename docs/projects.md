@@ -1,15 +1,17 @@
 # Projects
 
-This section documents past and present projects and works. 
+This section documents past and present projects and works.
 
-## Upcoming 
+## Upcoming
 
 ..
 
 ## 2020
 
+- …
 
 ## 2019
+
 - [fiffyfilming](https://sites.google.com/prod/view/urburg/projekte/fiffyfilming)
 - [Thermoplastic Shapewinding](https://sites.google.com/prod/view/urburg/projekte/thermoplastic-shapewinding)
 - [In Bewegung](https://sites.google.com/prod/view/urburg/projekte/farbspritzer)

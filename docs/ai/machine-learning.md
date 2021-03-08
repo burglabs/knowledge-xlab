@@ -24,7 +24,6 @@
 ## Convolutional Neural Networks
 
 - Video [What Neural Networks see](https://experiments.withgoogle.com/what-neural-nets-see) by Gene Kogan
--
 
 ## Style Transfer
 

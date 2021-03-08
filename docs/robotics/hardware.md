@@ -1,8 +1,8 @@
 # Robotics Hardware
 
-## Universal Robots 
+## Universal Robots
 
-These are so-called collaborative robots. 
+These are so-called collaborative robots.
 
 ### UR 5
 
@@ -22,9 +22,6 @@ houses the robot control hardware
 - Ethernet
 - …
 
-
 ### Teach Pendants
 
-
-## Tools 
-
+## Tools
