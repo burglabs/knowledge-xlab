@@ -162,64 +162,15 @@ https://www.youtube.com/watch?v=ZPyqPNb5BSI&
 
 **Lernziele/ Topics:**
 
-Einführung: Inspect-Funktionen
+- Einführung: Inspect-Funktionen
 
-Externe 3D- und 2D- Modelle in Fusion Laden ([Handbuch](https://www.autodesk.com/products/fusion-360/blog/data-exchange-in-fusion-360-part-1/))
+- Externe 3D- und 2D- Modelle in Fusion Laden ([Handbuch](https://www.autodesk.com/products/fusion-360/blog/data-exchange-in-fusion-360-part-1/))
 
-Schraubenkatalog nutzen
+- Schraubenkatalog nutzen
 
-Objekte Rendern
+- Objekte Rendern
 
-### Übersicht 3D-Dateiformate
-
-**Proprietäre Formate** **(Softwaregebunden)**
-
-- [Rhino](https://www.rhino3d.com/) Files (*.3dm).
-- [Autodesk Inventor](https://www.autodesk.com/products/inventor/overview) Files (*.ipt,*.iam - up to Inventor 2019)
-- [SolidWorks](https://www.solidworks.com/) Files (*.prt,*.asm, *.sldprt,*.sldasm , **.slddrw)*
-- [Autodesk Alias](https://www.autodesk.com/products/alias-products/overview?plc=ALSCPT&term=1-YEAR&support=ADVANCED&quantity=1) (*.wire)
-- [123D](https://www.autodesk.com/solutions/123d-apps) File (*.123dx)
-- [AutoCAD](https://www.autodesk.com/products/autocad/overview?support=ADVANCED) DWG Files (*.dwg)
-- [SketchUp](https://www.sketchup.com/products/sketchup-pro) Files (*.skp)
-- [CATIA](https://www.3ds.com/de/produkte-und-services/catia/)V5 Files (*.CATProduct,*.CATPart)
-- Autodesk Fusion 360 Archive Files (*.f3d)
-- [Siemens NX](https://www.plm.automation.siemens.com/global/en/products/nx/) (*prt)
-- [Parasolid](https://de.wikipedia.org/wiki/Parasolid) Files (*.x_b,*.x_t)
-- [Pro/ENGINEER and Creo Parametric](https://www.ptc.com/en/products/creo/whats-new) Files (*.asm,*.prt)
-- [Pro/ENGINEER Granite](https://www.ptc.com/de/~/media/DE/Files/PDFs/CAD/GRANITE_Interoperability_Kernel.ashx?la=en) Files (*.g)
-- [Pro/ENGINEER Neutral](http://support.ptc.com/help/creo/creo_pma/usascii/index.html#page/data_exchange/interface/About_Part_and_Assembly_Neutral_Files.html) Files(*.neu)
-- Autodesk Fusion 360 Toolpath Archive Files (*.cam360)
-- [Blender](https://www.blender.org/) File (.blend)
-
-[Super Nützlicher CAD Conversion Finder](https://www.cadforum.cz/cadforum_en/formats.asp)
-
-[Noch Mehr CAD und 3D-Programme](https://en.wikipedia.org/wiki/Comparison_of_computer-aided_design_software)
-
-**Interchange Formate (unabhängig von Software):**
-
-| Format                                     | Ending                      | Type                | Additional Data                                                                                                                                                                                                                                                           | Notes                                 |
-| ------------------------------------------ | --------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| STEP                                       | .stp / .step                | BREP<br>Surfaces    | Different additional  data according to Standards                                                                                                                                                                                                                         | Most standard file format             |
-| IGES                                       | .igs / .iges                | BREP<br>Surfaces    | circuit diagrams, wireframe, freeform surface or solid modeling representations                                                                                                                                                                                           | Not updated since 1994                |
-| Wavefront OBJ                              | .obj                        | Both Mesh and Nurbs | Texture                                                                                                                                                                                                                                                                   |                                       |
-| AMF                                        | .amf                        | Mesh                | color, materials, lattices, and constellations                                                                                                                                                                                                                            |                                       |
-| Collada                                    | .dae                        | Mesh                | Colors, Textures, Collaborative, Physics, Animations                                                                                                                                                                                                                      |                                       |
-| 3MF                                        | .3mf                        | Mesh                | Full color and texture support in a single file<br>Support structures attached to part data<br>Full tray support for direct machine preparation<br>Efficient storage of beam lattices<br>Multiple material support<br>Native integration in Microsoft Office and Paint 3D | Designed for industrial manufacturing |
-| STL - Stereolithography                    | .stl                        | Mesh                | No additional information                                                                                                                                                                                                                                                 |                                       |
-| Polygon File Format (Pointcloud)           | .ply                        | Mesh                | color and transparency, surface normals, texture coordinates and data confidence values                                                                                                                                                                                   |                                       |
-| VRML-<br>Virtual Reality Modeling Language | .wrl<br>.wrz                | Mesh                |                                                                                                                                                                                                                                                                           |                                       |
-| X3D                                        | .x3d<br>.x3dv, .x3db, .x3dz |                     | Geospatial<br>Animation<br>NURBS                                                                                                                                                                                                                                          |                                       |
-| ACIS - SAT/SMT                             | .sat                        | BREP<br>Surfaces    | integrates wireframe model, surface, and solid modeling functionality with both manifold and non-manifold topology, and a rich set of geometric operations.                                                                                                               |                                       |
-| DXF<br>(Drawing Exchange Format)           | .dxf                        | 2D Paths            |                                                                                                                                                                                                                                                                           |                                       |
-|                                            |                             |                     |                                                                                                                                                                                                                                                                           |                                       |
-
-Alle Dateiformate die Fusion einlesen und umwandeln kann:
-<https://knowledge.autodesk.com/support/fusion-360/troubleshooting/caas/sfdcarticles/sfdcarticles/File-formats-supported-by-Fusion-360.html>
-
-Leitfaden Dateiexport:
-Immer die Ursprungsdatei mit exportieren um keine Informationen zu verlieren.
-Nach Möglichkeit und Verwendungszweck verschiedene Interchange Formate mitliefern.
-Nützliches Tool um zu sehen welche Programme welche Formate öffnen können: Cadforum.cz
+[3DFormat-Table](./Tabelle_3DFormate.md ':include')
 
 ### Tutorial  und Dateien
 
@@ -245,7 +196,7 @@ Webseiten zum Download von 3D-Modellen:
 - <https://gallery.autodesk.com/>
 - <https://b2b.partcommunity.com/community/>
 - <https://www.traceparts.com/en>
-- <https://www.3dcontentcentral.com/>
+- <https://www.3dcontentcentral.com/> <!-- markdown-link-check-disable-line -->
 - <https://www.turbosquid.com/Search/3D-Models/free/cad>
 
  Homework bis 18.12.:
