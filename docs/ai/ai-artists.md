@@ -39,7 +39,7 @@
 - [Nushin Yazdani](https://nushinyazdani.com/Machine-Learning-Bias)
 - [Roman Lipski](https://www.romanlipski.com/roman)
 - [Laokoon](https://de.performingdata.org/)
-- [Christian Losert](http://www.christianlosert.com/) 
+- [Christian Losert](http://www.christianlosert.com/)
 
 ## Collections
 
