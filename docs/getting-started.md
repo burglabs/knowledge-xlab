@@ -2,7 +2,7 @@
 
 Hi there! Thanks for coming by - feel free to have a look around 👀
 
-Obviously a lot of content ist still missing. We are always looking for help! If you have expertise you would like to share, check the [readme](docs/readme.md)!
+Obviously a lot of content ist still missing. We are always looking for help! If you have expertise you would like to share, check the [readme](readme.md)!
 
 ## This is us
 
