@@ -1,4 +1,4 @@
-name: Check markdown links for modified files
+name: Markdown Linting
 on: [pull_request]
 jobs:
   markdownlint:
