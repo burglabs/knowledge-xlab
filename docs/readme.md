@@ -9,7 +9,7 @@ The git repository is hosted and served on [GitHub](https://github.com/burglabs/
 ### TLDR
 
 - We are open to contributions!
-- The prefered method is by submitting a pull request.
+- The prefered method is to submit a pull request.
 - We are using [markdownlint](https://github.com/markdownlint/markdownlint/) without Rules 013, 033, 042.
 - Preview locally using a web server of your choice.
 
