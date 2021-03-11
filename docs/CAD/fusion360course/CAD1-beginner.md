@@ -171,7 +171,8 @@ Solidworks Dateien Download
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/watch?v=6O-ftuqFnmI&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-###  Links:
+### Links
+
  Kostenlose HDRIs:
 
     - HDRI-Haven: https://hdrihaven.com/
@@ -238,4 +239,3 @@ Tutorial: (diese Woche ganz kurz)
 
 Hilferessourcen für Fusion 360:  
 [Offizielles Nutzungshandbuch](https://help.autodesk.com/view/NINVFUS/DEU/)
-

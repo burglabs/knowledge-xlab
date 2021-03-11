@@ -9,6 +9,7 @@
 - [Session 06: 3D Formate und Zeichnungen](#session-06-3d-formate-und-zeichnungen)
 - [Session 07: Add-Ins/Scripts + Wiederholung Baugruppen](#session-07-add-insscripts--wiederholung-baugruppen)
 - [Session 08: The Lost lecture](#session-08-the-lost-lecture)
+
 -----
 
 ## Vorbereitung
@@ -70,7 +71,7 @@
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/NjqGgR21fpI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Problemlösungen:
+#### Problemlösungen
 
 Wandstärke nicht einstellbar (Shell-Funktion am Ausguss): <https://youtu.be/JYpVVjVQE-g>
 
@@ -110,7 +111,6 @@ Link zum Bild: <https://a360.co/3dUx4VU>
 dieses Kurz-Tutorial durcharbeiten.
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/eRUv6s5Jgi8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
  Notizen:
 
@@ -171,7 +171,6 @@ Link zur Solidworks Datei
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/w5eAMIv4M9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
  Homework:
 
 Ladet euch auf einer Seite wie Grabcad ein 3D Modell mit mindestens 4 Körpern/Komponeneten herunter und erstellt eine mehrseitige technische Zeichung mit allen nötigen Maßen, einer Explosionsansicht der Einzelteile sowie einer Übersicht von Objekten aus gleichem Material (Schnittplan).
@@ -209,7 +208,6 @@ Link zum [**Autodesk Fusion 360 App Store**](https://apps.autodesk.com/FUSION/en
   - [FuseNest](https://apps.autodesk.com/FUSION/en/Detail/Index?id=3941129300784530623appLang=enos=Mac)
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/B5ocZrpvEzI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 Notizen:
 
@@ -271,4 +269,3 @@ Hilferessourcen für Fusion 360:
 <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
 <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
 </html>
-
