@@ -11,6 +11,6 @@ It is cloud based, runs on Mac and Windows and while it has less features than m
 Here you can find all the materials for the beginner and advanced courses that were held during the winter-semester 2020/2021.  
 The courses were **held in German**, and feature video tutorials as well as summaries and links to further learning materials.  
 
-[CAD-1 Fusion360 for Beginners](fusion360course/CAD1-beginner.md) (in German)  
+[CAD-1 Fusion360 for Beginners](CAD/fusion360course/CAD1-beginner.md) (in German)  
 
-[CAD-2 Fusion360 Advanced](fusion360course/CAD2-advanced.md) (in German)  
+[CAD-2 Fusion360 Advanced](CAD/fusion360course/CAD2-advanced.md) (in German)  
