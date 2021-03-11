@@ -1,7 +1,6 @@
 # CAD-1 - Fusion Kurs Beginner
 
 - [CAD-1 - Fusion Kurs Beginner](#cad-1---fusion-kurs-beginner)
-  - [- Session 08: Flächen](#--session-08-flächen)
   - [Vorbereitung](#vorbereitung)
   - [Session 1: Einstieg](#session-1-einstieg)
   - [Session 02: Deep Dive “Create”](#session-02-deep-dive-create)
@@ -10,13 +9,12 @@
   - [Session 05: Baugruppen](#session-05-baugruppen)
   - [Session 06: Externe Dateien und Rendern](#session-06-externe-dateien-und-rendern)
     - [Übersicht 3D-Dateiformate](#übersicht-3d-dateiformate)
-    - [Tutorial  und Dateien:](#tutorial--und-dateien)
+    - [Tutorial  und Dateien:](#tutorial-und-dateien)
   - [Session 07: Sheet Metal](#session-07-sheet-metal)
   - [Session 08: Flächen](#session-08-flächen)
 
 ----------
 
-<!-- markdownlint-disable no-emphasis-as-header -->
 ## Vorbereitung
 
 - Fusion Installieren
@@ -31,22 +29,20 @@ Lernziel: Überblick über die Fusion-Nutzungsoberfläche. Erste Geometrien Erst
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/UYnO-d12DbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/watch/UYnO-d12DbQ>
+### Topics
 
-**Topics**:
-
-**Nutzungsoberfläche**
+#### Nutzungoberfläche
 
     - Data Panel
     - Timeline 
     - 3D-View
 
-**Skizzieren**
+#### Skizzieren
 
     - Bemaßung
     - Constraints
 
-**Extrudieren**
+#### Extrudieren
 
     - Join
     - Cut
@@ -56,14 +52,17 @@ Lernziel: Überblick über die Fusion-Nutzungsoberfläche. Erste Geometrien Erst
 
 Lernziel: Verschiedene Methoden zum Geometrien erstellen  kennenlernen, weitere Skizzierungsmethoden nutzen
 
-Topics:
-**Skizzieren**
+<!-- markdownlint-disable no-duplicate-heading -->
+### Topics
+
+#### Skizzieren
 
     - Konstruktionsebenen + Achsen 
     - Projektionen 
     - (Mirror und Pattern)
 
-**Create**
+<!-- markdownlint-enable no-duplicate-heading -->
+#### Create
 
     - Extrude 
     - Revolve 
@@ -71,18 +70,15 @@ Topics:
     - Intro `Create Menu` unter `Surface` 
     - Pattern 
 
-**Meta**
+#### Meta
 
     - Face vs Body vs Component vs Feature
-
-Keine Angst: mein Gesicht wird im Lauf des Tutorials reduiziert, das müsst ihr nicht die ganze Session lang so groß anschauen ;)
 
 <iframe width="600" height="400" src="https://youtube.com/embed/oqnaJMujp7M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Hausaufgabe
     Tutorial dieser Woche Durcharbeiten
     Karaffe nach Vorgabe modellieren mithilfe dieses Tutorials:
-<https://www.youtube.com/watch?v=auZZ_GV4q6s>&
 
 <iframe width="600" height="400" src="https://youtube.com/embed/auZZ_GV4q6s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>u
 
@@ -99,7 +95,7 @@ Einleitung:
     Verbindung CAD-Herstellung:
         Es lohnt sich das CAD-Modell so auf zu bauen wie es am Ende auch gefertigt wird
 
-**Wann nutze ich welche Pattern-Funktion?**
+### Wann nutze ich welche Pattern-Funktion?
 
 Skizze:
 
@@ -121,9 +117,7 @@ Component:
 
     - Um das gleiche Bauteil mehrmals an zu Ordnen
 
-**Tutorial:**
-
-<https://www.youtube.com/watch?v=rpOxkW5eY4s>&
+#### Tutorial
 
 <iframe width="600" height="400" src="https://youtube.com/embed/rpOxkW5eY4s
 " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -144,23 +138,21 @@ Modelliert ein Objekt nach Vorlage mit der “Create Form” - Funktion
 
 ## Session 05: Baugruppen
 
-Lernziele:
-**Modellieren mit Baugruppen**
+### Lernziele
+
+#### Modellieren mit Baugruppen
 
     Objekte miteinander verbinden
     Externe Objekte in das Modell laden
     Parameter verwenden
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/ZPyqPNb5BSI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-https://www.youtube.com/watch?v=ZPyqPNb5BSI&
-
-<https://youtube.com/watch/ZPyqPNb5BSI>
 
 ----------
 
 ## Session 06: Externe Dateien und Rendern
 
-**Lernziele/ Topics:**
+### Lernziele/ Topics
 
 - Einführung: Inspect-Funktionen
 
@@ -179,9 +171,7 @@ Solidworks Dateien Download
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/watch?v=6O-ftuqFnmI&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/watch/6O-ftuqFnmI>
-
- Links:
+###  Links:
  Kostenlose HDRIs:
 
     - HDRI-Haven: https://hdrihaven.com/
@@ -211,8 +201,6 @@ Nochmal eine Kurzinfo zur Hausaufgabe inklusive kleinem Beispiel
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/watch?v=JrCm6O7inho&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/watch/JrCm6O7inho>
-
 ----------
 
 ## Session 07: Sheet Metal
@@ -233,8 +221,6 @@ Materialien/Notizen:
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/watch?v=8RMwlBq61vU&" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/watch/8RMwlBq61vU>
-
 Mehr infos zur Sheetmetal-Funktion:
 
 - Advanced Tutorial - Sheetmetal (in Englisch)
@@ -248,10 +234,8 @@ Mehr infos zur Sheetmetal-Funktion:
 Tutorial: (diese Woche ganz kurz)
 <iframe width="600" height="400" src="https://www.youtube.com/embed/v=rLFo0dGm-qg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtube.com/watch/rLFo0dGm-qg>
-
 ----------
 
-<!-- markdownlint-enable no-emphasis-as-header -->
 Hilferessourcen für Fusion 360:  
 [Offizielles Nutzungshandbuch](https://help.autodesk.com/view/NINVFUS/DEU/)
+

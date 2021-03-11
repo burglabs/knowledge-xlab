@@ -9,9 +9,8 @@
 - [Session 06: 3D Formate und Zeichnungen](#session-06-3d-formate-und-zeichnungen)
 - [Session 07: Add-Ins/Scripts + Wiederholung Baugruppen](#session-07-add-insscripts--wiederholung-baugruppen)
 - [Session 08: The Lost lecture](#session-08-the-lost-lecture)
-
 -----
-<!-- markdownlint-disable no-emphasis-as-header -->
+
 ## Vorbereitung
 
 - [Fusion Installieren](https://www.autodesk.com/education/edu-software/overview?sorting=featuredpage=1filters=individualsearch=FUSION)
@@ -24,23 +23,22 @@
 **Lernziel:** Gesamtüberblick über Fusion (wieder-) bekommen. Bekannte Funktionen richtig nutzen. Begriffe kennenlernen.
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/ikiBYJz1tbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-https://youtu.be/ikiBYJz1tbA
 
-Topics:
+### Topics
 
-**Skizzieren**
+#### Skizzieren
 
 - Bemaßungen
 - Constraints
 - Projektion
 - Mirror
 
-**Geometrie erzeugen**
+#### Geometrie erzeugen
 
 - Extrude
   - Extrude Surface
 
-**Simple Joints**
+#### Simple Joints
 
 ## Session 2: Create Geometry
 
@@ -53,7 +51,7 @@ Topics:
 - Nach Referenz Modellieren
  Topics:
 
-**Skizzieren**
+#### Skizzieren
 
 - Canvas als Referenz
 - Plane along Path
@@ -62,7 +60,7 @@ Topics:
 - Project to surface
 - Pattern
 
-**Create / Modify**
+#### Create / Modify
 
 - Revolve / Loft / Sweep
 - Mirror / Pattern
@@ -71,9 +69,8 @@ Topics:
  Tutorial Session 02
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/NjqGgR21fpI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-https://youtu.be/NjqGgR21fpI
 
-**Problemlösungen:**
+#### Problemlösungen:
 
 Wandstärke nicht einstellbar (Shell-Funktion am Ausguss): <https://youtu.be/JYpVVjVQE-g>
 
@@ -87,7 +84,7 @@ Link zum Bild: <https://a360.co/3dUx4VU>
 
 ### Topics
 
-**Joints**
+#### Joints
 
 ![img](https://i.pinimg.com/564x/18/99/ff/1899ff2dfc717c16a6489552af258c2a.jpg)
 
@@ -99,7 +96,7 @@ Link zum Bild: <https://a360.co/3dUx4VU>
   - Bottom-up
   - Top-Down
 
-**Sonstiges**
+#### Sonstiges
 
 - [Paste vs Paste-New](https://help.autodesk.com/view/NINVFUS/DEU/?guid=GUID-9EDE876B-6A97-47E9-AB87-F27ADFFDCEE9)
 - Delete vs Remove
@@ -107,7 +104,6 @@ Link zum Bild: <https://a360.co/3dUx4VU>
  Tutorial:
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/em0-RvzwQXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-https://youtu.be/em0-RvzwQXo
 
  Homework:
 
@@ -115,7 +111,6 @@ dieses Kurz-Tutorial durcharbeiten.
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/eRUv6s5Jgi8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtu.be/eRUv6s5Jgi8>
 
  Notizen:
 
@@ -126,8 +121,6 @@ Hier findet ihr eine gute Übersicht über alle Joint Arten: [Video](https://www
 Tutorial Session 04:
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/bATAm1ZuLjk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<https://youtu.be/bATAm1ZuLjk>
 
 <https://www.pinterest.de/rowlllllll/organic-modelling/>
 
@@ -150,11 +143,9 @@ Kostenlose HDRIs (wird im Tutorial erklärt):
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/rhY-p0IJlw8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtu.be/rhY-p0IJlw8>
-
 ## Session 05: Parametrik und Blechbearbeitung
 
-**Inhalte:**
+### Inhalte
 
 [Parametrik](https://help.autodesk.com/view/NINVFUS/DEU/?guid=GUID-76272551-3275-46C4-AE4D-10D58B408C20)
 
@@ -164,9 +155,7 @@ Kostenlose HDRIs (wird im Tutorial erklärt):
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/3j68V_jSpLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtu.be/3j68V_jSpLM>
-
-**Homework:**
+#### Homework
 
 - Tutorial fertig arbeiten
 
@@ -182,7 +171,6 @@ Link zur Solidworks Datei
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/w5eAMIv4M9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtu.be/w5eAMIv4M9A>
 
  Homework:
 
@@ -199,7 +187,7 @@ Webseiten zum Download von 3D-Modellen:
 
 ## Session 07: Add-Ins/Scripts + Wiederholung Baugruppen
 
- **Topics:**
+### Topics
 
 - [Autodesk Fusion 360 App Store](https://apps.autodesk.com/FUSION/en/Home/Index)  ([Nutzungshinweise](https://apps.autodesk.com/en/Public/FAQ)[und FAQ](https://apps.autodesk.com/en/Public/FAQ))
 - Unterschied: Script vs ADD-IN
@@ -222,7 +210,6 @@ Link zum [**Autodesk Fusion 360 App Store**](https://apps.autodesk.com/FUSION/en
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/B5ocZrpvEzI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<https://youtu.be/B5ocZrpvEzI>
 
 Notizen:
 
@@ -278,8 +265,10 @@ Hilferessourcen für Fusion 360:
 
 [Offizielles Nutzungshandbuch](https://help.autodesk.com/view/NINVFUS/DEU/)
 
-<!-- markdownlint-enable no-emphasis-as-header -->
 <!-- Resources and scripts -->
 <html>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">
+<script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>
 </html>
+
