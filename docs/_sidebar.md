@@ -16,6 +16,8 @@
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
 - **🖥️ CAD and 3D Modeling**
   - [Fusion360](CAD/Fusion360.md)
+  - [Fusion360 Beginner Course](CAD/fusion360course/CAD1-beginner.md)
+  - [Fusion360 Advanced Course](CAD/fusion360course/CAD2-advanced.md)
   - [Blender](tools/blender.md)
 - **🔧 Related Tools**
   - [Python](tools/python.md)

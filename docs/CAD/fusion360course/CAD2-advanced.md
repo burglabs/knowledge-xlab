@@ -1,15 +1,5 @@
 # CAD2 Fusion Kurs Advanced
 
-- [Vorbereitung](#vorbereitung)
-- [Session 1: Recap](#session-1-recap)
-- [Session 2: Create Geometry](#session-2-create-geometry)
-- [Session 3: Assembly Deep-Dive](#session-3-assembly-deep-dive)
-- [Session 04: Create Form (Sculpting Mode)](#session-04-create-form-sculpting-mode)
-- [Session 05: Parametrik und Blechbearbeitung](#session-05-parametrik-und-blechbearbeitung)
-- [Session 06: 3D Formate und Zeichnungen](#session-06-3d-formate-und-zeichnungen)
-- [Session 07: Add-Ins/Scripts + Wiederholung Baugruppen](#session-07-add-insscripts--wiederholung-baugruppen)
-- [Session 08: The Lost lecture](#session-08-the-lost-lecture)
-
 -----
 
 ## Vorbereitung
