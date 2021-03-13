@@ -13,6 +13,7 @@
   - [Understanding Machine Learning](ai/machine-learning.md)
   - [Data & Datasets](ai/data-datasets.md)
   - [AI Artists](ai/ai-artists.md)
+  - [Problems with AI](ai/problems-with-ai.md)
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
   - [AI in creative areas](ai/ai-in-creative-areas.md)
 - **🔧 Related Tools**
