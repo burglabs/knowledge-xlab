@@ -17,7 +17,7 @@
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
 - **🖥️ CAD and 3D Modeling**
   - [Fusion360](CAD/Fusion360.md)
-  - [Blender](tools/blender.md)
+  - [Blender](CAD/blender.md)
 - **🔧 Related Tools**
   - [Python](tools/python.md)
   - [Git](tools/git.md)
