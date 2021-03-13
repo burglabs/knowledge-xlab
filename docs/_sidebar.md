@@ -15,9 +15,12 @@
   - [AI Artists](ai/ai-artists.md)
   - [Problems with AI](ai/problems-with-ai.md)
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
-  - [AI in creative areas](ai/ai-in-creative-areas.md)
-- **🔧 Related Tools**
+- **🖥️ CAD and 3D Modeling**
+  - [Fusion360](CAD/Fusion360.md)
+  - [Fusion360 Beginner Course](CAD/fusion360course/CAD1-beginner.md)
+  - [Fusion360 Advanced Course](CAD/fusion360course/CAD2-advanced.md)
   - [Blender](tools/blender.md)
+- **🔧 Related Tools**
   - [Python](tools/python.md)
   - [Git](tools/git.md)
 - **🤝 Contribute!**
