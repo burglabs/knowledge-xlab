@@ -127,18 +127,18 @@ Modelliert ein Objekt nach Vorlage mit der `Create Form` - Funktion
 ### Links
 
 - Kostenlose HDRIs
-	- HDRI-Haven: https://hdrihaven.com/
-	- Maximeroz: https://www.maximeroz.com/hdri-free-pack
-	- viz- people: https://www.viz-people.com/portfolio/free-hdri-maps/
-	- openfootage: https://www.openfootage.net/hdri-panorama/ (kostenlos in der niedrigen Auflösung)
-	- Eisklotz.de: https://www.eisklotz.com/products/hdri/
+	- [Maximeroz](https://www.maximeroz.com/hdri-free-pack)
+	- [HDRI Haven](https://hdrihaven.com/)
+	- [viz people](https://www.viz-people.com/portfolio/free-hdri-maps/)
+	- [openfootage - kostenlos bei niedriger Auflösung](https://www.openfootage.net/hdri-panorama/)
+	- [eisklotz.de](https://www.eisklotz.com/products/hdri/)
 - Webseiten zum Download von 3D-Modellen:
-	- <https://grabcad.com/>
-	- <https://gallery.autodesk.com/>
-	- <https://b2b.partcommunity.com/community/>
-	- <https://www.traceparts.com/en>
-	- <https://www.3dcontentcentral.com/>
-	- <https://www.turbosquid.com/Search/3D-Models/free/cad>
+	- [grabcad](https://grabcad.com/)
+	- [autodesk gallery](https://gallery.autodesk.com/)
+	- [part community](https://b2b.partcommunity.com/community/)
+	- [traceparts](https://www.traceparts.com/en)
+	- [3dcontentcentral](https://www.3dcontentcentral.com/)
+	- [turbosquid](https://www.turbosquid.com/Search/3D-Models/free/cad)
 
 ### Aufgabe
 
