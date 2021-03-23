@@ -30,9 +30,10 @@
 ## Responsible data practices
 
 - PDF [Responsible AI art field guide](https://www.partnershiponai.org/wp-content/uploads/2020/09/Partnership-on-AI-AI-Art-Field-Guide.pdf) by Lia Coleman, Emily Saltz and Claire Leibowicz
+- Public Cryptdoc ["Critical Art and the Ethics of AI"](https://cryptpad.fr/pad/#/2/pad/view/H44naOgAhHBdcF2vb2HDKtCpWs0hV2sHML8yMKIp9I0/) by Marco Donnarumma, Wesley Goatley, Helena Nikonole
 - Talk [How to use AI for your art responsibly](https://www.youtube.com/watch?v=d9zhw4FOXPc) by Lia Coleman, Emily Saltz and Claire Leibowicz
 - Project [Humans of AI](https://humans-of.ai/editorial/) by Philipp Schmitt
-- Essay[Excavating AI](https://excavating.ai/) about the *ImageNet* dataset by Kate Crawford and Trevor Paglen
+- Essay [Excavating AI](https://excavating.ai/) about the *ImageNet* dataset by Kate Crawford and Trevor Paglen
 - Article [The furry drama](https://gizmodo.com/the-internet-furry-drama-raising-big-questions-about-ar-1843412922) by Gizmodo
 
 ## Copyright
