@@ -15,7 +15,7 @@
   - [AI Artists](ai/ai-artists.md)
   - [Problems with AI](ai/problems-with-ai.md)
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
-  - [Software](ai/software.md)
+  - [Tools](ai/tools.md)
 - **🖥️ CAD and 3D Modeling**
   - [Fusion360](CAD/Fusion360.md)
   - [Blender](CAD/blender.md)
