@@ -24,4 +24,8 @@ houses the robot control hardware
 
 ### Teach Pendants
 
+Learn more about [Teach Pendants](https://academy.universal-robots.com/free-e-learning/cb3-e-learning/)
+
 ## Tools
+
+[Here](https://robotacademy.net.au) you can find short video lessons and full online courses to help you understand robotics. 
