@@ -12,10 +12,10 @@
   - [Understanding AI](ai/understanding-ai.md)
   - [Understanding Machine Learning](ai/machine-learning.md)
   - [Data & Datasets](ai/data-datasets.md)
-  - [AI Artists](ai/ai-artists.md)
+  - [Tools](ai/tools.md)
   - [Problems with AI](ai/problems-with-ai.md)
+  - [AI Artists](ai/ai-artists.md)
   - [Thoughts on AI+Art](ai/thoughts-ai-art.md)
-  - [Software](ai/software.md)
 - **🖥️ CAD and 3D Modeling**
   - [Fusion360](CAD/Fusion360.md)
   - [Blender](CAD/blender.md)
