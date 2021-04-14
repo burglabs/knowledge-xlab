@@ -13,6 +13,4 @@
 - Article [Machine Learning en Plein Air](https://medium.com/runwayml/machine-learning-en-plein-air-building-accessible-tools-for-artists-87bfc7f99f6b)
   by Cristobal Valenzuela (Co-founder of RunwayML)
 
-- 
-
 - Short film with interviews [Film](https://www.youtube.com/watch?v=HJQlh8pAO2w) by Mutek Lab (Montreal)
