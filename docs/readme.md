@@ -1,22 +1,21 @@
-## Our Stack
+## What is behind this? Our stack
+All the content is written in [Markdown](https://www.markdownguide.org/).
 
-This knowledge base is powered by [Docsify](https://docsify.js.org).
-All the content is written in [Markdown](markdown.md).
-The git repository is hosted and served on [GitHub](https://github.com/burglabs/xlab-docs).
+The [git](git-and-github.md) repository is hosted and served on [GitHub](https://github.com/burglabs/xlab-docs).
+
+Currently, this knowledge base is powered by [Docsify](https://docsify.js.org). However, we try to focus on our content and it's relationships, the presentation might change in the future.
 
 ## Contributing
 
-### TLDR
-
-- We are open to contributions!
-- The prefered method is by submitting a pull request.
-- We are using [markdownlint/](https://github.com/markdownlint/markdownlint/) without Rules 013, 033, 042.
-- Preview locally using a web server of your choice.
+> Too long, didn't read (TLDR)
+> - We are open to contributions!
+> - The prefered method is by submitting a pull request, this ensures information is checked and confirmed by multiple sources. Frequent contributors will be allowed to push minor changes directly.
+> - Preview locally using a web server of your choice.
 
 ### How to contribute
 
 We are very happy for people to share their knowledge as well as document their projects on this knowledge base. Since the area of interest of the XLab is fairly wide, so will be this collection.
-To coordinate all of this, we are using a so-called [git](https://git-scm.com/) repository. Git is a free and open source version control system, which makes it very easy for many people to collaborate on source code and other text files. The main version of the repository is hosted on [github.com/buglabs/xlab-docs](https://github.com/burglabs/xlab-docs). To help us grow and maintain this knowledge base, you don't need to become an expert in git, just use the following guide to get started.
+To coordinate all of this, we are using a so-called [git](git-and-github.md) repository. Git is a free and open source version control system, which makes it very easy for many people to collaborate on source code and other text files. The main version of the repository is hosted on [github.com/buglabs/xlab-docs](https://github.com/burglabs/xlab-docs). To help us grow and maintain this knowledge base, you don't need to become an expert in git, just use the following guide to get started.
 
 ### Recommended setup
 

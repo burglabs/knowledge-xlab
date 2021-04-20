@@ -1,4 +1,3 @@
-
 <!-- Keine eigene Seite: wird in den Seiten der Kurse eingebettet -->
 ### Übersicht 3D-Dateiformate
 

@@ -31,17 +31,20 @@
       // GENERAL
       // -----------------------------------------------------------------
       name: 'XLab Knowledge Base',
-      coverpage: 'coverpage.md',
-      homepage: 'getting-started.md',
+      homepage: 'welcome.md',
       repo: 'burglabs/xlab-docs',
       subMaxLevel: 2,
+      requestHeaders: {
+        'cache-control': 'max-age=0',
+      },
 
       // PLUGINS
       // -----------------------------------------------------------------
       search: {
-          depth      : 3,
-          noData     : 'No results!',
-          placeholder: 'Search...'
+          maxAge      : 60,
+          depth       : 3,
+          noData      : 'No results!',
+          placeholder : 'TIP: Use the Search...'
       },
       plugins: [
         EditOnGithubPlugin.create(
@@ -52,6 +55,7 @@
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-wikilink@1"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
 
 </body>
