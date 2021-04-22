@@ -43,6 +43,7 @@
 
 ## Collections
 
+- [https://www.artificia.pro](https://www.artificia.pro)
 - [aiartists.org](https://aiartists.org/)
 - [mlart.co](https://mlart.co) Curated by a Google Arts+Culture Resident, good filtering
 - [experiments.withgoogle.com](https://experiments.withgoogle.com/collection/ai) Google AI experiments
