@@ -1,0 +1,16 @@
+{
+  "name": "xlab-docs",
+  "version": "1.0.0",
+  "description": "a network of thoughts",
+  "main": "index.js",
+  "repository": "git@github.com:burglabs/xlab-docs.git",
+  "author": "simonmaris <simon@simonmaris.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.9"
+  }
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
