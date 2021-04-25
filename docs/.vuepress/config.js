@@ -7,7 +7,6 @@ module.exports = {
     themeConfig: {
         logo: 'burg-logo.png',
         nav: [
-            { text: 'Home', link: '/' },
             { text: 'Starting Points',
                 items: [
                     { text: 'AI', link: '/ai' },
