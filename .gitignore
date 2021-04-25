@@ -1,5 +1,17 @@
+# node modules
+node_modules
+
+# MacOS desktop services store
 .DS_Store
+
+# Log files
+*.log
+
+# Editors
 .vscode/
 .obsidian/
 obsidian.css
-node_modules
+
+# VuePress temp and cache directories
+.temp
+.cache
