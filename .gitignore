@@ -2,3 +2,4 @@
 .vscode/
 .obsidian/
 obsidian.css
+node_modules
