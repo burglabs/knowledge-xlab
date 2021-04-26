@@ -20,3 +20,7 @@
 - [AI isn't as advanced as you think](https://onezero.medium.com/a-i-isnt-as-advanced-as-you-think-eeeaf4b085cf)
 - [Ist das wirklich ein Toaster](https://www.zeit.de/2019/47/kuenstliche-intelligenz-neuronale-netze-muster-erkennung-forschung) in German on Zeit Online
 - [Greedy, brittle, opaque and shallow](https://www.wired.com/story/greedy-brittle-opaque-and-shallow-the-downsides-to-deep-learning/) by WIRED
+
+### History of AI
+
+- [Early AI in the US: Forefathers (1940s), Founding Fathers (1950s), Second Generation (1960s). (Talk by Pamela Mc Corduck for Deutsches Museum)](https://www.youtube.com/watch?v=-Wo3ttGOJ9w)
