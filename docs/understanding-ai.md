@@ -23,4 +23,4 @@
 
 ### History of AI
 
-- [Early AI in the US: Forefathers (1940s), Founding Fathers (1950s), Second Generation (1960s). (Talk by Pamela Mc Corduck for Deutsches Museum)](https://www.youtube.com/watch?v=-Wo3ttGOJ9w)
+- [Early AI in the US: Forefathers (1940s), Founding Fathers (1950s), Second Generation (1960s).](https://www.youtube.com/watch?v=-Wo3ttGOJ9w) - Talk by Pamela Mc Corduck for Deutsches Museum
