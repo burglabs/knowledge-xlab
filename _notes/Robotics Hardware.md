@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Robotics Hardware
 
 ## Universal Robots

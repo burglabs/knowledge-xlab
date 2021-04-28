@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 ## RunwayML
 
 [RunwayML](https://runwayml.com/) is a free software platform making machine learning accessible to artists and designers. Founded in 2018, this software brings together some of the best machine learning algorithms for generative art and makes them accessible through a simple and appealing interface. RunwayML offers the option to (re-)train popular machine learning models such as GPT-2 for text generation, StyleGAN for image synthesis and a large range of other interesting models!

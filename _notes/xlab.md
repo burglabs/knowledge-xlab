@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # XLab
 
 ## About us

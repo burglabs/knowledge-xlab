@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Rhino3D
 
 ## Introduction

@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # previous workshops at BURG
 
 ## 2021 BurgLabs Spring Session

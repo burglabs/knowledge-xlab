@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 ## Machine Learning
 
 - Video [Types of Machine Learning](https://www.youtube.com/watch?v=YlGEQyEM_a8) (not just Neural Networks)

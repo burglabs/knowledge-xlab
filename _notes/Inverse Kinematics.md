@@ -3,4 +3,4 @@ aliases:
 tags: 
 ---
 
-# Tool Center Point (TCP)
+# Inverse Kinematics

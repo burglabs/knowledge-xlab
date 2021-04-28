@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 > ✨ “Not only is A.I. a tool for artists, who are employing machine intelligence in fascinating ways, it is also frequently a topic to be examined — sometimes in the same piece.” <small>[1]</small> ✨
 
 ## Some artists and designers who work with AI/ML

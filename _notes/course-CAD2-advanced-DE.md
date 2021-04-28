@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Fusion360 Course CAD2 Advanced
 ## Vorbereitung
 

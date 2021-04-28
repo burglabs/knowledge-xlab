@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 ## What is data?
 
 - Video [The joy of data](https://www.bbc.co.uk/programmes/p0418hfr) Hannah Fry on BBC Four (3min)

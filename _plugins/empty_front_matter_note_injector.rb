@@ -2,6 +2,8 @@
 
 EMPTY_FRONT_MATTER = <<~JEKYLL
   ---
+  aliases: 
+  tags: 
   ---
 
 JEKYLL

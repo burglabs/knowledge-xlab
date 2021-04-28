@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # List of robotics artists
 
 - [AATB / Practice for Non-Industrial Robotics](https://www.aatb.ch/)

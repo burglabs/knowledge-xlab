@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # COMPAS FAB
 ## About
 COMPAS is a set of tools to solve problems of computational design and fabrication. It is a modular system, able to connect to various CAD packages as well as fabrication workflows. 

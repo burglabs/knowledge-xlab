@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 ## Software we work with and have documented
 
 - [RunwayML](ai/software/runwayml.md)

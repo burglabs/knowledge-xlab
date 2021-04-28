@@ -1,8 +1,7 @@
+---
+aliases: 
 tags: 
-related: 
-created: 210419-Mon
-
---- 
+---
 
 # Problems with AI
 

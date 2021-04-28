@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 ## General
 
 - [A people's guide to AI](https://alliedmedia.org/resources/peoples-guide-to-ai) by Mimi Onuoha and Mother Cyborg (Diana Nucera)

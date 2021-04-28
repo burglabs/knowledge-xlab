@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 - Article [Computers do not make art, people do](https://cacm.acm.org/magazines/2020/5/244330-computers-do-not-make-art-people-do/fulltext) by Aaron Hertzmann
 
 - Talk [Rebecca Fiebrink at Eyeo Conference 2018](https://vimeo.com/287094397)

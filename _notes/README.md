@@ -1,7 +1,12 @@
+---
+aliases: 
+tags: 
+---
+
 # XLab Knowledge Base
 Hi there, welcome and nice to have you here! 👋
 
-This knowledge base primarily focuses on information we accumulate during our research and teaching activies at [XLab](xlab.md). Our main topics are [AI](MOC-AI) and [Robotics](MOC-Robotics) in the contexts of art, design and architecture, however we expand into anything related, e.g. digital culture, digital tools, making and fabrication… 
+This knowledge base primarily focuses on information we accumulate during our research and teaching activies at [XLab](XLab.md). Our main topics are [AI](MOC%20AI.md) and [Robotics](MOC%20Robotics.md) in the contexts of art, design and architecture, however we expand into anything related, e.g. digital culture, digital tools, making and fabrication… 
 
 Obviously this is an every-growing and never-finished project and we are always looking for help. If you have expertise you would like to share, please check the [Readme](Readme.md) on how to contribute!
 
@@ -14,17 +19,17 @@ We call these **Maps of Content** or just **MOC**. An MOC is like a local map or
 
 These are the ones we currently think should be linked on the start page:
 
-- [MOC Robotics](MOC-Robotics.md)
-	- [Introduction to Robotics](introduction-to-robotics.md)
-- [MOC AI](MOC-AI.md)
+- [MOC Robotics](MOC%20Robotics.md)
+	- [Introduction to Robotics](Introduction%20to%20Robotics.md)
+- [MOC AI](MOC%20AI.md)
 	- [Introduction to AI](introduction-to-ai.md)
-	- [Understanding AI](understanding-ai.md)
-	- [Understanding Machine Learning](machine-learning.md)
-	- [Data & Datasets](data-datasets.md)
-	- [Tools](ai-tools.md)
-	- [Problems with AI](problems-with-ai.md)
+	- [Understanding AI](Understanding%20AI.md)
+	- [Understanding Machine Learning](Machine%20Learning.md)
+	- [Data & Datasets](Data%20and%20Datasets.md)
+	- [Tools](AI%20Tools.md)
+	- [Problems with AI](Problems%20with%20AI.md)
 	- [AI Artists](ai-artists.md)
-	- [Thoughts on AI+Art](thoughts-ai-art.md)
+	- [Thoughts on AI+Art](Thoughts%20AI%20Art.md)
 
 ## Exploration is key! 🔭
 Apart from these MOCs, we encourage you to explore and discover! Most articles densly link to others and will take you on a walk through knowledge space. If you don't know where to start, use the search function!
@@ -33,7 +38,7 @@ Whether you are looking for a specific piece of information or are just here to 
 ## What is behind this? Our stack
 All the content is written in [Markdown](https://www.markdownguide.org/).
 
-The [git](git-and-github.md) repository is hosted and served on [GitHub](https://github.com/burglabs/xlab-docs).
+The [git](Git%20and%20Github.md) repository is hosted and served on [GitHub](https://github.com/burglabs/xlab-docs).
 
 Currently, this knowledge base is powered by [Docsify](https://docsify.js.org). However, we try to focus on our content and it's relationships, the presentation might change in the future.
 
@@ -47,7 +52,7 @@ Currently, this knowledge base is powered by [Docsify](https://docsify.js.org). 
 ### How to contribute
 
 We are very happy for people to share their knowledge as well as document their projects on this knowledge base. Since the area of interest of the XLab is fairly wide, so will be this collection.
-To coordinate all of this, we are using a so-called [git](git-and-github.md) repository. Git is a free and open source version control system, which makes it very easy for many people to collaborate on source code and other text files. The main version of the repository is hosted on [github.com/buglabs/xlab-docs](https://github.com/burglabs/xlab-docs). To help us grow and maintain this knowledge base, you don't need to become an expert in git, just use the following guide to get started.
+To coordinate all of this, we are using a so-called [git](Git%20and%20Github.md) repository. Git is a free and open source version control system, which makes it very easy for many people to collaborate on source code and other text files. The main version of the repository is hosted on [github.com/buglabs/xlab-docs](https://github.com/burglabs/xlab-docs). To help us grow and maintain this knowledge base, you don't need to become an expert in git, just use the following guide to get started.
 
 ### Recommended setup
 

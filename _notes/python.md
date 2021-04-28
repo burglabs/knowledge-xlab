@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Python
 
 ## Installing Python

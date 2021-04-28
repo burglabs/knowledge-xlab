@@ -1,9 +1,14 @@
+---
+aliases: 
+tags: 
+---
+
 # XLab Knowledge Base
 Hi there, welcome and nice to have you here! 👋
 
-This knowledge base primarily focuses on information we accumulate during our research and teaching activies at [XLab](xlab.md). Our main topics are [AI](MOC-AI) and [Robotics](MOC-Robotics) in the contexts of art, design and architecture, however we expand into anything related, e.g. digital culture, digital tools, making and fabrication… 
+This knowledge base primarily focuses on information we accumulate during our research and teaching activies at [[XLab]]. Our main topics are [[MOC AI|Artifical Intelligence]] and [[MOC Robotics|Robotics]] in the contexts of art, design and architecture, however we expand into anything related, e.g. digital culture, digital tools, making and fabrication… 
 
-Obviously this is an every-growing and never-finished project and we are always looking for help. If you have expertise you would like to share, please check the [Readme](Readme.md) on how to contribute!
+Obviously this is an every-growing and never-finished project and we are always looking for help. If you have expertise you would like to share, please check the [[Readme]] on how to contribute!
 
 ## Starting points aka. MOC
 Since a growing network of knowledge can never be put into a linear structure in the long term, we do not even try to provide a navigation  that will take you to every corner of this knowledge base. 
@@ -14,17 +19,17 @@ We call these **Maps of Content** or just **MOC**. An MOC is like a local map or
 
 These are the ones we currently think should be linked on the start page:
 
-- [MOC Robotics](MOC-Robotics.md)
-	- [Introduction to Robotics](introduction-to-robotics.md)
-- [MOC AI](MOC-AI.md)
-	- [Introduction to AI](introduction-to-ai.md)
-	- [Understanding AI](understanding-ai.md)
-	- [Understanding Machine Learning](machine-learning.md)
-	- [Data & Datasets](data-datasets.md)
-	- [Tools](ai-tools.md)
-	- [Problems with AI](problems-with-ai.md)
-	- [AI Artists](ai-artists.md)
-	- [Thoughts on AI+Art](thoughts-ai-art.md)
+- [[MOC Robotics]]
+	- [[Introduction to Robotics]]
+- [[MOC AI]]
+	- [[introduction-to-ai]]
+	- [[Understanding AI]]
+	- [[Machine Learning]]
+	- [[Data and Datasets]]
+	- [[AI Tools]]
+	- [[Problems with AI]]
+	- [[List of AI Artists]]
+	- [[Thoughts AI Art]]
 
 ## Exploration is key! 🔭
 Apart from these MOCs, we encourage you to explore and discover! Most articles densly link to others and will take you on a walk through knowledge space. If you don't know where to start, use the search function!

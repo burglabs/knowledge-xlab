@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Robotics Software
 
 ## Programming
@@ -8,4 +13,4 @@
 
 - RTDE Interface
 
-[[grasshopper-robots-plugin]]
+[[Grasshopper Robots Plugin]]

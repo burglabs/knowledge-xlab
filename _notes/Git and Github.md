@@ -1,3 +1,8 @@
+---
+aliases: Git
+tags: tools, 
+---
+
 # Git & Github
 
 ## What is *Git*?

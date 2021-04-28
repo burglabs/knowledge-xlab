@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # XLab Projects
 
 This section documents past and present projects and works.

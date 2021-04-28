@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Fusion 360
 
 [Fusion 360](https://www.autodesk.de/products/fusion-360/overview) is a 3D CAD-Program made by Autodesk.  

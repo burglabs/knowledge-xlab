@@ -1,1 +1,6 @@
+---
+aliases: 
+tags: 
+---
+
 # Forward Kinematics

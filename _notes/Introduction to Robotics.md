@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Introduction to Robotics
 Welcome, you found the right place to dive into robotics :)
 
@@ -6,7 +11,7 @@ This is a collection of links to our own writings as well as external references
 ## Concepts
 To get started with #robotics (or specifically robotic arms) it is very useful and often necessary to understand various concepts, terms and techniques. 
 
-- [[inverse-kinematics]]
+- [[Inverse Kinematics]]
 - [[Forward Kinematics]]
 - [[Backlash]]
 - [[Singularities]]

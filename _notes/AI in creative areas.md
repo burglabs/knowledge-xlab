@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 ## AI | Film
 
 - Kaspar [https://www.kasparai.com/](https://www.kasparai.com/)

@@ -1,3 +1,8 @@
+---
+aliases: 
+tags: 
+---
+
 # Thoughts on Robotics and/in Art
 
 - Article [Robotic Art and Cultural Imagination](http://ls00012.mah.se/bitstream/handle/2043/28086/ewic_evac18_paper48.pdf?sequence=2&isAllowed=y) by Bojana Romic
