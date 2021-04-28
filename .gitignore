@@ -1,17 +1,15 @@
-# node modules
-node_modules
+# Generated website directory
+_site/
 
-# MacOS desktop services store
-.DS_Store
+# Sass cache
+.sass-cache/
 
-# Log files
-*.log
+# Jekyll cache & metadata
+.jekyll-cache/
+.jekyll-metadata
 
-# Editors
-.vscode/
+# Notes graph metadata
+_includes/notes_graph.json
+
+# Obsidian config
 .obsidian/
-obsidian.css
-
-# VuePress temp and cache directories
-.temp
-.cache
