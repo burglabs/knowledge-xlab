@@ -1,5 +1,6 @@
 ## General
 
+- [We need to talk, AI](https://weneedtotalk.ai/) Comic Essay by Dr. Julia Schneider & Lena Ziyal
 - [A people's guide to AI](https://alliedmedia.org/resources/peoples-guide-to-ai) by Mimi Onuoha and Mother Cyborg (Diana Nucera)
 - [Flowchart "What is AI"](https://www.technologyreview.com/2018/11/10/139137/is-this-ai-we-drew-you-a-flowchart-to-work-it-out/) by Karen Hao from MIT Tech Review
 - [Jay's visual intro to AI](https://www.youtube.com/watch?v=mSTCzNgDJy4)
