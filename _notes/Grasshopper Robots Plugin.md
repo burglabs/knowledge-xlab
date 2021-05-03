@@ -3,8 +3,6 @@ aliases:
 tags: 
 ---
 
-# Grasshopper Robots Plugin
-
 > If you don't have Rhino (version 6 or 7) on your computer you can [download a 90 day trial](https://www.rhino3d.com/download/rhino-for-windows/evaluation)
 
 ## Plugin Installation

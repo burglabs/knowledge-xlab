@@ -69,7 +69,7 @@
       iframe.src = event.target.href
       iframe.onload = function() {
         tooltipContentHtml = ''
-        tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        //tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
         tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
 
         tooltipContent.innerHTML = tooltipContentHtml

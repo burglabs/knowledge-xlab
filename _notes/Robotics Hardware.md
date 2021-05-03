@@ -3,8 +3,6 @@ aliases:
 tags: 
 ---
 
-# Robotics Hardware
-
 ## Universal Robots
 
 These are so-called collaborative robots.

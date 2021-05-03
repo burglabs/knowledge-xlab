@@ -5,6 +5,7 @@ tags:
 
 ## General
 
+- [We need to talk, AI](https://weneedtotalk.ai/) Comic Essay by Dr. Julia Schneider & Lena Ziyal
 - [A people's guide to AI](https://alliedmedia.org/resources/peoples-guide-to-ai) by Mimi Onuoha and Mother Cyborg (Diana Nucera)
 - [Flowchart "What is AI"](https://www.technologyreview.com/2018/11/10/139137/is-this-ai-we-drew-you-a-flowchart-to-work-it-out/) by Karen Hao from MIT Tech Review
 - [Jay's visual intro to AI](https://www.youtube.com/watch?v=mSTCzNgDJy4)
@@ -25,3 +26,8 @@ tags:
 - [AI isn't as advanced as you think](https://onezero.medium.com/a-i-isnt-as-advanced-as-you-think-eeeaf4b085cf)
 - [Ist das wirklich ein Toaster](https://www.zeit.de/2019/47/kuenstliche-intelligenz-neuronale-netze-muster-erkennung-forschung) in German on Zeit Online
 - [Greedy, brittle, opaque and shallow](https://www.wired.com/story/greedy-brittle-opaque-and-shallow-the-downsides-to-deep-learning/) by WIRED
+
+### History of AI
+
+- [Early AI in the US: Forefathers (1940s), Founding Fathers (1950s), Second Generation (1960s).](https://www.youtube.com/watch?v=-Wo3ttGOJ9w) - Talk by Pamela Mc Corduck for Deutsches Museum
+- 2000s: [The role of the dataset ImageNet for the field of Computer Vision.](https://logicmag.io/commons/lines-of-sight/) -  Article named "Lines of Sight" by Alex Hanna and others.

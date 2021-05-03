@@ -3,8 +3,6 @@ aliases:
 tags: 
 ---
 
-# previous workshops at BURG
-
 ## 2021 BurgLabs Spring Session
 
 The 2021 BurgLabs Spring Session was held from March 15th - 19th, 2021. The XLab contributed two workshops and a lecture.

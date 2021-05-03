@@ -13,7 +13,7 @@ tags:
 - [Kaggle Datasets](https://www.kaggle.com/datasets) (Machine Learning & Data science community with many open datasets)
 - [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 - [Flickr](https://www.flickr.com/) Photo sharing website, filter by licence
-- [Projekt Gutenberg](https://www.projekt-gutenberg.org/index.html) Digitalised old books, mostly in German
+- [Projekt Gutenberg](https://www.projekt-gutenberg.org/) Digitalised old books, mostly in German
 
 ## Museums with open databases
 

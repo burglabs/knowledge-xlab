@@ -3,8 +3,6 @@ aliases:
 tags: 
 ---
 
-# Fusion 360
-
 [Fusion 360](https://www.autodesk.de/products/fusion-360/overview) is a 3D CAD-Program made by Autodesk.  
 It is cloud based, runs on Mac and Windows and while it has less features than more established CAD-Packages (like SOlidworks or Inventor) it is easy to learn for beginners and much more affordable for students and professionals than many other CAD-Programs. These factors are the reason Fusion360 has been integrated into the Industrial-Design curriculum at BURG alongside Solidworks and Rhinoceros3D and they make it a good choice for anyone looking to improve their 3D-modelling skills.  
 

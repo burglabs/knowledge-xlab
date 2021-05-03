@@ -1,5 +1,4 @@
 ---
 aliases: 
-tags: 
+tags: ai map
 ---
-

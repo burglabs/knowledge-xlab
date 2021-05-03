@@ -3,8 +3,6 @@ aliases:
 tags: 
 ---
 
-# Fusion360 Course CAD1 Beginner
-
 ## Vorbereitung
 
 - Fusion installieren

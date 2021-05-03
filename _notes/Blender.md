@@ -3,6 +3,4 @@ aliases:
 tags: 
 ---
 
-# Blender
-
 ## Introduction

@@ -1,6 +1,0 @@
----
-aliases: 
-tags: 
----
-
-# Tool Center Point (TCP)

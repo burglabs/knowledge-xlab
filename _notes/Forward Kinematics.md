@@ -3,4 +3,3 @@ aliases:
 tags: 
 ---
 
-# Forward Kinematics

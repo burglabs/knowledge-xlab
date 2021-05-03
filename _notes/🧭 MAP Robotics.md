@@ -1,10 +1,9 @@
 ---
 aliases: Robotics
-tags: 
+tags: robotics tools
 ---
 
-# MOC Robotics
-This [MOC](MOC.md) gives you an overview about the major entry points to robotics content in this knowledgebase. 
+This gives you an overview about the major entry points to robotics content in this knowledgebase. 
 
 - [[Introduction to Robotics]]
 

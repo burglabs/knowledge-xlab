@@ -1,9 +1,7 @@
 ---
-aliases: 
+aliases: [Rhinoceros, Rhino]
 tags: 
 ---
-
-# Rhino3D
 
 ## Introduction
 

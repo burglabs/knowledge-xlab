@@ -1,3 +1,6 @@
+# System
+.DS_Store
+
 # Generated website directory
 _site/
 
@@ -13,3 +16,6 @@ _includes/notes_graph.json
 
 # Obsidian config
 .obsidian/
+
+# Other
+.ruby-version
