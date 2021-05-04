@@ -8,6 +8,10 @@
 - [A to Z of AI](https://atozofai.withgoogle.com) by Google
 - [All AI glossaries](https://www.are.na/alexa-steinbruck/ai-glossaries) by Alexa Steinbrück
 
+### What does AI research look like today?
+- [TWIML AI Podcast](https://twimlai.com/shows/) Many interview with AI researchers from all different fields of AI
+- [NeurIPS](https://nips.cc/) An important AI conference
+
 ## Special topics
 
 ### Strong AI vs. weak AI
