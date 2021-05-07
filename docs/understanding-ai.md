@@ -7,6 +7,7 @@
 - [Living in the Age of AI](https://www.wired.com/video/watch/machine-learning-living-in-the-age-of-ai-film) by Wired
 - [A to Z of AI](https://atozofai.withgoogle.com) by Google
 - [All AI glossaries](https://www.are.na/alexa-steinbruck/ai-glossaries) by Alexa Steinbrück
+- [Ways to think about Machine Learning](https://www.ben-evans.com/benedictevans/2018/06/22/ways-to-think-about-machine-learning-8nefy) by Benedict Evans
 
 ### What does AI research look like today?
 - [TWIML AI Podcast](https://twimlai.com/shows/) Many interview with AI researchers from all different fields of AI
