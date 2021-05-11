@@ -10,6 +10,7 @@
 - [Ways to think about Machine Learning](https://www.ben-evans.com/benedictevans/2018/06/22/ways-to-think-about-machine-learning-8nefy) by Benedict Evans
 
 ### What does AI research look like today?
+- [Buch "Architects of Intelligence - The Truth about AI from the People Building it."](https://bdtechtalks.com/2019/11/11/martin-ford-architects-of-intelligence-ai/)
 - [TWIML AI Podcast](https://twimlai.com/shows/) Many interviews with AI researchers from all different fields of AI
 - [We analyzed 16.625 papers to figure out where AI is headed next](https://www.technologyreview.com/2019/01/25/1436/we-analyzed-16625-papers-to-figure-out-where-ai-is-headed-next/) by Karen Hao from MIT Technology Review
 - [NeurIPS](https://nips.cc/) An important AI conference
