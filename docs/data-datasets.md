@@ -22,7 +22,8 @@
 
 ## Working with data and APIs
 
-- In Javascript: [working with data and APIs](https://thecodingtrain.com/Courses/data-and-apis/) CodingTrain Series by Daniel Shiffman
+- In Javascript: 
+  - [Working with data and APIs](https://thecodingtrain.com/Courses/data-and-apis/) CodingTrain Series by Daniel Shiffman
 
 ## Scraping
 
