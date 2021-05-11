@@ -5,6 +5,7 @@
 
 ## Datasets to explore
 
+- [materialarchiv.ch](https://materialarchiv.ch/)
 - [Kaggle Datasets](https://www.kaggle.com/datasets) (Machine Learning & Data science community with many open datasets)
 - [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 - [Flickr](https://www.flickr.com/) Photo sharing website, filter by licence
