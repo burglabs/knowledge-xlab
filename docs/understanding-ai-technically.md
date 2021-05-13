@@ -13,6 +13,7 @@
   - [Part 3 - “What is Back propagation”](https://www.youtube.com/watch?v=Ilg3gGewQ5U)(14 min)
 - Video [The miseducation of this machine](https://www.youtube.com/watch?v=1-8J0wfvhrU) Talk by Linda Laugwitz
 - Video [Neural Network Architectures](https://www.youtube.com/watch?v=oJNHXPs0XDk&feature=emb_logo)
+- Paper [How the machine 'thinks' - Understanding opacity in machine learning](https://journals.sagepub.com/doi/full/10.1177/2053951715622512)
 - Interactive website [Neural Network Playground](https://playground.tensorflow.org/)
 - Website [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html) by Michael Nielsen
 
