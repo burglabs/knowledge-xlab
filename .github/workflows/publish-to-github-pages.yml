@@ -25,4 +25,4 @@ jobs:
       - name: Build & Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-        run: bash ${GITHUB_WORKSPACE}/.github/deploy.sh
+        run: bash ${GITHUB_WORKSPACE}/tmp-content/.github/deploy.sh
