@@ -1,1 +1,0 @@
-## About BurgLabs Session
