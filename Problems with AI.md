@@ -9,3 +9,4 @@ tags:
 ## Environmental impact of machine learning
 
 - https://www.youtube.com/watch?v=3nViZGCkAhU
+- https://twitter.com/draecomino/status/1362051082273386500

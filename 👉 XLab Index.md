@@ -12,7 +12,8 @@ tags: map
 [[🧭 MAP AI]]
 
 - [[Introduction to AI]]
-- [[Understanding AI]]
+- [[Understanding AI Conceptually]]
+- [[Understanding AI Technically]]
 - [[Machine Learning]]
 - [[Data and Datasets]]
 - [[AI Tools]]

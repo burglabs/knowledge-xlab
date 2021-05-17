@@ -5,6 +5,7 @@ tags:
 
 ## General
 
+- [Elements of AI](https://www.elementsofai.de) Easy-to understand free online course
 - [We need to talk, AI](https://weneedtotalk.ai/) Comic Essay by Dr. Julia Schneider & Lena Ziyal
 - [A people's guide to AI](https://alliedmedia.org/resources/peoples-guide-to-ai) by Mimi Onuoha and Mother Cyborg (Diana Nucera)
 - [Flowchart "What is AI"](https://www.technologyreview.com/2018/11/10/139137/is-this-ai-we-drew-you-a-flowchart-to-work-it-out/) by Karen Hao from MIT Tech Review
@@ -12,6 +13,13 @@ tags:
 - [Living in the Age of AI](https://www.wired.com/video/watch/machine-learning-living-in-the-age-of-ai-film) by Wired
 - [A to Z of AI](https://atozofai.withgoogle.com) by Google
 - [All AI glossaries](https://www.are.na/alexa-steinbruck/ai-glossaries) by Alexa Steinbrück
+- [Ways to think about Machine Learning](https://www.ben-evans.com/benedictevans/2018/06/22/ways-to-think-about-machine-learning-8nefy) by Benedict Evans
+
+### What does AI research look like today?
+- [Buch "Architects of Intelligence - The Truth about AI from the People Building it."](https://bdtechtalks.com/2019/11/11/martin-ford-architects-of-intelligence-ai/)
+- [TWIML AI Podcast](https://twimlai.com/shows/) Many interviews with AI researchers from all different fields of AI
+- [We analyzed 16.625 papers to figure out where AI is headed next](https://www.technologyreview.com/2019/01/25/1436/we-analyzed-16625-papers-to-figure-out-where-ai-is-headed-next/) by Karen Hao from MIT Technology Review
+- [NeurIPS](https://nips.cc/) An important AI conference
 
 ## Special topics
 
