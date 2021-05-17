@@ -19,7 +19,7 @@ Instead, we collectively compile starting points and collections, which might he
 
 We call these **Maps of Content** or just **🧭 map**, which is like a local guide or navigation structure for a certain topic or part of our knowledge network. Whenever an area or group of topics grows beyond a certain scale or a specific path through the network is often required, it might be a good idea to create an MAP for these. 
 
-All the maps (and some additional pages we would like to highlight) are available through the [[👉 Index]].
+All the maps (and some additional pages we would like to highlight) are available through the [[👉 XLab Index]].
 
 ## 🔭 Exploration is key! 
 Apart from these maps, we encourage you to explore and discover! Most articles densly link to others and will take you on a walk through knowledge space. In addition, you can use the [[graph]]. Whether you are looking for a specific piece of information or are just here to wander around - enjoy! 
