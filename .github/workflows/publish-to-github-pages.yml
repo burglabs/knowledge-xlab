@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Invoke this action against the newly checked out source code.
-      - uses: fabacab/jekyll-builder-for-github-pages-action@master
+      - uses: fabacab/jekyll-builder-for-github-pages-action@v1
         with:
           # Provide this action with your repository's `GH_PAGES_TOKEN`
           # "Secret" variable. This should be the value of a personal
