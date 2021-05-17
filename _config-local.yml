@@ -1,7 +1,0 @@
-## this config needs to be run locally
-## use the following example command to append it to the default config
-# bundle exec jekyll serve --config _config.yml,_config-local.yml --livereload
-
-title:               XLab Knowledge Base [[local mode]]
-baseurl:             ''
-url:                 ''

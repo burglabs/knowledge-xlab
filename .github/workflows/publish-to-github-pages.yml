@@ -3,7 +3,7 @@ name: Jekyll Deploy
 on:
   push:
     branches:
-      - jekyll
+      - jekyll-clean
 
 jobs:
   build_and_deploy:
