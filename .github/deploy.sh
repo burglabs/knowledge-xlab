@@ -12,9 +12,15 @@ echo "Installing gems..."
 bundle config path vendor/bundle
 bundle install --jobs 4 --retry 3
 
+echo "moving content to appropriate folders within theme"
+
+mv tmp-content/home.md _pages/home.md
+mv tmp-content/.github/_config.yml _config-extra.yml
+mv tmp-content/* _notes/
+
 echo "Building Jekyll site..."
 
-JEKYLL_ENV=production NODE_ENV=production bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config-extra.yml
 
 echo "Publishing..."
 
