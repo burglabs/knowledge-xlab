@@ -25,4 +25,8 @@ jobs:
           # "Secret" variable. This should be the value of a personal
           # access token granted, at a minimum, the `public_repo` and
           # the `repo_deployment` scopes needed to deploy to GH Pages.
+          pre_build_commands: |
+            echo "Updating bundler..."
+            gem install bundler
+          gh_pages_publishing_source: gh-pages
           secret_gh_pages_api_token: ${{ secrets.GH_PAGES_TOKEN }}
