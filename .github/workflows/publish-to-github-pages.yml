@@ -18,8 +18,4 @@ jobs:
       - name: Build & Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-        run: |
-          # make file runnable, might not be necessary
-          chmod +x "${GITHUB_WORKSPACE}/.github/script.sh"
-          # run it
-          ${GITHUB_WORKSPACE}/.github/deploy.sh
+        run: bash ${GITHUB_WORKSPACE}/.github/deploy.sh
