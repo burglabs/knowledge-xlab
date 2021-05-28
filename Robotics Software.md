@@ -3,12 +3,15 @@ aliases:
 tags: 
 ---
 
-## Programming
+## Programming:
 
-- TouchPendant
-- [[Grasshopper Robots Plugin]]
+- [[Teach Pendant]]
+- [Maya-Mimic](https://www.mimicformaya.com/)
+- [Grasshopper-Robots](https://github.com/visose/Robots)
+- [ROS-MoveIt](https://moveit.ros.org/)
+- [[Compasfab]]
 
-## Real Time Control
+## Real Time Control:
 
 - RTDE Interface
-- [[compasfab]]
+

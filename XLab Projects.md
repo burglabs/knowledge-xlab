@@ -5,13 +5,13 @@ tags:
 
 This section documents past and present projects and works.
 
-## Workshops
-
-[[BURG Workshops]]
-
 ## Upcoming
 
 ..
+
+## 2021
+
+[[BURG Sessions]]
 
 ## 2020
 
