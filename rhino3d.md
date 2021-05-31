@@ -9,4 +9,4 @@ Rhinoceros 3D, also known as *Rhino3D*, or just *Rhino*, is a computer-aided des
 
 Rhino is capable of importing and exporting many 2D and 3D file formats, making it an option in many workflows. 
 
-[[grasshopper]] is a plugin within Rhino, which has become an integral part that is shipped by default. It is a nodes-based programming enviroment and has itself been extended by [countless plugins](https://www.food4rhino.com/). 
+[[Grasshopper]] is a plugin within Rhino, which has become an integral part that is shipped by default. It is a nodes-based programming enviroment and has itself been extended by [countless plugins](https://www.food4rhino.com/). 
