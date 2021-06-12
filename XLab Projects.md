@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: 
+tags: BurgLabs Burg
 ---
 
 This section documents past and present projects and works.

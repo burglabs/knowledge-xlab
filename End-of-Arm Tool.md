@@ -1,11 +1,11 @@
 ---
-aliases: Tool
+aliases: 
 tags: robotics hardware
 ---
 
 >Any attachment that is placed on the robot in order for the robot to perform tasks. Tools may be dispensers, grippers or any tool that can be attached to the robot<
 
-<div style="text-align:right"> UR acadamy </div>
+UR acadamy
 
 For most non-industrial usecases you will have to build/print your own tool. Therefore you will need the dimensions of the tool flange.
 ![Tool Flange](/assets/media/tool_flange_dimensions.jpg) 

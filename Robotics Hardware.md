@@ -1,6 +1,6 @@
 ---
 aliases: 
-tags: 
+tags: robotics hardware
 ---
 
 ## Elements of industrial robot arms 
