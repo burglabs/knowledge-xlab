@@ -1,19 +1,20 @@
 ---
 aliases: Robotics Intro
-tags: robotics 
+tags: robotics introduction
 ---
 
 Welcome, you found the right place to dive into robotics :)
 
 This is a collection of links to our own writings as well as external references and tutorials to get started with these. 
 
-<br>
+
 
 ## Definition
 
 >A robot is a goal oriented machine that can sense, plan and act.
 
-<div style="text-align: right"> QUT robot acadamy</div>
+ QUT robot acadamy
+ 
 
 There are many more robots than the well known industrial robot arms.
 
@@ -21,7 +22,7 @@ There are many more robots than the well known industrial robot arms.
 
 *Get more information about different type of robots at [QUT robot acadamy](https://robotacademy.net.au/masterclass/robotic-arms-and-forward-kinematics/?lesson=258)*
 
-<br>
+
 
 ## Concepts
 
@@ -31,11 +32,11 @@ To get started with [#robotics](app://obsidian.md/index.html#robotics) (or speci
 -  [[Forward kinematics]]
 -   [[Robotic Singularity]]
 -   [[Tool Center Point (TCP)]]
--   [[6 Degrees of Freedom]]
+-   [[Degrees of Freedom]]
 -   [[Frame]]
 -   [[Plane]]
 
-<br>
+
 
 ## Hardware
 
@@ -46,7 +47,7 @@ Elements of industrial robot arms (on the example of Universal Robots [UR5](UR5.
 - [[Teach Pendant]]
 - [[End-of-Arm Tool]]
 
-<br>
+
 
 ## Software
 

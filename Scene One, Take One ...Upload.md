@@ -1,8 +1,6 @@
 ## Digital workshop with Simon Maris and Michael Goß
 
-![[csm_210329_BLFS_Rueckblick_5_6A5A9030_9e3be085bc.jpg]]
-
-<div style="text-align:right"> Impressions form the workshop </div>
+![[csm_210329_BLFS_Rueckblick_5_6A5A9030_9e3be085bc.jpg]]Impressions form the workshop
 
 	
 ### Review
@@ -28,6 +26,4 @@ The workshop was an offer of the [[Xlab]] within the BurgLabs Spring Session 21.
 
 ![[circle2.jpg]]
 
-![[DSC_0079.jpg]]
-
-<div style="text-align:right"> student works </div>
+![[DSC_0079.jpg]] student works

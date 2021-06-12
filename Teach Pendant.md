@@ -3,9 +3,7 @@ A **teach pendant** is an interface between a human and an industrial robot arm.
 
 *The grafical interface is running on Polyscope. You can simulate this environment on any Linux System with [UR Sim](https://www.universal-robots.com/download/software-e-series/simulator-non-linux/offline-simulator-e-series-ur-sim-for-non-linux-594/)*
 
-![Teach Pendant](/assets/media/teach_pendant.jpg)
-
-<div style="text-align:right"> UR acadamy </div>
+![Teach Pendant](/assets/media/teach_pendant.jpg) UR acadamy
 
 *The grafical interface is running on Polyscope. You can simulate this environment on any Linux System with [UR Sim](https://www.universal-robots.com/download/software-e-series/simulator-non-linux/offline-simulator-e-series-ur-sim-for-non-linux-594/)*
 

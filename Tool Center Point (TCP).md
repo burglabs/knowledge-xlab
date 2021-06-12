@@ -1,6 +1,6 @@
 ---
 aliases: TCP
-tags: Robotic Concepts
+tags: robotic concepts
 ---
 
 
