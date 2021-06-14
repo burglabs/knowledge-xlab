@@ -11,10 +11,10 @@ Very specific softwares are also collected in
 - [[AI Tools]] 
 
 ## Programming
-- [[python]]
+- [[Python]]
 
 
 ## 3D
 - [[Fusion 360]]
 - [[Blender]]
-- [[Rhino3D]]
+- [[Rhino3d]]

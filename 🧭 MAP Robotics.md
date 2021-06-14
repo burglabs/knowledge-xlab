@@ -10,5 +10,5 @@ This gives you an overview about the major entry points to robotics content in t
 - [[Robotics Hardware]]
 - [[Robotics Software]]
 
-- [[List of robotics artists]]
+- [[List of Robotics Artists]]
 - [[Thoughts on Robotics Art]]

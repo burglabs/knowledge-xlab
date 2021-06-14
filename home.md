@@ -8,7 +8,7 @@ permalink: /
 
 Hi there, welcome and nice to have you here! 👋
 
-This knowledge base primarily focuses on information we accumulate during our research and teaching activies at [[XLab]]. Our main topics are [[🧭 MAP AI|Artifical Intelligence]] and [[🧭 MAP Robotics|Robotics]] in the contexts of art, design and architecture, however we expand into anything related, e.g. digital culture, digital tools, making and fabrication… 
+This knowledge base primarily focuses on information we accumulate during our research and teaching activies at [[Xlab]]. Our main topics are [[🧭 MAP AI|Artifical Intelligence]] and [[🧭 MAP Robotics|Robotics]] in the contexts of art, design and architecture, however we expand into anything related, e.g. digital culture, digital tools, making and fabrication… 
 
 Obviously this is an every-growing and never-finished project and we are always looking for help. If you have expertise you would like to share, please read about [[Contributing]]!
 

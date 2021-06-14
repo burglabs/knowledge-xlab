@@ -3,32 +3,15 @@ aliases:
 tags: 
 ---
 
-## Universal Robots
+## Elements of industrial robot arms 
+(on the example of Universal Robots [UR5](app://obsidian.md/UR5.md)/ [UR10](app://obsidian.md/UR10.md) )
 
-These are so-called collaborative robots.
+-   6 Axis called Joints (Base, Shoulder, Elbow, Wrist1-3)
+-   [Control Box](app://obsidian.md/Control%20Box)
+-   [Teach Pendant](app://obsidian.md/Teach%20Pendant)
+-   [End of Arm Tool](app://obsidian.md/End%20of%20Arm%20Tool)
 
-### UR 5
+## Custom Built Tools
 
-kann 5kg tragen
+Any sensor or actor can be attached to the robot flange to function as end of arm tool. You can build your own tool eg. with a 3d printer. Here is a [[List of Custom Built Tools]] of Burg students.
 
-### UR 10
-
-kann 10kg tragen
-
-### Control Boxes
-
-houses the robot control hardware
-
-#### connections
-
-- 230V AC
-- Ethernet
-- …
-
-### Teach Pendants
-
-Learn more about [Teach Pendants](https://academy.universal-robots.com/free-e-learning/cb3-e-learning/)
-
-## Tools
-
-[Here](https://robotacademy.net.au) you can find short video lessons and full online courses to help you understand robotics. 
