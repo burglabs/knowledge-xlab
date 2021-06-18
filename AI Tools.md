@@ -8,7 +8,4 @@ tags: ai tools
 - [[RunwayML]]
 - [[Teachable Machine]]
 - [[Wekinator]]
-
-## Software, which should be written about :)
-
-- …
+- [[Google Colab]]
