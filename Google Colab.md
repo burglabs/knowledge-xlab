@@ -1,3 +1,4 @@
+## What is Google Colab?
 Google Colab is a very special browser-based tool. It is multiple things at once:
 
 - it's a code editor (like VSCode or Coda, but in the browser!)
@@ -10,3 +11,5 @@ Often, Machine Learning programs need very powerful computers to run and Google 
 You can find more information about Google Colab in the Google Colab FAQs:
 https://research.google.com/colaboratory/faq.html
 
+## Cool Google Colab Notebooks to check out!
+[[Cool Google Colab Notebooks.md]]
