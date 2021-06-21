@@ -4,6 +4,10 @@
 
 ### StyleGAN
 
+https://github.com/NVlabs/stylegan2
+
+### StyleGAN ADA
+
 Notebook: https://github.com/eps696/stylegan2ada
 Explanatory video by Derrick Schultz: https://www.youtube.com/watch?v=Ij1dqSVR89M
 
