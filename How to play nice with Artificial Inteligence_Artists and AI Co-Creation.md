@@ -1,9 +1,6 @@
 ## Digital workshop with Lia Coleman
 
-![[csm_210329_BLFS_Rueckblick_6_6bf8b4ee13.png]]
-
-
-<div style="text-align:right"> Impression from the workshop </div>
+![[csm_210329_BLFS_Rueckblick_6_6bf8b4ee13.png]] Impression from the workshop 
 
 ### Abstract
 

@@ -1,6 +1,6 @@
 ---
 aliases: Fiffy
-tags: cobot industrial robot
+tags: cobot robotics
 ---
 
 [[Collaborative Robot]] of the brand Universal Robots.
