@@ -7,11 +7,14 @@ tags: map
 
 [[🧭 MAP Robotics]]
 
-- [[Introduction to AI]]
+- [[Introduction to Robotics]]
+- [[Robotics Hardware]]
+- [[Robotics Software]]
+- [[List of Robotics Artists]]
+- [[Thoughts on Robotics Art]]
 
 [[🧭 MAP AI]]
 
-- [[Introduction to AI]]
 - [[Understanding AI Conceptually]]
 - [[Understanding AI Technically]]
 - [[Machine Learning]]

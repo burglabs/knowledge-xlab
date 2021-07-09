@@ -21,7 +21,7 @@ To coordinate all of this, we are using a so-called [[Git and Github|Git]] repos
 ## Cloning the repository
 [[Git and Github|Git]] allows you to *clone* any git repository to your local computer. As the name says, this creates a clone of all the folders and files at this particular time.
 1. Open GitHub Desktop. 
-2. Go to `file -> clone repository` and type in `burglabs/xlab-docs`.
+2. Go to `file -> clone repository` and type in `burglabs/knowledge-xlab`.
 3. Choose a local path where you want to save the repository.
 4. Click `clone`. 
 5. Done - you are ready to start using your local clone now! ✨ 
