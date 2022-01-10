@@ -24,5 +24,6 @@ tags: map
 - [[List of AI Artists]]
 - [[Thoughts AI Art]]
 - [[AI in creative areas]]
+- [[ML x Video]]
 
 [[🧭 Various Software Tools]]
