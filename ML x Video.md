@@ -1,3 +1,5 @@
+# MLxVideo
+
 Here we will show how [[Machine Learning]] (ML) can be applied on the *moving image* (video, film). It's about generating and manipulating images or whole video sequences. There are applications for: media art, cinema, storytelling, video installations, music videos, GIF memes, and more!
 
 A few other keywords: synthetic videos, deepfake, ...
@@ -111,14 +113,18 @@ Here's an interview with the makers of Kaspar.ai:
 Image from this 2018 article: https://www.technologyreview.com/2018/12/03/138834/ai-software-can-dream-up-an-entire-digital-world-from-a-simple-sketch/
 
 
-### Latent Space Walks
+## Latent Space Walks
+<iframe src="https://player.vimeo.com/video/520039359?h=06911ac0de" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/520039359">Latent Riot Space Walk</a> from <a href="https://vimeo.com/movingtargetcollective">Moving Target Collective</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
 ## Tools
 - RunwayML
 - Avatarify
 - Kaspar.ai
-- 
+
+## More links
+Check out [Alexa](https://twitter.com/alexabruck)'s are.na Board [here](https://www.are.na/alexa-steinbruck/ml-x-video-film) where she regularly dumps interesting things she finds on the internet
 
 
 
