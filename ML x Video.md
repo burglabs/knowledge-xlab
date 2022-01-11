@@ -38,10 +38,9 @@ A deepfake is when you "puppeteer" a target video (most often of a human being) 
 
 Sassy Justice is a Youtube series made by the makers of South Park. Watch the full series [here](https://www.youtube.com/c/SassyJustice/videos)!
 
-Here's a real-time example, "First order Kiss" by [Shardcore](http://www.shardcore.org/). He writes: "I tried lip-sync’ing to [Prince](https://en.wikipedia.org/wiki/Kiss_(Prince_song)) via [Avatarify](https://github.com/alievk/avatarify) and recording the results. Frame-rate is a bit crappy, but not bad for ‘real-time-processing’ The future of karaoke, perhaps?"
+Here's a real-time example, "First order Kiss" by [Shardcore](http://www.shardcore.org/). He writes: "I tried lip-sync’ing to [Prince](<https://en.wikipedia.org/wiki/Kiss_(Prince_song)>) via [Avatarify](https://github.com/alievk/avatarify) and recording the results. Frame-rate is a bit crappy, but not bad for ‘real-time-processing’ The future of karaoke, perhaps?"
 
 <iframe src="https://player.vimeo.com/video/420596414?h=0f08061b90" width="300" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
 
 Here's a piece of video art by British artist [Libby Heaney](http://libbyheaney.co.uk) in which she plays with gender roles by becoming Elvis herself..
 
@@ -57,8 +56,6 @@ Horse2Zebra (made with [CycleGAN](https://github.com/junyanz/CycleGAN))
 In "Gloomy Sunday" artist [Memo Akten](http://www.memo.tv/works/) plays with every day objects infront of the camera and turns them with ML into almost realistic images of waves and other nature phenomena.
 
 🤔 As you can see these new kind of "filters" are doing more than just manipulating the "style" of an image, they seem to somehow manipulate the "semantics" of an image as well!
-
-
 
 ## Latent Space Walks
 
@@ -80,11 +77,13 @@ Here's an interview with the makers of Kaspar.ai:
 
 ## More inspiration
 
+<iframe width="600" height="383" src="https://www.youtube.com/embed/fsQhOCkczHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <iframe
     border=0
     frameborder=0
-    height=250
-    width="auto" 
+    height=650
+    width=550 
     display="inline"
     src="https://twitframe.com/show?url=https://twitter.com/RiversHaveWings/status/1447708268789338119
 ">
@@ -93,8 +92,8 @@ Here's an interview with the makers of Kaspar.ai:
 <iframe
     border=0
     frameborder=0
-    height=250
-    width="auto"
+    height=650
+    width=550
     display="inline"
     src="https://twitframe.com/show?url=https://twitter.com/Buntworthy/status/1440244134724308995
 ">
@@ -103,8 +102,8 @@ Here's an interview with the makers of Kaspar.ai:
 <iframe
     border=0
     frameborder=0
-    height=250
-    width="auto"
+    height=750
+    width=550
     display="inline"
     src="https://twitframe.com/show?url=https://twitter.com/unltd_dream_co/status/1469085102500163584
 
@@ -115,20 +114,20 @@ Here's an interview with the makers of Kaspar.ai:
 <iframe
     border=0
     frameborder=0
-    height=250
-    width="auto"
+    height=450
+    width=550
     display="inline"
     src="https://twitframe.com/show?url=https://twitter.com/chigozienri/status/1417957701087281162
 ">
 </iframe>
 
-<iframe width="100%" height="auto" src="https://www.youtube.com/embed/5dfCmSY8Ws0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="383" src="https://www.youtube.com/embed/5dfCmSY8Ws0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe
     border=0
     frameborder=0
-    height=250
-    width="auto"
+    height=550
+    width=550
     display="inline"
     src="https://twitframe.com/show?url=https://twitter.com/xsteenbrugge/status/1466519092916019204
 ">
@@ -137,8 +136,8 @@ Here's an interview with the makers of Kaspar.ai:
 <iframe
     border=0
     frameborder=0
-    height=250
-    width="auto"
+    height=750
+    width=550
     display="inline"
     src="https://twitframe.com/show?url=https://twitter.com/ak92501/status/1463691106416214019
 ">
