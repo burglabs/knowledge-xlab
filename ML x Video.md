@@ -14,16 +14,16 @@ This is probably what comes to mind first. A deepfake is when you "puppeteer" a 
 
 Sassy Justice is a Youtube series made by the makers of South Park. Watch the full series [here](https://www.youtube.com/c/SassyJustice/videos)!
 
-Here's a real-time example:
+Here's a real-time example, "First order Kiss" by [Shardcore](http://www.shardcore.org/):
 
 <iframe src="https://player.vimeo.com/video/420596414?h=0f08061b90" width="300" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-"First order Kiss" by [Shardcore](http://www.shardcore.org/), he writes: "I tried lip-sync’ing to [Prince](https://en.wikipedia.org/wiki/Kiss_(Prince_song)) via [Avatarify](https://github.com/alievk/avatarify) and recording the results. Frame-rate is a bit crappy, but not bad for ‘real-time-processing’ The future of karaoke, perhaps?"
+He writes: "I tried lip-sync’ing to [Prince](https://en.wikipedia.org/wiki/Kiss_(Prince_song)) via [Avatarify](https://github.com/alievk/avatarify) and recording the results. Frame-rate is a bit crappy, but not bad for ‘real-time-processing’ The future of karaoke, perhaps?"
 
 Here's a piece of video art by British artist [Libby Heaney](http://libbyheaney.co.uk) in which she plays with gender roles by becoming Elvis herself..
 
 <iframe width="600" height="383" src="https://www.youtube.com/embed/CXMgfZEP2cA?list=TLGGpPagydLuJDQxMDAxMjAyMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## New kinds of "filters"
+## New kinds of filters
 
 Horse2Zebra (made with [CycleGAN](https://github.com/junyanz/CycleGAN))
 
@@ -32,32 +32,32 @@ Horse2Zebra (made with [CycleGAN](https://github.com/junyanz/CycleGAN))
 <iframe src="https://player.vimeo.com/video/260612034?h=1cf903469e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 In "Gloomy Sunday" artist [Memo Akten](http://www.memo.tv/works/) plays with every day objects infront of the camera and turns them into almost realistic images of waves and other nature phenomena.
 
-These new kind of "filters" are more than just manipulating the "style" of an image, they seem to somehow manipulate the "semantics" of an image as well!
+🤔 These new kind of "filters" are more than just manipulating the "style" of an image, they seem to somehow manipulate the "semantics" of an image as well!
 
 ## Useful operations on images
 
 These capacities will most probably be integrated in popular image and video editing tools very soon.. Will we still call them "AI" then?
 
-### Greenscreening / Rotoscoping
+### ❇️ Greenscreening
 
 <img src="runway-greenscreening.gif" alt="A screenshot of the software RunwayML" width="300"/>
 How to greenscreen a video with the software [RunwayML](https://runwayml.com/resources/how-to-green-screen-a-video/)
 
-### Recoloring
+### ❇️ Recoloring
 
 <iframe width="300" height="200" src="https://www.youtube.com/embed/1y-aj7uy2WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Upscaling
+### ❇️ Upscaling
 
 <iframe width="300" height="200" src="https://www.youtube.com/embed/OI-To1eUtuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 This classic video made in 1994 has been upscaled in 2021 from 480p to 1440p with Machine Learning
 
-### 2D to 3D
+### ❇️ 2D to 3D
 
 ![[cyril-diagne-2d3d.gif]]
 Machine Learning can infer depth information from a 2D image. With this information you can add various 3D effects to your images, like this parallax effect made by [Cyril Diagne](https://github.com/cyrildiagne/instagram-3d-photo)
 
-Some of these examples seem "magic" because they make more out of less: adding color information, increasing resolution, adding depth... But keep in mind that Machine Learning is based on statistics, the algorithms have "learned" from large amount of example footage what the probabilities for a specific depth/color/shape are. That makes them susceptible for [[bias]]. Keep that in mind when you work with these apparently objective tools!
+🤔 Some of these examples seem "magic" because they make more out of less: adding color information, increasing resolution, adding depth... But keep in mind that Machine Learning is based on statistics, the algorithms have "learned" from large amount of example footage what the probabilities for a specific depth/color/shape are. That makes them susceptible for [[bias]]. Keep that in mind when you work with these apparently objective tools!
 
 ## Latent Space Walks
 
