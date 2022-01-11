@@ -1,3 +1,7 @@
+---
+title: ML x Video
+---
+
 Here we will show how [[Machine Learning]] (ML) can be applied on the _moving image_ (video, film). It's about generating and manipulating images or whole video sequences. There are possible use cases in the field of media art, cinema, storytelling, video installations, music videos, GIF memes, and more!
 
 A few other keywords: synthetic videos, deepfake, ...
@@ -31,29 +35,36 @@ In "Gloomy Sunday" artist [Memo Akten](http://www.memo.tv/works/) plays with eve
 These new kind of "filters" are more than just manipulating the "style" of an image, they seem to somehow manipulate the "semantics" of an image as well!
 
 ## Useful operations on images
+
 These capacities will most probably be integrated in popular image and video editing tools very soon.. Will we still call them "AI" then?
 
 ### Greenscreening / Rotoscoping
+
 <img src="runway-greenscreening.gif" alt="A screenshot of the software RunwayML" width="300"/>
 How to greenscreen a video with the software [RunwayML](https://runwayml.com/resources/how-to-green-screen-a-video/)
 
-
 ### Recoloring
+
 <iframe width="300" height="200" src="https://www.youtube.com/embed/1y-aj7uy2WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Upscaling
+
 <iframe width="300" height="200" src="https://www.youtube.com/embed/OI-To1eUtuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 This classic video made in 1994 has been upscaled in 2021 from 480p to 1440p with Machine Learning
 
 ### 2D to 3D
+
 ![[cyril-diagne-2d3d.gif]]
 Machine Learning can infer depth information from a 2D image. With this information you can add various 3D effects to your images, like this parallax effect made by [Cyril Diagne](https://github.com/cyrildiagne/instagram-3d-photo)
 
+Some of these examples seem "magic" because they make more out of less: adding color information, increasing resolution, adding depth... But keep in mind that Machine Learning is based on statistics, the algorithms have "learned" from large amount of example footage what the probabilities for a specific depth/color/shape are. That makes them susceptible for [[bias]]. Keep that in mind when you work with these apparently objective tools!
+
 ## Latent Space Walks
+
+The [[latent space]] is a high dimensional mathematical space of possible representations (depending on your training data) that can be navigated. By walking the latent space we can create animations of organic change.
 
 <iframe src="https://player.vimeo.com/video/520039359?h=06911ac0de" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/520039359">Latent Riot Space Walk</a> from <a href="https://vimeo.com/movingtargetcollective">Moving Target Collective</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
 
 ## Help with editing (and even storytelling?)
 
@@ -134,7 +145,6 @@ Here's an interview with the makers of Kaspar.ai:
 
 ![[streetscene-aigenerated.gif]]
 Image from this 2018 article: https://www.technologyreview.com/2018/12/03/138834/ai-software-can-dream-up-an-entire-digital-world-from-a-simple-sketch/
-
 
 ## Tools
 
