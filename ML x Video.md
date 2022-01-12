@@ -11,7 +11,7 @@ The following capabilities will most probably be integrated in popular image and
 ### ❇️ Greenscreening
 
 <img src="https://raw.githubusercontent.com/burglabs/knowledge-xlab/main/assets/media/runway-greenscreening.gif" alt="A screenshot of the software RunwayML" width="300"/>
-How to greenscreen a video with the software [RunwayML](https://runwayml.com/resources/how-to-green-screen-a-video/)
+With Machine Learning you don't need a Greenscreen or manual rotoscoping, because the computer can infer automatically what is foreground and what is background. How to greenscreen a video with the software [RunwayML](https://runwayml.com/resources/how-to-green-screen-a-video/)
 
 ### ❇️ Recoloring
 
@@ -59,21 +59,19 @@ In "Gloomy Sunday" artist [Memo Akten](http://www.memo.tv/works/) plays with eve
 
 ## Latent Space Walks
 
-The [[latent space]] is a high dimensional mathematical space of possible representations (depending on your training data) that can be navigated. By walking the latent space we can create animations of organic change.
+The [[latent space]] is a high dimensional mathematical space of possible representations (depending on your training data) that can be navigated. By walking the latent space we are "interpolating" between the points in the latent space and thus create animations of organic change.
 
 <iframe src="https://player.vimeo.com/video/520039359?h=06911ac0de" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/520039359">Latent Riot Space Walk</a> from <a href="https://vimeo.com/movingtargetcollective">Moving Target Collective</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ## Help with editing (and even storytelling?)
 
-ML can also be used to assist you in the editing process by analysing your footage according to specific parameters (objects in the shot, angle, lightning, scenery, etc.)
+ML can also be used to assist you in the editing process by analysing your footage with image recognition and other [[computer vision]] techniques. You can analyze, organize and filter your footage by the objects in the shot, angle, lightning, scenery, etc.
 
 ### Kaspar.ai
 
 https://www.kasparai.com/
 
-Here's an interview with the makers of Kaspar.ai:
-...
 
 ## More inspiration
 
