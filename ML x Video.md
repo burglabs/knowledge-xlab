@@ -59,7 +59,17 @@ In "Gloomy Sunday" artist [Memo Akten](http://www.memo.tv/works/) plays with eve
 
 ## Latent Space Walks
 
-The [[latent space]] is a high dimensional mathematical space of possible representations (depending on your training data) that can be navigated. By walking the latent space we are "interpolating" between the points in the latent space and thus create animations of organic change.
+The [[latent space]] is a high dimensional mathematical space of possible representations (depending on your training data). By "walking" the latent space we are interpolating between the points in the latent space and thus create animations of organic change.
+<iframe
+    border=0
+    frameborder=0
+    height=650
+    width=550 
+    display="inline"
+    src="https://twitframe.com/show?url=https://twitter.com/RypeArts/status/1364054338943873025
+">
+</iframe>
+
 
 <iframe src="https://player.vimeo.com/video/520039359?h=06911ac0de" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/520039359">Latent Riot Space Walk</a> from <a href="https://vimeo.com/movingtargetcollective">Moving Target Collective</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
