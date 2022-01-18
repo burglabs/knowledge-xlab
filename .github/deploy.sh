@@ -17,6 +17,7 @@ echo "moving content to appropriate folders within theme"
 mv tmp-content/home.md _pages/home.md
 mv tmp-content/.nav.html _includes/nav.html
 mv tmp-content/.github/_config.yml _config-extra.yml
+mv tmp-content/assets/* assets/
 mkdir _notes
 mv tmp-content/* _notes/
 
