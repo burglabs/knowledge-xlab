@@ -1,0 +1,40 @@
+text2img is a name for a family of Machine Learning algorithms that are able to synthesize images on the basis of a random input text.
+
+The most popular model (as of 2021) is named VQGAN+CLIP. A previous model was named AttnGAN.
+
+On Twitter, Reddit etc. you find an explosion of visual media (images, films) created with these tools. Here are some links for inspiration:
+
+## Inspiration
+- https://twitter.com/images_ai
+
+
+## Reading
+- "VQGAN+CLIP how does it work" blogpost (08/2021) by Alexa Steinbrück (XLab Burg Halle): https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52
+- "AI-Generated Art Scene Explodes as Hackers Create Groundbreaking New Tools" in: VICE (07/2021): https://www.vice.com/en/article/n7bqj7/ai-generated-art-scene-explodes-as-hackers-create-groundbreaking-new-tools
+
+
+## Tools
+(sorted by: easy to more difficult)
+
+### Easy-to-use Web Applications (No Coding required)
+-   [https://app.wombo.art/](https://app.wombo.art/) (VQGAN+CLIP?)
+-   [https://creator.nightcafe.studio/create/text-to-image](https://creator.nightcafe.studio/create/text-to-image) (VQGAN+CLIP & CLIP-guided Diffusion)
+-   In RunwayML[https://app.runwayml.com/models/runway/AttnGAN](https://app.runwayml.com/models/runway/AttnGAN) (AttnGAN)
+-   [https://hotpot.ai/art-maker](https://hotpot.ai/art-maker) (VQGAN+CLIP?)
+-   [https://deepai.org/machine-learning-model/text2img](https://deepai.org/machine-learning-model/text2img) (AttnGAN?)
+-   [https://huggingface.co/flax-community/dalle-mini](https://huggingface.co/flax-community/dalle-mini) (DALLE-Mini)
+-   [https://artflow.ai/](https://artflow.ai/) (only faces)
+-   [https://www.starryai.com/](https://www.starryai.com/) (mobile app)
+-   [https://replicate.com/pixray/text2image](https://replicate.com/pixray/text2image) (pixel art)
+
+### Google Colab notebooks
+Learn what Google Colab is here: [[Google Colab]]
+- Original notebook by Katherine Crowson (rivers have wings) translated into English (sie hat irgendwie kein Github Repo dafür): [https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing](https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing)
+
+### Github Repos
+- VQGAN-CLIP Implementation by Eleuther AI: [https://github.com/EleutherAI/vqgan-clip](https://github.com/EleutherAI/vqgan-clip)
+- Pixel art: [https://github.com/pixray/pixray](https://github.com/pixray/pixray)
+
+### More (Lists)
+- List of VQGAN+CLIP Implementations, compiled by Lj Miranda [https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/](https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/)
+- Nice list of Colabs by Eleuther AI (auch CLIP guided diffusion): [https://github.com/EleutherAI/vqgan-clip/tree/main/notebooks](https://github.com/EleutherAI/vqgan-clip/tree/main/notebooks)

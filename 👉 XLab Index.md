@@ -25,5 +25,6 @@ tags: map
 - [[Thoughts AI Art]]
 - [[AI in creative areas]]
 - [[ML x Video]]
+- [[txt2img]]
 
 [[🧭 Various Software Tools]]
