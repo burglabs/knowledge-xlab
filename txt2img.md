@@ -11,7 +11,8 @@ On Twitter, Reddit etc. you find an explosion of visual media (images, films) cr
 ## Reading
 - "VQGAN+CLIP how does it work" blogpost (08/2021) by Alexa Steinbrück (XLab Burg Halle): https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52
 - "AI-Generated Art Scene Explodes as Hackers Create Groundbreaking New Tools" in: VICE (07/2021): https://www.vice.com/en/article/n7bqj7/ai-generated-art-scene-explodes-as-hackers-create-groundbreaking-new-tools
-
+- "Alien Dreams: An Emerging Art Scene" by Charlie Snell: https://ml.berkeley.edu/blog/posts/clip-art/
+- "Doorways" by Ryan Moulton: https://moultano.wordpress.com/2021/08/23/doorways/
 
 ## Tools
 (sorted by: easy to more difficult)
