@@ -33,7 +33,8 @@ Learn what Google Colab is here: [[Google Colab]]
 - Original notebook by Katherine Crowson (rivers have wings) translated into English (sie hat irgendwie kein Github Repo dafür): [https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing](https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing)
 
 ### Github Repos
-- VQGAN-CLIP Implementation by Eleuther AI: [https://github.com/EleutherAI/vqgan-clip](https://github.com/EleutherAI/vqgan-clip)
+- VQGAN-CLIP implementation by Eleuther AI: [https://github.com/EleutherAI/vqgan-clip](https://github.com/EleutherAI/vqgan-clip)
+- BigSleep implementation by lucidrains (based on work by Ryan Murdock aka advadnoun): https://github.com/lucidrains/big-sleep 
 - Pixel art: [https://github.com/pixray/pixray](https://github.com/pixray/pixray)
 
 ### More (Lists)
