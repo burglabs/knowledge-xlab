@@ -1,6 +1,6 @@
 ---
 aliases: AI, Artifical Intelligence
-tags: 
+tags:
 ---
 
 - What's going on in AI research today? [[AI research to go]]
@@ -9,8 +9,8 @@ tags:
 - [[Machine Learning]]
 - [[Data and Datasets]]
 - [[AI Tools]]
+- [[Text-to-Image]]
 - [[Problems with AI]]
 - [[List of AI Artists]]
 - [[Thoughts AI Art]]
 - [[AI in creative areas]]
-
