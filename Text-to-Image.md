@@ -49,6 +49,9 @@ Learn what Google Colab is here: [[Google Colab]]
 - BigSleep implementation by lucidrains (based on work by Ryan Murdock aka advadnoun): https://github.com/lucidrains/big-sleep
 - Pixel art: [https://github.com/pixray/pixray](https://github.com/pixray/pixray)
 
+### Big projects
+- DALLE-2: https://openai.com/dall-e-2/
+
 ### More (Lists)
 
 - List of VQGAN+CLIP Implementations, compiled by Lj Miranda [https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/](https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/)
