@@ -15,6 +15,7 @@ On Twitter, Reddit etc. you find an explosion of visual media (images, films) cr
 
 ## Reading & Watching
 
+- Video über DALLE-2 (OpenAI): https://openai.com/dall-e-2/
 - Video by the great Youtube Channel "Artifical Images" (Derrick Schultz): "How does CLIP Text-to-image generation work?": https://www.youtube.com/watch?v=-b7xKWeADHQ
 - "VQGAN+CLIP how does it work" blogpost (08/2021) by Alexa Steinbrück (XLab Burg Halle): https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52
 - "AI-Generated Art Scene Explodes as Hackers Create Groundbreaking New Tools" in: VICE (07/2021): https://www.vice.com/en/article/n7bqj7/ai-generated-art-scene-explodes-as-hackers-create-groundbreaking-new-tools
