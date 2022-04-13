@@ -57,3 +57,6 @@ Learn what Google Colab is here: [[Google Colab]]
 
 - List of VQGAN+CLIP Implementations, compiled by Lj Miranda [https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/](https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/)
 - Nice list of Colabs by Eleuther AI (auch CLIP guided diffusion): [https://github.com/EleutherAI/vqgan-clip/tree/main/notebooks](https://github.com/EleutherAI/vqgan-clip/tree/main/notebooks)
+
+### Technicalities
+- How did they arrive at the VQGAN+CLIP Architecture? "Tree of Knowledge" visualisation by LJ Miranda: https://ljvmiranda921.github.io/assets/png/vqgan/tree_of_knowledge.png from this blogpost about VQGAN "The illustrated VQGAN": https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/
