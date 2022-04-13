@@ -5,7 +5,10 @@ tags:
 
 Text-to-Image (or: text2image, txt2img, etc.) is a name for a family of Machine Learning algorithms that are able to synthesize images on the basis of a random input text.
 
-Since mid 2021 people experimented by combining a newly released ML model named CLIP (by OpenAI) with image generating models like BigGAN or VQGAN. The resulting models are named VQGAN+CLIP or CLIP-guided-Diffusion. An older attempt to generate images from text (before CLIP) was named AttnGAN.
+The most popular Text-to-Image model is named DALLE-2 by OpenAI, unfortunately it is closed-sourced, but there is a waiting list (as of April 2022).
+Luckily, there are many open source implementations available though!
+
+Since mid 2021 people experimented by combining a newly released ML model named CLIP (by OpenAI) with image generating models like BigGAN or VQGAN. The resulting models are named VQGAN+CLIP and CLIP-guided-Diffusion. An older attempt to generate images from text (before CLIP) was named AttnGAN.
 
 On Twitter, Reddit etc. you find an explosion of visual media (images, films) created with these tools. Here are some links for inspiration:
 
