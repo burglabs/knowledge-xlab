@@ -60,3 +60,4 @@ Learn what Google Colab is here: [[Google Colab]]
 
 ### Technicalities
 - How did they arrive at the VQGAN+CLIP Architecture? "Tree of Knowledge" visualisation by LJ Miranda: https://ljvmiranda921.github.io/assets/png/vqgan/tree_of_knowledge.png from this blogpost about VQGAN "The illustrated VQGAN": https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/
+- "Explaining the code of the popular text-to-image algorithm (VQGAN+CLIP in PyTorch) by Alexa Steinbrück  (XLab Burg Halle): https://alexasteinbruck.medium.com/explaining-the-code-of-the-popular-text-to-image-algorithm-vqgan-clip-a0c48697a7ff
