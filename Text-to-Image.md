@@ -55,6 +55,7 @@ Learn what Google Colab is here: [[Google Colab]]
 
 ### Big projects
 - DALLE-2: https://openai.com/dall-e-2/
+- Midjourney
 
 ### More (Lists)
 
