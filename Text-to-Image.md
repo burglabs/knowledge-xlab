@@ -19,6 +19,7 @@ On Twitter, Reddit etc. you find an explosion of visual media (images, films) cr
 ## Reading & Watching
 
 - Video by Vox "The AI that creates any picture you want, explained": https://www.youtube.com/watch?v=SVcsDDABEkM
+- Reddit with lots of examples: https://www.reddit.com/r/bigsleep/
 - Video about DALLE-2 (OpenAI): https://openai.com/dall-e-2/
 - Video by the great Youtube Channel "Artifical Images" (Derrick Schultz): "How does CLIP Text-to-image generation work?": https://www.youtube.com/watch?v=-b7xKWeADHQ
 - "VQGAN+CLIP how does it work" blogpost (08/2021) by Alexa Steinbrück (XLab Burg Halle): https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52
@@ -56,6 +57,7 @@ Learn what Google Colab is here: [[Google Colab]]
 
 ### Big projects
 - DALLE-2: https://openai.com/dall-e-2/
+- DALLE-Mega (open source)
 - Midjourney
 
 ### More (Lists)
