@@ -33,6 +33,7 @@ On Twitter, Reddit etc. you find an explosion of visual media (images, films) cr
 
 ### Easy-to-use Web Applications (No Coding required)
 
+- Craiyon (formerly DALL-E mini): https://www.craiyon.com/
 - [https://app.wombo.art/](https://app.wombo.art/) (VQGAN+CLIP?)
 - [https://creator.nightcafe.studio/create/text-to-image](https://creator.nightcafe.studio/create/text-to-image) (VQGAN+CLIP & CLIP-guided Diffusion)
 - In RunwayML[https://app.runwayml.com/models/runway/AttnGAN](https://app.runwayml.com/models/runway/AttnGAN) (AttnGAN)
@@ -58,6 +59,7 @@ Learn what Google Colab is here: [[Google Colab]]
 ### Big projects
 - DALLE-2: https://openai.com/dall-e-2/
 - DALLE-Mega (open source)
+- DALLE-Mini (open source)
 - Midjourney
 
 ### More (Lists)
