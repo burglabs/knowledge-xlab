@@ -13,15 +13,14 @@ Since mid 2021 people experimented by combining a newly released ML model named 
 On Twitter, Reddit etc. you find an explosion of visual media (images, films) created with these tools. Here are some links for inspiration:
 
 ## Inspiration
-
-- https://twitter.com/images_ai
-
-## Reading & Watching
-
 - Weird DALL-E Mini Creations (Twitter): https://twitter.com/weirddalle
 - Weird DALL-E Mini Creations (Reddit): https://www.reddit.com/r/weirddalle/
-- Video by Vox "The AI that creates any picture you want, explained": https://www.youtube.com/watch?v=SVcsDDABEkM
+- https://twitter.com/images_ai
 - Reddit with lots of examples: https://www.reddit.com/r/bigsleep/
+
+
+## Reading & Watching
+- Video by Vox "The AI that creates any picture you want, explained": https://www.youtube.com/watch?v=SVcsDDABEkM
 - Video about DALLE-2 (OpenAI): https://openai.com/dall-e-2/
 - Video by the great Youtube Channel "Artifical Images" (Derrick Schultz): "How does CLIP Text-to-image generation work?": https://www.youtube.com/watch?v=-b7xKWeADHQ
 - "VQGAN+CLIP how does it work" blogpost (08/2021) by Alexa Steinbrück (XLab Burg Halle): https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52
