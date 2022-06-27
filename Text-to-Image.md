@@ -18,6 +18,8 @@ On Twitter, Reddit etc. you find an explosion of visual media (images, films) cr
 
 ## Reading & Watching
 
+- Weird DALL-E Mini Creations (Twitter): https://twitter.com/weirddalle
+- Weird DALL-E Mini Creations (Reddit): https://www.reddit.com/r/weirddalle/
 - Video by Vox "The AI that creates any picture you want, explained": https://www.youtube.com/watch?v=SVcsDDABEkM
 - Reddit with lots of examples: https://www.reddit.com/r/bigsleep/
 - Video about DALLE-2 (OpenAI): https://openai.com/dall-e-2/
