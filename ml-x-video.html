@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+
+  <link rel="canonical" href="https://burglabs.github.io//ml-x-video" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Here we will show how [[Machine Learning]] (ML) can be applied on the moving image (video, film). It’s about generating and manipulating images or whole vide...">
+
+  <meta property="og:site_name" content="XLab Knowledge Base">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="/knowledge-xlab/styles.css">
+  
+  
+  <meta property="og:description" content="Here we will show how [[Machine Learning]] (ML) can be applied on the moving image (video, film). It’s about generating and manipulating images or whole vide..."/>
+  
+
+  
+  <meta property="og:title" content="ML x Video">
+  <meta property="og:type" content="article">
+  
+
+  
+  <meta property="article:published_time" content="2022-07-30T14:25:54+00:00">
+  <meta property="article:author" content="https://burglabs.github.io//">
+  
+
+  <meta property="og:url" content="https://burglabs.github.io//ml-x-video" />
+
+  
+
+  <title>
+    
+      ML x Video &mdash; XLab Knowledge Base
+    
+  </title>
+</head>
+
+  <body>
+    <nav><div>
+    <a class="internal-link" href="/knowledge-xlab/"><b>XLab Knowledge Base</b></a>
+    <a class="internal-link" href="/knowledge-xlab/xlab-index">Index</a>
+    <a class="internal-link" href="/knowledge-xlab/graph">Graph</a>
+    <a class="internal-link" href="/knowledge-xlab/contributing">Contributing</a>
+    <a class="internal-link" href="https://github.com/burglabs/xlab-docs">Source</a>
+</div>
+</nav>
+    <div class="wrapper">
+      <main>
+
+<article>
+
+  <div id="notes-entry-container">
+    <content>
+      <h1>ML x Video</h1>
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Here we will show how <a class="internal-link" href="/knowledge-xlab/machine-learning">Machine Learning</a> (ML) can be applied on the <strong>moving image</strong> (video, film). It’s about generating and manipulating images or whole video sequences. There are possible use cases in the field of media art, cinema, storytelling, video installations, music videos, GIF memes, and more!</p>
+
+<h2 id="useful-operations-on-images">Useful operations on images</h2>
+
+<p>The following capabilities will most probably be integrated in popular image and video editing tools very soon.. Will we still call them “AI” then? 🤔</p>
+
+<h3 id="️-greenscreening">❇️ Greenscreening</h3>
+
+<p><img src="https://raw.githubusercontent.com/burglabs/knowledge-xlab/main/assets/media/runway-greenscreening.gif" alt="A screenshot of the software RunwayML" width="300">
+With Machine Learning you don’t need a Greenscreen or manual rotoscoping, because the computer can infer automatically what is foreground and what is background. How to greenscreen a video with the software <a href="https://runwayml.com/resources/how-to-green-screen-a-video/" target="blank">RunwayML</a></p>
+
+<h3 id="️-recoloring">❇️ Recoloring</h3>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/1y-aj7uy2WY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="️-upscaling">❇️ Upscaling</h3>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/OI-To1eUtuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>This classic video made in 1994 has been upscaled in 2021 from 480p to 1440p with Machine Learning</p>
+
+<h3 id="️-2d-to-3d">❇️ 2D to 3D</h3>
+
+<p><img src="https://raw.githubusercontent.com/burglabs/knowledge-xlab/main/assets/media/cyril-diagne-2d3d.gif" alt="Parallax effect on Instagram by Cyril Diagne"></p>
+
+<p>Machine Learning can infer depth information from a 2D image. With this information you can add various 3D effects to images, like this parallax effect made by <a href="https://github.com/cyrildiagne/instagram-3d-photo" target="blank">Cyril Diagne</a></p>
+
+<p>🤔 Some of these examples seem “magic” because they create more out of less: adding color information, increasing resolution, adding depth… But keep in mind that Machine Learning is based on statistics, the algorithms have “learned” from large amount of example footage what the probabilities for a specific depth/color/shape are. That makes them susceptible for <span title="There is no note that matches this link." class="invalid-link">
+  <span class="invalid-link-brackets">[[</span>
+  bias
+  <span class="invalid-link-brackets">]]</span></span>. Keep that in mind when you work with these apparently objective tools!</p>
+
+<h2 id="deepfakes">Deepfakes</h2>
+
+<p>A deepfake is when you “puppeteer” a target video (most often of a human being) with a source video. Here are a few examples:</p>
+
+<iframe width="600" height="383" src="https://www.youtube.com/embed/dCTM2lvm0QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Sassy Justice is a Youtube series made by the makers of South Park. Watch the full series <a href="https://www.youtube.com/c/SassyJustice/videos" target="blank">here</a>!</p>
+
+<p>Here’s a real-time example, “First order Kiss” by <a href="http://www.shardcore.org/" target="blank">Shardcore</a>. He writes: “I tried lip-sync’ing to <a href="https://en.wikipedia.org/wiki/Kiss_(Prince_song)" target="blank">Prince</a> via <a href="https://github.com/alievk/avatarify" target="blank">Avatarify</a> and recording the results. Frame-rate is a bit crappy, but not bad for ‘real-time-processing’ The future of karaoke, perhaps?”</p>
+
+<iframe src="https://player.vimeo.com/video/420596414?h=0f08061b90" width="300" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Here’s a piece of video art by British artist <a href="http://libbyheaney.co.uk" target="blank">Libby Heaney</a> in which she plays with gender roles by becoming Elvis herself..</p>
+
+<iframe width="600" height="383" src="https://www.youtube.com/embed/CXMgfZEP2cA?list=TLGGpPagydLuJDQxMDAxMjAyMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="new-kinds-of-filters">New kinds of filters</h2>
+
+<p>Horse2Zebra (made with <a href="https://github.com/junyanz/CycleGAN" target="blank">CycleGAN</a>)</p>
+
+<p><img src="https://raw.githubusercontent.com/burglabs/knowledge-xlab/main/assets/media/horse2zebra.gif" alt="A running horse is turned into a running zebra"></p>
+
+<iframe src="https://player.vimeo.com/video/260612034?h=1cf903469e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
+<p>In “Gloomy Sunday” artist <a href="http://www.memo.tv/works/" target="blank">Memo Akten</a> plays with every day objects infront of the camera and turns them with ML into almost realistic images of waves and other nature phenomena.</p>
+
+<p>🤔 As you can see these new kind of “filters” are doing more than just manipulating the “style” of an image, they seem to somehow manipulate the “semantics” of an image as well!</p>
+
+<h2 id="latent-space-walks">Latent Space Walks</h2>
+
+<p>The <span title="There is no note that matches this link." class="invalid-link">
+  <span class="invalid-link-brackets">[[</span>
+  latent space
+  <span class="invalid-link-brackets">]]</span></span> is a high dimensional mathematical space of possible representations (depending on your training data). By “walking” the latent space we are interpolating between the points in the latent space and thus create animations of organic change.</p>
+<iframe border="0" frameborder="0" height="650" width="550" display="inline" src="https://twitframe.com/show?url=https://twitter.com/RypeArts/status/1364054338943873025%0A">
+</iframe>
+
+<iframe src="https://player.vimeo.com/video/520039359?h=06911ac0de" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
+<p><a href="https://vimeo.com/520039359" target="blank">Latent Riot Space Walk</a> from <a href="https://vimeo.com/movingtargetcollective" target="blank">Moving Target Collective</a> on <a href="https://vimeo.com" target="blank">Vimeo</a>.</p>
+
+<h2 id="help-with-editing-and-even-storytelling">Help with editing (and even storytelling?)</h2>
+
+<p>ML can also be used to assist you in the editing process by analysing your footage with image recognition and other <span title="There is no note that matches this link." class="invalid-link">
+  <span class="invalid-link-brackets">[[</span>
+  computer vision
+  <span class="invalid-link-brackets">]]</span></span> techniques. You can analyze, organize and filter your footage by the objects in the shot, angle, lightning, scenery, etc.</p>
+
+<h3 id="kasparai">Kaspar.ai</h3>
+
+<p>https://www.kasparai.com/</p>
+
+<h2 id="more-inspiration">More inspiration</h2>
+
+<iframe width="600" height="383" src="https://www.youtube.com/embed/fsQhOCkczHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<iframe border="0" frameborder="0" height="650" width="550" display="inline" src="https://twitframe.com/show?url=https://twitter.com/RiversHaveWings/status/1447708268789338119%0A">
+</iframe>
+
+<iframe border="0" frameborder="0" height="650" width="550" display="inline" src="https://twitframe.com/show?url=https://twitter.com/Buntworthy/status/1440244134724308995%0A">
+</iframe>
+
+<iframe border="0" frameborder="0" height="750" width="550" display="inline" src="https://twitframe.com/show?url=https://twitter.com/unltd_dream_co/status/1469085102500163584%0A%0A">
+
+</iframe>
+
+<iframe border="0" frameborder="0" height="450" width="550" display="inline" src="https://twitframe.com/show?url=https://twitter.com/chigozienri/status/1417957701087281162%0A">
+</iframe>
+
+<iframe width="600" height="383" src="https://www.youtube.com/embed/5dfCmSY8Ws0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<iframe border="0" frameborder="0" height="550" width="550" display="inline" src="https://twitframe.com/show?url=https://twitter.com/xsteenbrugge/status/1466519092916019204%0A">
+</iframe>
+
+<iframe border="0" frameborder="0" height="750" width="550" display="inline" src="https://twitframe.com/show?url=https://twitter.com/ak92501/status/1463691106416214019%0A">
+</iframe>
+
+<p><img src="https://raw.githubusercontent.com/burglabs/knowledge-xlab/main/assets/media/streetscene-aigenerated.gif" alt="Very realistic looking AI generated street scene video"></p>
+
+<p>Image from this 2018 article: https://www.technologyreview.com/2018/12/03/138834/ai-software-can-dream-up-an-entire-digital-world-from-a-simple-sketch/</p>
+
+<h2 id="tools">Tools</h2>
+
+<ul>
+  <li>RunwayML</li>
+  <li>Avatarify</li>
+  <li>Kaspar.ai</li>
+</ul>
+
+<h2 id="more-links">More links</h2>
+
+<p>Check out <a href="https://twitter.com/alexabruck" target="blank">Alexa</a>’s are.na Board <a href="https://www.are.na/alexa-steinbruck/ml-x-video-film" target="blank">here</a> where she regularly dumps interesting things she finds on the internet</p>
+</body></html>
+
+      <time datetime="2022-07-30T14:24:22+00:00">
+        Last updated on July 30, 2022
+        
+      </time>
+    </content>
+  
+    <side style="font-size: 0.9em">
+      <div id="notes-side-container">
+        
+        <h3>Table of Content</h3>
+          <div class="sidebar-box">
+            <ol class="toc"><li><a href="#useful-operations-on-images" class="blank">Useful operations on images</a><ol><li><a href="#️-greenscreening" class="blank">❇️ Greenscreening</a></li><li><a href="#️-recoloring" class="blank">❇️ Recoloring</a></li><li><a href="#️-upscaling" class="blank">❇️ Upscaling</a></li><li><a href="#️-2d-to-3d" class="blank">❇️ 2D to 3D</a></li></ol></li><li><a href="#deepfakes" class="blank">Deepfakes</a></li><li><a href="#new-kinds-of-filters" class="blank">New kinds of filters</a></li><li><a href="#latent-space-walks" class="blank">Latent Space Walks</a></li><li><a href="#help-with-editing-and-even-storytelling" class="blank">Help with editing (and even storytelling?)</a><ol><li><a href="#kasparai" class="blank">Kaspar.ai</a></li></ol></li><li><a href="#more-inspiration" class="blank">More inspiration</a></li><li><a href="#tools" class="blank">Tools</a></li><li><a href="#more-links" class="blank">More links</a></li></ol>
+
+          </div>
+        
+
+        <h3>Notes mentioning this note</h3>
+        
+        <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">
+        
+          <div class="sidebar-box">
+            <b><a class="internal-link" href="/knowledge-xlab/ml-x-video">ML x Video</a></b><br>
+            <div style="font-size: 0.9em">Here we will show how [[Machine Learning]] (ML) can be applied on the moving image (video, film). It’s about generating...</div>
+          </div>
+        
+          <div class="sidebar-box">
+            <b><a class="internal-link" href="/knowledge-xlab/xlab-index">👉 xlab index</a></b><br>
+            <div style="font-size: 0.9em">This is sort of like the north star of the knowledge network. It helps you to find the right starting...</div>
+          </div>
+        
+        </div>
+        
+      </div>
+    </side>
+  </div>
+</article></main>
+      <footer><h3>CONTACT</h3>
+Feel free to get in touch on <a href="https://twitter.com/burg_xlab">Twitter</a> or <a href="https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/">check the website</a> for mail and phone details :)</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      iframe.src = event.target.href
+      iframe.onload = function() {
+        tooltipContentHtml = ''
+        //tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+        tooltipContent.innerHTML = tooltipContentHtml
+
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
+
+  </body>
+</html>

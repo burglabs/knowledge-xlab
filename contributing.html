@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+
+  <link rel="canonical" href="https://burglabs.github.io//contributing" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="  TLDR (too long, didn’t read)      We are open to contributions!    The prefered method is to create a branch and submit a pull request, this ensures inform...">
+
+  <meta property="og:site_name" content="XLab Knowledge Base">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="/knowledge-xlab/styles.css">
+  
+  
+  <meta property="og:description" content="  TLDR (too long, didn’t read)      We are open to contributions!    The prefered method is to create a branch and submit a pull request, this ensures inform..."/>
+  
+
+  
+  <meta property="og:title" content="Contributing">
+  <meta property="og:type" content="article">
+  
+
+  
+  <meta property="article:published_time" content="2022-07-30T14:25:54+00:00">
+  <meta property="article:author" content="https://burglabs.github.io//">
+  
+
+  <meta property="og:url" content="https://burglabs.github.io//contributing" />
+
+  
+
+  <title>
+    
+      Contributing &mdash; XLab Knowledge Base
+    
+  </title>
+</head>
+
+  <body>
+    <nav><div>
+    <a class="internal-link" href="/knowledge-xlab/"><b>XLab Knowledge Base</b></a>
+    <a class="internal-link" href="/knowledge-xlab/xlab-index">Index</a>
+    <a class="internal-link" href="/knowledge-xlab/graph">Graph</a>
+    <a class="internal-link" href="/knowledge-xlab/contributing">Contributing</a>
+    <a class="internal-link" href="https://github.com/burglabs/xlab-docs">Source</a>
+</div>
+</nav>
+    <div class="wrapper">
+      <main>
+
+<article>
+
+  <div id="notes-entry-container">
+    <content>
+      <h1>Contributing</h1>
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<blockquote>
+  <p><strong>TLDR</strong> (too long, didn’t read)</p>
+  <ul>
+    <li>We are open to contributions!</li>
+    <li>The prefered method is to create a branch and submit a pull request, this ensures information is checked and confirmed by multiple sources. Frequent contributors will be allowed to push minor changes directly.</li>
+  </ul>
+</blockquote>
+
+<h2 id="how-to-contribute">How to contribute</h2>
+<p>We are very happy for people to share their knowledge as well as document their projects on this knowledge base. Since the area of interest of the XLab is fairly wide, so will be this collection.
+To coordinate all of this, we are using a so-called <a class="internal-link" href="/knowledge-xlab/git-and-github">Git</a> repository. Git is a free and open source version control system, which makes it very easy for many people to collaborate on source code and other text files, in our case mainly the markdown files behind this. To help us grow and maintain this knowledge base, you don’t need to become an expert in git, just use the following guide to get started.</p>
+
+<h2 id="recommended-setup">Recommended setup</h2>
+<blockquote>
+  <p>Even though there are countless options to edit markdown files and synchronize them with git, this is our recommended setup for beginners and advanced users alike. If you have experience with alternative tools, feel free to use those.</p>
+</blockquote>
+
+<ol>
+  <li>Install <a href="https://obsidian.md/" target="blank">Obsidian</a> - this will be your main editor.</li>
+  <li>Install <a href="https://desktop.github.com/" target="blank">GitHub Desktop</a> - this will give you an interface to sync the repository with your local computer.</li>
+  <li>After installing the software, please also register for a GitHub Account.</li>
+  <li>Contact one of the XLab team members with your account name to be added to the collaborators team. This will allow you to submit changes and additions.</li>
+</ol>
+
+<h2 id="the-github-workflow">The GitHub Workflow</h2>
+
+<h3 id="cloning-the-repository">Cloning the repository</h3>
+<p><a class="internal-link" href="/knowledge-xlab/git-and-github">Git</a> allows you to <em>clone</em> any git repository to your local computer. As the name says, this creates a clone of all the folders and files at this particular time.</p>
+<ol>
+  <li>Open GitHub Desktop.</li>
+  <li>Login to your Account.</li>
+  <li>Go to <code class="language-plaintext highlighter-rouge">file -&gt; clone repository</code> and type in <code class="language-plaintext highlighter-rouge">burglabs/knowledge-xlab</code>.</li>
+  <li>Choose a local path where you want to save the repository.</li>
+  <li>Click <code class="language-plaintext highlighter-rouge">clone</code>.</li>
+  <li>Done - you are ready to start using your local clone now! ✨ If all you want to do is view the knowledge base, you can skip ahead to <span title="There is no note that matches this link." class="invalid-link">
+  <span class="invalid-link-brackets">[[</span>
+  Contributing#Using Obsidian
+  <span class="invalid-link-brackets">]]</span></span>. However, getting ready to also make changes and offer these back to the community is recommended, just follow along.</li>
+</ol>
+
+<h3 id="pulling">pulling</h3>
+<p><em>Pulling</em> allows you to update your local repository clone and download all the changes, that have been commited to the GitHub repository since you cloned or last pulled it.
+Ideally, you do this regularly to stay up to date. Especially before you start changing or adding content you should pull the latest remote version, to make sure you don’t ignore or overwrite other people’s changes. 
+In GitHub Desktop you can do this by going to <code class="language-plaintext highlighter-rouge">Repository -&gt; Pull</code>.</p>
+
+<h3 id="branching">branching</h3>
+<p>To make it easier to later sync your additions and changes back to the repository, you should create a <em>branch</em> for yourself to work in. Currently, at the top you should have the <code class="language-plaintext highlighter-rouge">main</code> branch selected. This is the latest approved version of our knowledge base and what also feeds the published web-version.</p>
+<ol>
+  <li>To create a new <em>branch</em> go to <code class="language-plaintext highlighter-rouge">branch -&gt; new branch</code>.</li>
+  <li>Give the new branch a name that either makes clear who is editing here or what type of changes you are going to make.</li>
+  <li>You have now created a parallel version of the knowledge base, a <em>branch</em>. You can now get to work on all your additions and changes. <strong>Careful:</strong> switching branches does also change the files and folders shown to you on your harddrive and in Obsidian, don’t let git confuse you :). Make sure you are editing in your newly created branch. The <code class="language-plaintext highlighter-rouge">main</code> branch is there for reference and should not be edited.</li>
+</ol>
+
+<h3 id="commits">commits</h3>
+<p>A <em>commit</em> is an arbitrary amount of changes your files, saved as a version in the repository. Ideally you should create a commit, whenever it makes sense to save something as another version.</p>
+<ol>
+  <li>After you have made some changes, these will be detected and shown by GitHub Desktop. All the added, modified or deleted files are shown in the left sidebar, and if you click on one of them you will see what has changed exactly.</li>
+  <li>In the bottom left corner you can type in a <em>summary</em> and a <em>description</em> of these changes and commit them.</li>
+  <li>After you click <code class="language-plaintext highlighter-rouge">commit to your-branch-name</code>, this version will be saved.</li>
+  <li>A commit only happens in the local repository. The next step is to submit your changes to the GitHub Repository</li>
+</ol>
+
+<h3 id="pushing">pushing</h3>
+<p>If you were to work alone or in a small team, you might be able or allowed to just push one or many commits from your local to the remote repository. However, this makes it hard to make sure, that all the commited information is correct and the style and organisation of the knowledge base is kept intact. Therefore, instead of direct pushing, we are using <em>pull requests</em>.</p>
+
+<h3 id="pull-requests">pull requests</h3>
+<p>With a <em>pull request</em> you basically offer everything you have changed and commited to your local branch back to the community. In a pull request the current main branch is compared to your own branch. If the request is approved by a project maintainer, all of your changes will be copied to the main branch and be part of the official knowledge base from now on, this is called <em>merging</em>. The project maintainer or other contributors may discuss any uncertainties before merging the pull request.
+To submit a pull request from GitHub Desktop go to <code class="language-plaintext highlighter-rouge">branch -&gt; create pull request</code></p>
+
+<h3 id="rebasing">rebasing</h3>
+<p>When changes have been made to the <code class="language-plaintext highlighter-rouge">main</code> branch while you were working on your own branch, they might not be so easy to compare during a pull request. An example of this would be two or more people editing the same file. In this case, git will ask and assist you to combine these changes manually into one file. This is called <em>rebasing</em>.
+To start, go to <code class="language-plaintext highlighter-rouge">branch -&gt; rebase current branch</code></p>
+
+<h2 id="using-obsidian">Using Obsidian</h2>
+<blockquote>
+  <p>💡 Obsidian has a very useful <code class="language-plaintext highlighter-rouge">command palette</code>, which you can open by pressing <code class="language-plaintext highlighter-rouge">cmd/control + p</code> or clicking the symbol in the left toolbar. You can use this to find pretty much any command or menu item.</p>
+  <ol>
+    <li>The currently open collection of notes is called a vault in Obsidian. When you first open Obsidian, it might give you the option to <code class="language-plaintext highlighter-rouge">open folder as vault</code>. If not or you have already used it, type <code class="language-plaintext highlighter-rouge">open another vault</code> into the command palette to open the dialog again.</li>
+    <li>Navigate to where you cloned the repository, choose the <code class="language-plaintext highlighter-rouge">_notes</code> folder and confirm.</li>
+    <li>Congratulations, you now have the local clone of the knowledge base openend in Obsidian**. Have fun exploring!</li>
+  </ol>
+</blockquote>
+</body></html>
+
+      <time datetime="2022-07-30T14:24:22+00:00">
+        Last updated on July 30, 2022
+        
+      </time>
+    </content>
+  
+    <side style="font-size: 0.9em">
+      <div id="notes-side-container">
+        
+        <h3>Table of Content</h3>
+          <div class="sidebar-box">
+            <ol class="toc"><li><a href="#how-to-contribute" class="blank">How to contribute</a></li><li><a href="#recommended-setup" class="blank">Recommended setup</a></li><li><a href="#the-github-workflow" class="blank">The GitHub Workflow</a><ol><li><a href="#cloning-the-repository" class="blank">Cloning the repository</a></li><li><a href="#pulling" class="blank">pulling</a></li><li><a href="#branching" class="blank">branching</a></li><li><a href="#commits" class="blank">commits</a></li><li><a href="#pushing" class="blank">pushing</a></li><li><a href="#pull-requests" class="blank">pull requests</a></li><li><a href="#rebasing" class="blank">rebasing</a></li></ol></li><li><a href="#using-obsidian" class="blank">Using Obsidian</a></li></ol>
+
+          </div>
+        
+
+        <h3>Notes mentioning this note</h3>
+        
+
+        <div style="font-size: 0.9em">
+          <p>
+            There are no notes linking to this note.
+          </p>
+        </div>
+        
+      </div>
+    </side>
+  </div>
+</article></main>
+      <footer><h3>CONTACT</h3>
+Feel free to get in touch on <a href="https://twitter.com/burg_xlab">Twitter</a> or <a href="https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/">check the website</a> for mail and phone details :)</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      iframe.src = event.target.href
+      iframe.onload = function() {
+        tooltipContentHtml = ''
+        //tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+        tooltipContent.innerHTML = tooltipContentHtml
+
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+
+  <link rel="canonical" href="https://burglabs.github.io//grasshopper-robots-plugin" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="  If you don’t have Rhino (version 6 or 7) on your computer you can download a 90 day trial">
+
+  <meta property="og:site_name" content="XLab Knowledge Base">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="/knowledge-xlab/styles.css">
+  
+  
+  <meta property="og:description" content="  If you don’t have Rhino (version 6 or 7) on your computer you can download a 90 day trial"/>
+  
+
+  
+  <meta property="og:title" content="Grasshopper robots plugin">
+  <meta property="og:type" content="article">
+  
+
+  
+  <meta property="article:published_time" content="2022-07-30T14:25:54+00:00">
+  <meta property="article:author" content="https://burglabs.github.io//">
+  
+
+  <meta property="og:url" content="https://burglabs.github.io//grasshopper-robots-plugin" />
+
+  
+
+  <title>
+    
+      Grasshopper robots plugin &mdash; XLab Knowledge Base
+    
+  </title>
+</head>
+
+  <body>
+    <nav><div>
+    <a class="internal-link" href="/knowledge-xlab/"><b>XLab Knowledge Base</b></a>
+    <a class="internal-link" href="/knowledge-xlab/xlab-index">Index</a>
+    <a class="internal-link" href="/knowledge-xlab/graph">Graph</a>
+    <a class="internal-link" href="/knowledge-xlab/contributing">Contributing</a>
+    <a class="internal-link" href="https://github.com/burglabs/xlab-docs">Source</a>
+</div>
+</nav>
+    <div class="wrapper">
+      <main>
+
+<article>
+
+  <div id="notes-entry-container">
+    <content>
+      <h1>Grasshopper robots plugin</h1>
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<blockquote>
+  <p>If you don’t have Rhino (version 6 or 7) on your computer you can <a href="https://www.rhino3d.com/download/rhino-for-windows/evaluation" target="blank">download a 90 day trial</a></p>
+</blockquote>
+
+<h2 id="plugin-installation">Plugin Installation</h2>
+
+<ul>
+  <li>Download the latest Robots plugin for Grasshopper <a href="https://github.com/visose/Robots/releases" target="blank">from GitHub</a>.</li>
+  <li>Open Grasshopper, go to file (1),special folders (2) then components folder (3).</li>
+  <li>Drag <em>Robots.dll</em> and <em>Robots.gha</em> into this folder. If you are on Windows, right click on both files and make sure they are <em>unlocked</em>.</li>
+  <li>Restart Rhino. Now the robots plugin should be available in Grasshopper.</li>
+</ul>
+
+<h2 id="robot-libary">Robot Libary</h2>
+<p>If you are working at BURG, you will need <a href="/assets/media/210420_XLab-Robot-Library.zip" target="blank">the robot library</a> for our robotic arms, otherwise browse through the robot libraries collected on <a href="https://github.com/visose/Robots/tree/master/Libraries" target="blank">the plugin repository</a>!</p>
+</body></html>
+
+      <time datetime="2022-07-30T14:24:22+00:00">
+        Last updated on July 30, 2022
+        
+      </time>
+    </content>
+  
+    <side style="font-size: 0.9em">
+      <div id="notes-side-container">
+        
+        <h3>Table of Content</h3>
+          <div class="sidebar-box">
+            <ol class="toc"><li><a href="#plugin-installation" class="blank">Plugin Installation</a></li><li><a href="#robot-libary" class="blank">Robot Libary</a></li></ol>
+
+          </div>
+        
+
+        <h3>Notes mentioning this note</h3>
+        
+        <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">
+        
+          <div class="sidebar-box">
+            <b><a class="internal-link" href="/knowledge-xlab/grasshopper">Grasshopper</a></b><br>
+            <div style="font-size: 0.9em">Grasshopper is a visual programming language that is included in [[Rhino3d]]. Grasshopper allows designers and artists to build generative forms...</div>
+          </div>
+        
+          <div class="sidebar-box">
+            <b><a class="internal-link" href="/knowledge-xlab/grasshopper">Grasshopper</a></b><br>
+            <div style="font-size: 0.9em">Grasshopper is a visual programming language that is included in [[Rhino3d]]. Grasshopper allows designers and artists to build generative forms...</div>
+          </div>
+        
+        </div>
+        
+      </div>
+    </side>
+  </div>
+</article></main>
+      <footer><h3>CONTACT</h3>
+Feel free to get in touch on <a href="https://twitter.com/burg_xlab">Twitter</a> or <a href="https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/">check the website</a> for mail and phone details :)</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      iframe.src = event.target.href
+      iframe.onload = function() {
+        tooltipContentHtml = ''
+        //tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+        tooltipContent.innerHTML = tooltipContentHtml
+
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+
+  <link rel="canonical" href="https://burglabs.github.io//text-to-image" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Text-to-Image (or: text2image, txt2img, etc.) is a name for a family of Machine Learning algorithms that are able to synthesize images on the basis of a rand...">
+
+  <meta property="og:site_name" content="XLab Knowledge Base">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="/knowledge-xlab/styles.css">
+  
+  
+  <meta property="og:description" content="Text-to-Image (or: text2image, txt2img, etc.) is a name for a family of Machine Learning algorithms that are able to synthesize images on the basis of a rand..."/>
+  
+
+  
+  <meta property="og:title" content="Text To Image">
+  <meta property="og:type" content="article">
+  
+
+  
+  <meta property="article:published_time" content="2022-07-30T14:25:54+00:00">
+  <meta property="article:author" content="https://burglabs.github.io//">
+  
+
+  <meta property="og:url" content="https://burglabs.github.io//text-to-image" />
+
+  
+
+  <title>
+    
+      Text To Image &mdash; XLab Knowledge Base
+    
+  </title>
+</head>
+
+  <body>
+    <nav><div>
+    <a class="internal-link" href="/knowledge-xlab/"><b>XLab Knowledge Base</b></a>
+    <a class="internal-link" href="/knowledge-xlab/xlab-index">Index</a>
+    <a class="internal-link" href="/knowledge-xlab/graph">Graph</a>
+    <a class="internal-link" href="/knowledge-xlab/contributing">Contributing</a>
+    <a class="internal-link" href="https://github.com/burglabs/xlab-docs">Source</a>
+</div>
+</nav>
+    <div class="wrapper">
+      <main>
+
+<article>
+
+  <div id="notes-entry-container">
+    <content>
+      <h1>Text To Image</h1>
+      <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>Text-to-Image (or: text2image, txt2img, etc.) is a name for a family of Machine Learning algorithms that are able to synthesize images on the basis of a random input text.</p>
+
+<p>The most popular Text-to-Image model is named DALLE-2 by OpenAI, unfortunately it is closed-sourced, but there is a waiting list (as of April 2022).
+Luckily, there are many open source implementations available though!</p>
+
+<p>Since mid 2021 people experimented by combining a newly released ML model named CLIP (by OpenAI) with image generating models like BigGAN or VQGAN. The resulting models are named VQGAN+CLIP and CLIP-guided-Diffusion. An older attempt to generate images from text (before CLIP) was named AttnGAN.</p>
+
+<p>On Twitter, Reddit etc. you find an explosion of visual media (images, films) created with these tools. Here are some links for inspiration:</p>
+
+<h2 id="inspiration">Inspiration</h2>
+<ul>
+  <li>Reddit DALLE-2: https://www.reddit.com/r/dalle2/top/</li>
+  <li>Weird DALL-E Mini Creations (Twitter): https://twitter.com/weirddalle</li>
+  <li>Weird DALL-E Mini Creations (Reddit): https://www.reddit.com/r/weirddalle/</li>
+  <li>https://twitter.com/images_ai</li>
+  <li>Reddit with lots of examples: https://www.reddit.com/r/bigsleep/</li>
+</ul>
+
+<h2 id="reading--watching">Reading &amp; Watching</h2>
+<ul>
+  <li>Video by Vox “The AI that creates any picture you want, explained”: https://www.youtube.com/watch?v=SVcsDDABEkM</li>
+  <li>Video about DALLE-2 (OpenAI): https://openai.com/dall-e-2/</li>
+  <li>Video by the great Youtube Channel “Artifical Images” (Derrick Schultz): “How does CLIP Text-to-image generation work?”: https://www.youtube.com/watch?v=-b7xKWeADHQ</li>
+  <li>“VQGAN+CLIP how does it work” blogpost (08/2021) by Alexa Steinbrück (XLab Burg Halle): https://alexasteinbruck.medium.com/vqgan-clip-how-does-it-work-210a5dca5e52</li>
+  <li>“AI-Generated Art Scene Explodes as Hackers Create Groundbreaking New Tools” in: VICE (07/2021): https://www.vice.com/en/article/n7bqj7/ai-generated-art-scene-explodes-as-hackers-create-groundbreaking-new-tools</li>
+  <li>“Alien Dreams: An Emerging Art Scene” by Charlie Snell: https://ml.berkeley.edu/blog/posts/clip-art/</li>
+  <li>“Doorways” by Ryan Moulton: https://moultano.wordpress.com/2021/08/23/doorways/</li>
+</ul>
+
+<h2 id="tools">Tools</h2>
+
+<p>(sorted by: easy to more difficult)</p>
+
+<h3 id="easy-to-use-web-applications-no-coding-required">Easy-to-use Web Applications (No Coding required)</h3>
+
+<ul>
+  <li>Craiyon (formerly DALL-E mini): https://www.craiyon.com/</li>
+  <li>
+<a href="https://app.wombo.art/" target="blank">https://app.wombo.art/</a> (VQGAN+CLIP?)</li>
+  <li>
+<a href="https://creator.nightcafe.studio/create/text-to-image" target="blank">https://creator.nightcafe.studio/create/text-to-image</a> (VQGAN+CLIP &amp; CLIP-guided Diffusion)</li>
+  <li>In RunwayML<a href="https://app.runwayml.com/models/runway/AttnGAN" target="blank">https://app.runwayml.com/models/runway/AttnGAN</a> (AttnGAN)</li>
+  <li>
+<a href="https://hotpot.ai/art-maker" target="blank">https://hotpot.ai/art-maker</a> (VQGAN+CLIP?)</li>
+  <li>
+<a href="https://deepai.org/machine-learning-model/text2img" target="blank">https://deepai.org/machine-learning-model/text2img</a> (AttnGAN?)</li>
+  <li>
+<a href="https://huggingface.co/flax-community/dalle-mini" target="blank">https://huggingface.co/flax-community/dalle-mini</a> (DALLE-Mini)</li>
+  <li>
+<a href="https://artflow.ai/" target="blank">https://artflow.ai/</a> (only faces)</li>
+  <li>
+<a href="https://www.starryai.com/" target="blank">https://www.starryai.com/</a> (mobile app)</li>
+  <li>
+<a href="https://replicate.com/pixray/text2image" target="blank">https://replicate.com/pixray/text2image</a> (pixel art)</li>
+</ul>
+
+<h3 id="google-colab-notebooks">Google Colab notebooks</h3>
+
+<p>Learn what Google Colab is here: <a class="internal-link" href="/knowledge-xlab/google-colab">Google Colab</a></p>
+
+<ul>
+  <li>Original notebook by Katherine Crowson (rivers have wings) translated into English (sie hat irgendwie kein Github Repo dafür): <a href="https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing" target="blank">https://colab.research.google.com/drive/1_4Jl0a7WIJeqy5LTjPJfZOwMZopG5C-W?usp=sharing</a>
+</li>
+</ul>
+
+<h3 id="github-repos">Github Repos</h3>
+
+<ul>
+  <li>VQGAN-CLIP implementation by Eleuther AI: <a href="https://github.com/EleutherAI/vqgan-clip" target="blank">https://github.com/EleutherAI/vqgan-clip</a>
+</li>
+  <li>BigSleep implementation by lucidrains (based on work by Ryan Murdock aka advadnoun): https://github.com/lucidrains/big-sleep</li>
+  <li>Pixel art: <a href="https://github.com/pixray/pixray" target="blank">https://github.com/pixray/pixray</a>
+</li>
+</ul>
+
+<h3 id="big-projects">Big projects</h3>
+<ul>
+  <li>DALLE-2: https://openai.com/dall-e-2/</li>
+  <li>DALLE-Mega (open source)</li>
+  <li>DALLE-Mini (open source)</li>
+  <li>Midjourney</li>
+</ul>
+
+<h3 id="more-lists">More (Lists)</h3>
+
+<ul>
+  <li>List of VQGAN+CLIP Implementations, compiled by Lj Miranda <a href="https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/" target="blank">https://ljvmiranda921.github.io/notebook/2021/08/11/vqgan-list/</a>
+</li>
+  <li>Nice list of Colabs by Eleuther AI (auch CLIP guided diffusion): <a href="https://github.com/EleutherAI/vqgan-clip/tree/main/notebooks" target="blank">https://github.com/EleutherAI/vqgan-clip/tree/main/notebooks</a>
+</li>
+</ul>
+
+<h3 id="technicalities">Technicalities</h3>
+<ul>
+  <li>How did they arrive at the VQGAN+CLIP Architecture? “Tree of Knowledge” visualisation by LJ Miranda: https://ljvmiranda921.github.io/assets/png/vqgan/tree_of_knowledge.png from this blogpost about VQGAN “The illustrated VQGAN”: https://ljvmiranda921.github.io/notebook/2021/08/08/clip-vqgan/</li>
+  <li>“Explaining the code of the popular text-to-image algorithm (VQGAN+CLIP in PyTorch)” (04/2022) by Alexa Steinbrück  (XLab Burg Halle): https://alexasteinbruck.medium.com/explaining-the-code-of-the-popular-text-to-image-algorithm-vqgan-clip-a0c48697a7ff</li>
+</ul>
+</body></html>
+
+      <time datetime="2022-07-30T14:24:22+00:00">
+        Last updated on July 30, 2022
+        
+      </time>
+    </content>
+  
+    <side style="font-size: 0.9em">
+      <div id="notes-side-container">
+        
+        <h3>Table of Content</h3>
+          <div class="sidebar-box">
+            <ol class="toc"><li><a href="#inspiration" class="blank">Inspiration</a></li><li><a href="#reading--watching" class="blank">Reading &amp; Watching</a></li><li><a href="#tools" class="blank">Tools</a><ol><li><a href="#easy-to-use-web-applications-no-coding-required" class="blank">Easy-to-use Web Applications (No Coding required)</a></li><li><a href="#google-colab-notebooks" class="blank">Google Colab notebooks</a></li><li><a href="#github-repos" class="blank">Github Repos</a></li><li><a href="#big-projects" class="blank">Big projects</a></li><li><a href="#more-lists" class="blank">More (Lists)</a></li><li><a href="#technicalities" class="blank">Technicalities</a></li></ol></li></ol>
+
+          </div>
+        
+
+        <h3>Notes mentioning this note</h3>
+        
+        <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">
+        
+          <div class="sidebar-box">
+            <b><a class="internal-link" href="/knowledge-xlab/text-to-image">Text To Image</a></b><br>
+            <div style="font-size: 0.9em">Text-to-Image (or: text2image, txt2img, etc.) is a name for a family of Machine Learning algorithms that are able to synthesize...</div>
+          </div>
+        
+        </div>
+        
+      </div>
+    </side>
+  </div>
+</article></main>
+      <footer><h3>CONTACT</h3>
+Feel free to get in touch on <a href="https://twitter.com/burg_xlab">Twitter</a> or <a href="https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/">check the website</a> for mail and phone details :)</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      iframe.src = event.target.href
+      iframe.onload = function() {
+        tooltipContentHtml = ''
+        //tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+        tooltipContent.innerHTML = tooltipContentHtml
+
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
+
+  </body>
+</html>

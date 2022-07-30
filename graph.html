@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+
+  <link rel="canonical" href="https://burglabs.github.io//graph" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="XLab Knowledge Base">
+
+  <meta property="og:site_name" content="XLab Knowledge Base">
+
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+
+  <link rel="stylesheet" href="/knowledge-xlab/styles.css">
+  
+  
+  <meta property="og:description" content="XLab Knowledge Base"/>
+  
+
+  
+  <meta property="og:title" content="Notes Graph">
+  <meta property="og:type" content="article">
+  
+
+  
+
+  <meta property="og:url" content="https://burglabs.github.io//graph" />
+
+  
+
+  <title>
+    
+      Notes Graph &mdash; XLab Knowledge Base
+    
+  </title>
+</head>
+
+  <body>
+    <nav><div>
+    <a class="internal-link" href="/knowledge-xlab/"><b>XLab Knowledge Base</b></a>
+    <a class="internal-link" href="/knowledge-xlab/xlab-index">Index</a>
+    <a class="internal-link" href="/knowledge-xlab/graph">Graph</a>
+    <a class="internal-link" href="/knowledge-xlab/contributing">Contributing</a>
+    <a class="internal-link" href="https://github.com/burglabs/xlab-docs">Source</a>
+</div>
+</nav>
+    <div class="wrapper">
+      <main><content>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<h1 id="notes-graph">Notes Graph</h1>
+
+<p>Here are all the notes in this knowledge Base, along with their links, visualized as a graph.</p>
+
+<style>
+  .links line {
+    stroke: #ccc;
+    opacity: 0.5;
+  }
+
+  .nodes circle {
+    cursor: pointer;
+    fill: #8b88e6;
+    transition: all 0.15s ease-out;
+  }
+
+  .text text {
+    cursor: pointer;
+    fill: #333;
+    text-shadow: -1px -1px 0 #fafafabb, 1px -1px 0 #fafafabb, -1px 1px 0 #fafafabb, 1px 1px 0 #fafafabb;
+  }
+
+  .nodes [active],
+  .text [active] {
+    cursor: pointer;
+    fill: black;
+  }
+
+  .inactive {
+    opacity: 0.1;
+    transition: all 0.15s ease-out;
+  }
+
+  #graph-wrapper {
+    background: #fcfcfc;
+    border-radius: 4px;
+    height: auto;
+  }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js" integrity="sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg==" crossorigin="anonymous"></script>
+
+<div id="graph-wrapper">
+  <script>
+    const MINIMAL_NODE_SIZE = 8;
+    const MAX_NODE_SIZE = 12;
+    const ACTIVE_RADIUS_FACTOR = 1.5;
+    const STROKE = 1;
+    const FONT_SIZE = 16;
+    const TICKS = 200;
+    const FONT_BASELINE = 40;
+    const MAX_LABEL_LENGTH = 50;
+
+    const graphData = {"edges":[{"source":"94764738666921","target":"22906075024"},{"source":"37450890","target":"22906075024"},{"source":"11621926892513709559537799198608","target":"22906075024"},{"source":"94764738666921","target":"83680462460692878679159588"},{"source":"37450890","target":"83680462460692878679159588"},{"source":"37450890","target":"1794716002124968997400"},{"source":"4421344205172800368","target":"1560312978467895640"},{"source":"11621926892513709559537799198608","target":"25239000483"},{"source":"1434708","target":"3633922739434410543022257197"},{"source":"39857","target":"3633922739434410543022257197"},{"source":"8980642570980066651287917998597676","target":"35783477815907"},{"source":"6118372449909272615212922","target":"35783477815907"},{"source":"1928184682888864821","target":"1288293294154353"},{"source":"8980642570980066651287917998597676","target":"1288293294154353"},{"source":"94764738666921","target":"81676834280868239505424"},{"source":"37450890","target":"81676834280868239505424"},{"source":"8980642570980066651287917998597676","target":"2962793288121716152731334"},{"source":"8505286915735462202656880857","target":"1928184682888864821"},{"source":"8980642570980066651287917998597676","target":"124857005764799170365621292"},{"source":"8980642570980066651287917998597676","target":"26467718"},{"source":"8505286915735462202656880857","target":"26467718"},{"source":"4712194224099418505670913807634","target":"44729653219272"},{"source":"150795931913059315882283068240","target":"44729653219272"},{"source":"44729653219272","target":"44729653219272"},{"source":"11621926892513709559537799198608","target":"44729653219272"},{"source":"1669628095590813100","target":"2174733394912878995"},{"source":"22906075024","target":"61004981045712323"},{"source":"107545867952037998","target":"61004981045712323"},{"source":"61271121186064611","target":"290325937206090809877652464168134687"},{"source":"61271121186064611","target":"290325937206090809877652464168134687"},{"source":"61271121186064611","target":"61271121186064611"},{"source":"59832385465","target":"61271121186064611"},{"source":"61271121186064611","target":"61271121186064611"},{"source":"8980642570980066651287917998597676","target":"8980642570980066651287917998597676"},{"source":"94764738666921","target":"8980642570980066651287917998597676"},{"source":"81523781777778220","target":"8980642570980066651287917998597676"},{"source":"8980642570980066651287917998597676","target":"148533489160428880264954924"},{"source":"7929410695081398968515180054","target":"148533489160428880264954924"},{"source":"94764738666921","target":"132166838618724979772272"},{"source":"37450890","target":"132166838618724979772272"},{"source":"6118372449908380833175418","target":"10357143830086232741845237541122960"},{"source":"94764738666921","target":"287698439815627026296191497112432"},{"source":"81523781777778220","target":"287698439815627026296191497112432"},{"source":"94764738666921","target":"287698439815627026296191497112432"},{"source":"81523781777778220","target":"287698439815627026296191497112432"},{"source":"1771772348256","target":"1771772348256"},{"source":"94764738666921","target":"1771772348256"},{"source":"1771772348256","target":"136865712332950137684268"},{"source":"136865712332950137684268","target":"136865712332950137684268"},{"source":"107545867952037998","target":"136865712332950137684268"},{"source":"139741468912693694729","target":"136865712332950137684268"},{"source":"891835341448798266031861526261058725285350","target":"136865712332950137684268"},{"source":"24773203929133285167551770171279851343846","target":"136865712332950137684268"},{"source":"91417278510027","target":"136865712332950137684268"},{"source":"94764738666921","target":"136865712332950137684268"},{"source":"37450890","target":"136865712332950137684268"},{"source":"8980642570980066651287917998597676","target":"42983978"},{"source":"42983978","target":"42983978"},{"source":"8505286915735462202656880857","target":"42983978"},{"source":"94764738666921","target":"4395680813300750749386"},{"source":"37450890","target":"4395680813300750749386"},{"source":"1570137287","target":"1570137287"},{"source":"11621926892513709559537799198608","target":"1570137287"},{"source":"61271121186064611","target":"59832385465"},{"source":"61271121186064611","target":"59832385465"},{"source":"11621926892513709559537799198608","target":"59832385465"},{"source":"8980642570980066651287917998597676","target":"7929410695081398968515180054"},{"source":"94764738666921","target":"6118372449908380833175418"},{"source":"81523781777778220","target":"6118372449908380833175418"},{"source":"94764738666921","target":"6118372449909272615212922"},{"source":"81523781777778220","target":"6118372449909272615212922"},{"source":"11621926892513709559537799198608","target":"6118372449909272615212922"},{"source":"22906075024","target":"2182580881869"},{"source":"1173881710564016267983612917962094184700573536534273691426324604019418596869516263910950565335","target":"2182580881869"},{"source":"1771772348256","target":"2182580881869"},{"source":"2182580881869","target":"2182580881869"},{"source":"139741468912693694729","target":"2182580881869"},{"source":"1560312978467895640","target":"378896787189948599937829765250869"},{"source":"8980642570980066651287917998597676","target":"3869266469968328249"},{"source":"6118372449909272615212922","target":"3869266469968328249"},{"source":"22906075024","target":"6498881816069728601263274"},{"source":"107545867952037998","target":"107545867952037998"},{"source":"94764738666921","target":"139741468912693694729"},{"source":"37450890","target":"139741468912693694729"},{"source":"94764738666921","target":"394226042432121867329038228195721"},{"source":"81523781777778220","target":"394226042432121867329038228195721"},{"source":"50714759947800121459082950","target":"1434708"},{"source":"2962793288121716152731334","target":"1434708"},{"source":"3869266469968328249","target":"1434708"},{"source":"50714759947800121459082950","target":"39857"},{"source":"2962793288121716152731334","target":"39857"},{"source":"3869266469968328249","target":"39857"},{"source":"94764738666921","target":"891835341448798266031861526261058725285350"},{"source":"37450890","target":"891835341448798266031861526261058725285350"},{"source":"94764738666921","target":"24773203929133285167551770171279851343846"},{"source":"37450890","target":"24773203929133285167551770171279851343846"},{"source":"22906075024","target":"91417278510027"},{"source":"1567235","target":"4421344205172800368"},{"source":"1567235","target":"4421344333836257009"},{"source":"1173881710564016267983612917962094184700573536534273691426324604019418596869516263910950565335","target":"1567235"},{"source":"378896787189948599937829765250869","target":"1567235"},{"source":"1567235","target":"1567235"},{"source":"61271121186064611","target":"61271121186064611"},{"source":"59832385465","target":"61271121186064611"},{"source":"61271121186064611","target":"61271121186064611"},{"source":"94764738666921","target":"37450890"},{"source":"94764738666921","target":"81523781777778220"},{"source":"94764738666921","target":"11621926892513709559537799198608"}],"nodes":[{"id":"50714759947800121459082950","path":"/knowledge-xlab/6-degrees-of-freedom","label":"6 degrees of freedom"},{"id":"22906075024","path":"/knowledge-xlab/ai-tools","label":"Ai tools"},{"id":"83680462460692878679159588","path":"/knowledge-xlab/ai-in-creative-areas","label":"Ai in creative areas"},{"id":"1794716002124968997400","path":"/knowledge-xlab/ai-research-to-go","label":"Ai research to go"},{"id":"1560312978467895640","path":"/knowledge-xlab/burg-sessions","label":"Burg sessions"},{"id":"25239000483","path":"/knowledge-xlab/blender","label":"Blender"},{"id":"3633922739434410543022257197","path":"/knowledge-xlab/collaborative-robot","label":"Collaborative robot"},{"id":"35783477815907","path":"/knowledge-xlab/compasfab","label":"Compasfab"},{"id":"1669628095590813100","path":"/knowledge-xlab/contributing","label":"Contributing"},{"id":"1288293294154353","path":"/knowledge-xlab/control-box","label":"Control box"},{"id":"7911704880917822849208157237438989676","path":"/knowledge-xlab/cool-google-colab-notebooks","label":"Cool google colab notebooks"},{"id":"4712194224099418505670913807634","path":"/knowledge-xlab/course-cad1-beginner-de","label":"Course Cad1 Beginner De"},{"id":"4712194224099422058606317003570","path":"/knowledge-xlab/course-cad2-advanced-de","label":"Course Cad2 Advanced De"},{"id":"81676834280868239505424","path":"/knowledge-xlab/data-and-datasets","label":"Data and datasets"},{"id":"2962793288121716152731334","path":"/knowledge-xlab/degrees-of-freedom","label":"Degrees of freedom"},{"id":"150795931913059315882283068240","path":"/knowledge-xlab/embed-table-3dformats","label":"Embed Table 3dformats"},{"id":"1928184682888864821","path":"/knowledge-xlab/end-of-arm-tool","label":"End Of Arm tool"},{"id":"724262257783315299907638888129330219999637189578","path":"/knowledge-xlab/ethical-and-moral-questions-about-ai","label":"Ethical and moral questions about ai"},{"id":"124857005764799170365621292","path":"/knowledge-xlab/forward-kinematics","label":"Forward kinematics"},{"id":"26467718","path":"/knowledge-xlab/frame","label":"Frame"},{"id":"44729653219272","path":"/knowledge-xlab/fusion-360","label":"Fusion 360"},{"id":"2174733394912878995","path":"/knowledge-xlab/git-and-github","label":"Git and github"},{"id":"61004981045712323","path":"/knowledge-xlab/google-colab","label":"Google colab"},{"id":"290325937206090809877652464168134687","path":"/knowledge-xlab/grasshopper-robots-plugin","label":"Grasshopper robots plugin"},{"id":"61271121186064611","path":"/knowledge-xlab/grasshopper","label":"Grasshopper"},{"id":"1173881710564016267983612917962094184700573536534273691426324604019418596869516263910950565335","path":"/knowledge-xlab/how-to-play-nice-with-artificial-inteligence-artists-and-ai-co-creation","label":"How to play nice with artificial inteligence_artists and ai co Creation"},{"id":"4125650241853150838544186","path":"/knowledge-xlab/introduction-to-ai","label":"Introduction to ai"},{"id":"8980642570980066651287917998597676","path":"/knowledge-xlab/introduction-to-robotics","label":"Introduction to robotics"},{"id":"148533489160428880264954924","path":"/knowledge-xlab/inverse-kinematics","label":"Inverse kinematics"},{"id":"132166838618724979772272","path":"/knowledge-xlab/list-of-ai-artists","label":"List of ai artists"},{"id":"10357143830086232741845237541122960","path":"/knowledge-xlab/list-of-custom-built-tools","label":"List of custom built tools"},{"id":"22545247745954449250296381673776154073914452","path":"/knowledge-xlab/list-of-non-industrial-practices","label":"List of non Industrial practices"},{"id":"287698439815627026296191497112432","path":"/knowledge-xlab/list-of-robotics-artists","label":"List of robotics artists"},{"id":"2832794038647891568","path":"/knowledge-xlab/list-of-robots","label":"List of robots"},{"id":"287698439815627026296191497112432","path":"/knowledge-xlab/list-of-robotics-artists","label":"List of robotics artists"},{"id":"1771772348256","path":"/knowledge-xlab/ml-x-video","label":"ML x Video"},{"id":"136865712332950137684268","path":"/knowledge-xlab/machine-learning","label":"Machine learning"},{"id":"42983978","path":"/knowledge-xlab/plane","label":"Plane"},{"id":"4395680813300750749386","path":"/knowledge-xlab/problems-with-ai","label":"Problems with ai"},{"id":"1570137287","path":"/knowledge-xlab/python","label":"Python"},{"id":"59832385465","path":"/knowledge-xlab/rhino3d","label":"Rhino3d"},{"id":"7929410695081398968515180054","path":"/knowledge-xlab/robotic-singularity","label":"Robotic singularity"},{"id":"6118372449908380833175418","path":"/knowledge-xlab/robotics-hardware","label":"Robotics hardware"},{"id":"6118372449909272615212922","path":"/knowledge-xlab/robotics-software","label":"Robotics software"},{"id":"2182580881869","path":"/knowledge-xlab/runwayml","label":"Runwayml"},{"id":"378896787189948599937829765250869","path":"/knowledge-xlab/scene-one-take-one-upload","label":"Scene one, take one ...upload"},{"id":"3869266469968328249","path":"/knowledge-xlab/teach-pendant","label":"Teach pendant"},{"id":"6498881816069728601263274","path":"/knowledge-xlab/teachable-machine","label":"Teachable machine"},{"id":"107545867952037998","path":"/knowledge-xlab/text-to-image","label":"Text To Image"},{"id":"139741468912693694729","path":"/knowledge-xlab/thoughts-ai-art","label":"Thoughts ai art"},{"id":"394226042432121867329038228195721","path":"/knowledge-xlab/thoughts-on-robotics-art","label":"Thoughts on robotics art"},{"id":"8505286915735462202656880857","path":"/knowledge-xlab/tool-center-point-tcp","label":"Tool center point (tcp)"},{"id":"1434708","path":"/knowledge-xlab/ur10","label":"Ur10"},{"id":"39857","path":"/knowledge-xlab/ur5","label":"Ur5"},{"id":"891835341448798266031861526261058725285350","path":"/knowledge-xlab/understanding-ai-conceptually","label":"Understanding ai conceptually"},{"id":"24773203929133285167551770171279851343846","path":"/knowledge-xlab/understanding-ai-technically","label":"Understanding ai technically"},{"id":"91417278510027","path":"/knowledge-xlab/wekinator","label":"Wekinator"},{"id":"4421344205172800368","path":"/knowledge-xlab/xlab-projects","label":"Xlab projects"},{"id":"4421344333836257009","path":"/knowledge-xlab/xlab-research","label":"Xlab research"},{"id":"1567235","path":"/knowledge-xlab/xlab","label":"Xlab"},{"id":"61271121186064611","path":"/knowledge-xlab/grasshopper","label":"Grasshopper"},{"id":"94764738666921","path":"/knowledge-xlab/xlab-index","label":"👉 xlab index"},{"id":"37450890","path":"/knowledge-xlab/map-ai","label":"🧭 map ai"},{"id":"81523781777778220","path":"/knowledge-xlab/map-robotics","label":"🧭 map robotics"},{"id":"11621926892513709559537799198608","path":"/knowledge-xlab/various-software-tools","label":"🧭 various software tools"}]}
+    let nodesData = graphData.nodes;
+    let linksData = graphData.edges;
+
+    const nodeSize = {};
+
+    const updateNodeSize = () => {
+      nodesData.forEach((el) => {
+        let weight =
+          3 *
+          Math.sqrt(
+            linksData.filter((l) => l.source === el.id || l.target === el.id)
+              .length + 1
+          );
+        if (weight < MINIMAL_NODE_SIZE) {
+          weight = MINIMAL_NODE_SIZE;
+        } else if (weight > MAX_NODE_SIZE) {
+          weight = MAX_NODE_SIZE;
+        }
+        nodeSize[el.id] = weight;
+      });
+    };
+
+    const onClick = (d) => {
+      window.location = d.path
+    };
+
+    const onMouseover = function (d) {
+      const relatedNodesSet = new Set();
+      linksData
+        .filter((n) => n.target.id == d.id || n.source.id == d.id)
+        .forEach((n) => {
+          relatedNodesSet.add(n.target.id);
+          relatedNodesSet.add(n.source.id);
+        });
+
+      node.attr("class", (node_d) => {
+        if (node_d.id !== d.id && !relatedNodesSet.has(node_d.id)) {
+          return "inactive";
+        }
+        return "";
+      });
+
+      link.attr("class", (link_d) => {
+        if (link_d.source.id !== d.id && link_d.target.id !== d.id) {
+          return "inactive";
+        }
+        return "";
+      });
+
+      link.attr("stroke-width", (link_d) => {
+        if (link_d.source.id === d.id || link_d.target.id === d.id) {
+          return STROKE * 4;
+        }
+        return STROKE;
+      });
+      text.attr("class", (text_d) => {
+        if (text_d.id !== d.id && !relatedNodesSet.has(text_d.id)) {
+          return "inactive";
+        }
+        return "";
+      });
+    };
+
+    const onMouseout = function (d) {
+      node.attr("class", "");
+      link.attr("class", "");
+      text.attr("class", "");
+      link.attr("stroke-width", STROKE);
+    };
+
+    const sameNodes = (previous, next) => {
+      if (next.length !== previous.length) {
+        return false;
+      }
+
+      const map = new Map();
+      for (const node of previous) {
+        map.set(node.id, node.label);
+      }
+
+      for (const node of next) {
+        const found = map.get(node.id);
+        if (!found || found !== node.title) {
+          return false;
+        }
+      }
+
+      return true;
+    };
+
+    const sameEdges = (previous, next) => {
+      if (next.length !== previous.length) {
+        return false;
+      }
+
+      const set = new Set();
+      for (const edge of previous) {
+        set.add(`${edge.source.id}-${edge.target.id}`);
+      }
+
+      for (const edge of next) {
+        if (!set.has(`${edge.source}-${edge.target}`)) {
+          return false;
+        }
+      }
+
+      return true;
+    };
+
+    const graphWrapper = document.getElementById('graph-wrapper')
+    const element = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    element.setAttribute("width", graphWrapper.getBoundingClientRect().width);
+    element.setAttribute("height", window.innerHeight * 0.8);
+    graphWrapper.appendChild(element);
+
+    const reportWindowSize = () => {
+      element.setAttribute("width", window.innerWidth);
+      element.setAttribute("height", window.innerHeight);
+    };
+
+    window.onresize = reportWindowSize;
+
+    const svg = d3.select("svg");
+    const width = Number(svg.attr("width"));
+    const height = Number(svg.attr("height"));
+    let zoomLevel = 1;
+
+    const simulation = d3
+      .forceSimulation(nodesData)
+      .force("forceX", d3.forceX().x(width / 2))
+      .force("forceY", d3.forceY().y(height / 2))
+      .force("charge", d3.forceManyBody())
+      .force(
+        "link",
+        d3
+          .forceLink(linksData)
+          .id((d) => d.id)
+          .distance(70)
+      )
+      .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("collision", d3.forceCollide().radius(80))
+      .stop();
+
+    const g = svg.append("g");
+    let link = g.append("g").attr("class", "links").selectAll(".link");
+    let node = g.append("g").attr("class", "nodes").selectAll(".node");
+    let text = g.append("g").attr("class", "text").selectAll(".text");
+
+    const resize = () => {
+      if (d3.event) {
+        const scale = d3.event.transform;
+        zoomLevel = scale.k;
+        g.attr("transform", scale);
+      }
+
+      const zoomOrKeep = (value) => (zoomLevel >= 1 ? value / zoomLevel : value);
+
+      const font = Math.max(Math.round(zoomOrKeep(FONT_SIZE)), 1);
+
+      text.attr("font-size", (d) => font);
+      text.attr("y", (d) => d.y - zoomOrKeep(FONT_BASELINE) + 8);
+      link.attr("stroke-width", zoomOrKeep(STROKE));
+      node.attr("r", (d) => {
+        return zoomOrKeep(nodeSize[d.id]);
+      });
+      svg
+        .selectAll("circle")
+        .filter((_d, i, nodes) => d3.select(nodes[i]).attr("active"))
+        .attr("r", (d) => zoomOrKeep(ACTIVE_RADIUS_FACTOR * nodeSize[d.id]));
+    };
+
+    const ticked = () => {
+      node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+      text
+        .attr("x", (d) => d.x)
+        .attr("y", (d) => d.y - (FONT_BASELINE - nodeSize[d.id]) / zoomLevel);
+      link
+        .attr("x1", (d) => d.source.x)
+        .attr("y1", (d) => d.source.y)
+        .attr("x2", (d) => d.target.x)
+        .attr("y2", (d) => d.target.y);
+    };
+
+    const restart = () => {
+      updateNodeSize();
+      node = node.data(nodesData, (d) => d.id);
+      node.exit().remove();
+      node = node
+        .enter()
+        .append("circle")
+        .attr("r", (d) => {
+          return nodeSize[d.id];
+        })
+        .on("click", onClick)
+        .on("mouseover", onMouseover)
+        .on("mouseout", onMouseout)
+        .merge(node);
+
+      link = link.data(linksData, (d) => `${d.source.id}-${d.target.id}`);
+      link.exit().remove();
+      link = link.enter().append("line").attr("stroke-width", STROKE).merge(link);
+
+      text = text.data(nodesData, (d) => d.label);
+      text.exit().remove();
+      text = text
+        .enter()
+        .append("text")
+        .text((d) => shorten(d.label.replace(/_*/g, ""), MAX_LABEL_LENGTH))
+        .attr("font-size", `${FONT_SIZE}px`)
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "central")
+        .on("click", onClick)
+        .on("mouseover", onMouseover)
+        .on("mouseout", onMouseout)
+        .merge(text);
+
+      node.attr("active", (d) => isCurrentPath(d.path) ? true : null);
+      text.attr("active", (d) => isCurrentPath(d.path) ? true : null);
+
+      simulation.nodes(nodesData);
+      simulation.force("link").links(linksData);
+      simulation.alpha(1).restart();
+      simulation.stop();
+
+      for (let i = 0; i < TICKS; i++) {
+        simulation.tick();
+      }
+
+      ticked();
+    };
+
+    const zoomHandler = d3.zoom().scaleExtent([0.2, 3]).on("zoom", resize);
+
+    zoomHandler(svg);
+    restart();
+
+    function isCurrentPath(notePath) {
+      return window.location.pathname.includes(notePath)
+    }
+
+    function shorten(str, maxLen, separator = ' ') {
+      if (str.length <= maxLen) return str;
+      return str.substr(0, str.lastIndexOf(separator, maxLen)) + '...';
+    }
+  </script>
+</div>
+
+</body></html>
+
+</content>
+</main>
+      <footer><h3>CONTACT</h3>
+Feel free to get in touch on <a href="https://twitter.com/burg_xlab">Twitter</a> or <a href="https://www.burg-halle.de/hochschule/einrichtungen/burglabs/xlab/">check the website</a> for mail and phone details :)</footer>
+    </div>
+
+    <!-- That file is not particularly elegant. This will need a refactor at some point. -->
+<style>
+  content a.internal-link {
+    border-color: #8b88e6;
+    background-color: #efefff;
+  }
+
+  #tooltip-wrapper {
+    background: white;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    font-size: 0.8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    transition: opacity 100ms;
+  }
+
+  #tooltip-wrapper:after {
+		content: "";
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		background-image: linear-gradient(to bottom, rgba(255,255,255, 0), rgba(255,255,255, 1) 90%);
+		width: 100%;
+		height: 75px;
+  }
+</style>
+
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function() {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function() {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop
+
+    if (event.target.host === window.location.host) {
+      iframe.src = event.target.href
+      iframe.onload = function() {
+        tooltipContentHtml = ''
+        //tooltipContentHtml += '<div style="font-weight: bold;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+        tooltipContentHtml += iframe.contentWindow.document.querySelector('content').innerHTML
+
+        tooltipContent.innerHTML = tooltipContentHtml
+
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function() {
+          tooltipWrapper.style.opacity = 1;
+        }, 1)
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+          tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+          tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function(_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function(event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  document.querySelectorAll('content a').forEach(setupListeners);
+</script>
+
+  </body>
+</html>
