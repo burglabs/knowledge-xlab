@@ -13,6 +13,7 @@ Since mid 2021 people experimented by combining a newly released ML model named 
 On Twitter, Reddit etc. you find an explosion of visual media (images, films) created with these tools. Here are some links for inspiration:
 
 ## Inspiration
+- Reddit DALLE-2: https://www.reddit.com/r/dalle2/top/
 - Weird DALL-E Mini Creations (Twitter): https://twitter.com/weirddalle
 - Weird DALL-E Mini Creations (Reddit): https://www.reddit.com/r/weirddalle/
 - https://twitter.com/images_ai
